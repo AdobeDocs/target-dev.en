@@ -1,5 +1,5 @@
 ---
-keywords: mobile app, aep sdk,native app, web views
+keywords: mobile app, aep sdk,native app,web views,native;swift,adobe experience platform mobile sdk,mobile sdk
 description: Learn how to implement Target with the [!DNL AEP SDK] in a native app with web views.
 title: Implement [!DNL Target] in a mobile app that uses native code with web views
 feature: Implement Mobile
