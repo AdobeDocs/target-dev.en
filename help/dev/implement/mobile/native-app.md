@@ -22,7 +22,7 @@ To get started with the Adobe Experience Platform Mobile SDKs, you must perform 
 
 The challenge when implementing [!DNL Target] in a native app with web views is that the [!DNL Adobe Experience Platform Mobile SDK] has already generated all necessary identifiers required for [!DNL Adobe] solutions to work seamlessly, but they are not yet visible to the web views because those identifiers are not on the native platform environment. Therefore, you must create a bridge to pass some SDK identifiers to the web views so that the visitor identity persists into the web environment. The failure to do this properly results in duplicate visits, which will affect your reporting.
 
-Fortunately, the [!DNL Adobe Experience Platform Mobile SDK] provides a convenient method to generate [!DNL Adobe] parameters required for web views to consume and persist for the same visitor, shown in the following sample code:
+The [!DNL Adobe Experience Platform Mobile SDK] provides a convenient method to generate [!DNL Adobe] parameters required for web views to consume and persist for the same visitor, shown in the following sample code:
 
 ```swift
 Identity.appendTo(url: URL(string: url), completion: {appendedURL, error in
