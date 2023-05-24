@@ -162,7 +162,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Target mobile preview](implement/mobile/target-mobile-preview.md)
     + [Use Location Service](implement/mobile/use-location-service.md)
     + [Target for mobile apps FAQ](implement/mobile/mobile-faq.md)
-    + [Implement Target in a mobile app that uses native code with web views](/help/dev/implement/mobile/native-app.md)
+    + [Implement Target with the AEP Mobile SDK in a native app with web views](/help/dev/implement/mobile/native-app.md)
   + Adobe Mobile SDK version 4.x {#version-4}
     + [How Target works in mobile apps](implement/mobile/how-target-works-mobile-apps.md)
     + [Enable Target in the SDK](implement/mobile/enable-target-in-sdk.md)

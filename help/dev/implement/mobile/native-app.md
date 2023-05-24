@@ -1,12 +1,12 @@
 ---
 keywords: mobile app, aep sdk,native app,web views,native;swift,adobe experience platform mobile sdk,mobile sdk,native code
-description: Learn how to implement Target with the [!DNL AEP SDK] in a native app with web views.
+description: Learn how to implement Target with the [!DNL AEP Mobile SDK] in a native app with web views.
 title: Implement [!DNL Target] in a mobile app that uses native code with web views
 feature: Implement Mobile
 role: Developer
 ---
 
-# Implement [!DNL Target] in a mobile app that uses native code with web views
+# Implement [!DNL Target] with the [!DNL AEP Mobile SDK] in a native app with web views
 
 This article shares best practices for implementing [!DNL Adobe Target] in a mobile app that uses native code with web views. 
 
@@ -16,13 +16,15 @@ In the real world, your enterprise app is likely using web views in your mobile 
 
 ## Prerequisites
 
-To get started with the Adobe Experience Platform Mobile SDKs, you must perform some prerequisite tasks. For more information, see [Adobe Target](https://developer.adobe.com/client-sdks/documentation/adobe-target/){target=_blank} in the [[!DNL Adobe Experience Platform Mobile SDK]](https://developer.adobe.com/client-sdks/documentation/){target=_blank} documentation.
+To get started with the [!DNL Adobe Experience Platform Mobile SDK], you must perform some prerequisite tasks. 
+
+For more information, see [Adobe Target](https://developer.adobe.com/client-sdks/documentation/adobe-target/){target=_blank} in the [[!DNL Adobe Experience Platform Mobile SDK]](https://developer.adobe.com/client-sdks/documentation/){target=_blank} documentation.
 
 ## Sync native code with web views
 
 The challenge when implementing [!DNL Target] in a native app with web views is that the [!DNL Adobe Experience Platform Mobile SDK] has already generated all necessary identifiers required for [!DNL Adobe] solutions to work seamlessly, but they are not yet visible to the web views because those identifiers are not on the native platform environment. Therefore, you must create a bridge to pass some SDK identifiers to the web views so that the visitor identity persists into the web environment. The failure to do this properly results in duplicate visits, which will affect your reporting.
 
-The [!DNL Adobe Experience Platform Mobile SDK] provides a convenient method to generate [!DNL Adobe] parameters required for web views to consume and persist for the same visitor, shown in the following sample code:
+Fortunately, the [!DNL Adobe Experience Platform Mobile SDK] provides a convenient method to generate [!DNL Adobe] parameters required for web views to consume and persist for the same visitor, shown in the following sample code:
 
 ```swift
 Identity.appendTo(url: URL(string: url), completion: {appendedURL, error in
@@ -43,7 +45,7 @@ Using `Identity.appendTo`, this URL:
 https://vadymus.github.io/ateng/at-order-confirmation/index.html?a=1&b=2
 ```
 
-will transform to:
+transforms to:
 
 ```
 https://vadymus.github.io/ateng/at-order-confirmation/index.html?a=1&b=2&adobe_mc=TS%3D1660667205%7CMCMID%3D69624092487065093697422606480535692677%7CMCORGID%3DEB9CAE8B56E003697F000101%40AdobeOrg
@@ -52,14 +54,14 @@ https://vadymus.github.io/ateng/at-order-confirmation/index.html?a=1&b=2&adobe_m
 As you can see, there is `adobe_mc` parameter appended to the URL. This parameter contains encoded values for:
 
 * TS=1660667205: The current timestamp. This timestamp ensures that the web view does not get expired values.
-* MCMID=69624092487065093697422606480535692677: The Experience Cloud ID (ECID). Also known as MID or Marketing Cloud ID required for [!DNL Adobe] cross-solution visitor identification.
+* MCMID=69624092487065093697422606480535692677: The Experience Cloud ID (ECID). Also known as MID or [!UICONTROL Marketing Cloud ID] required for [!DNL Adobe] cross-solution visitor identification.
 * MCORGID=EB9CAE8B56E003697F000101@AdobeOrg: The [!UICONTROL Adobe Organization ID].
 
-The `Identity.getUrlVariables` is an alternative [!DNL Adobe Experience Platform Mobile SDK] method that returns an appropriately formed string that contains the E[!DNL Experience Cloud Identity Service] URL variables. For more information, see [getUrlVariables](https://developer.adobe.com/client-sdks/documentation/mobile-core/identity/api-reference/#geturlvariables){target=_blank} in the *Identity API reference*.
+The `Identity.getUrlVariables` is an alternative [!DNL Adobe Experience Platform Mobile SDK] method that returns an appropriately formed string that contains the [!DNL Experience Cloud Identity Service] URL variables. For more information, see [getUrlVariables](https://developer.adobe.com/client-sdks/documentation/mobile-core/identity/api-reference/#geturlvariables){target=_blank} in the *Identity API reference*.
 
 ## Pass the [!DNL Target] Session ID for same-session experience
 
-One extra step is needed to make the [!DNL Target] user journey work seamlessly across the native and web views. This includes extracting and passing [!DNL Target] Session ID from the [!DNL Adobe Experience Platform Mobile SDK] to the web views of the mobile app.
+One extra step is needed to make the [!DNL Target] user journey work seamlessly across the native and web views. This includes extracting and passing the [!DNL Target] Session ID from the [!DNL Adobe Experience Platform Mobile SDK] to the web views of the mobile app.
 
 The `Target.getSessionId` extracts the Session ID that can be passed to the web view URL as an `mboxSession` parameter:
 
@@ -85,7 +87,7 @@ For example:
 com.adobe.targetmobile://?at_preview_token=mhFIzJSF7JWb-RsnakpBqhBwj-TiIlZsRTx_1QQuiXLIJFdpSLeEZwKGPUyy57O_&at_preview_index=1_1&at_preview_listed_activities_only=true
 ```
 
-After opening the link in an iOS Safari browser, your app captures the URL in your AppDelegate class similar to the following example:
+After opening the link in an iOS Safari browser, your app captures the URL in your `AppDelegate` class similar to the following example:
 
 ```swift
 func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
