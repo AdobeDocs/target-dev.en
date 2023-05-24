@@ -14,11 +14,19 @@ An edge is a geographically distributed serving architecture that ensures optimu
 
 You can allowlist [!DNL Target] edge nodes, if desired.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >In addition to allowlisting the Network Address Translation (NAT) IP addresses of [!DNL Target] edges and [!DNL Target] edge IP addresses discussed in the article, you should also allowlist all [!DNL Adobe Analytics] IP address blocks.
 >
 >For more information, see [All Adobe Analytics IP address blocks](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=en#all-adobe-analytics-ip-address-blocks){target=_blank} in the *Adobe Analytics tech notes* documentation.
+>
+>[!DNL Adobe Target] infrastructure is being updated and customers who want to allowlist addresses must use both set of IPs. Failing to do so will impact customers using server-side or hybrid implementations where Target API calls for fetching experiences are originated from within a network behind a firewall that is configured to use an allow list.
+>
+>This update is being made according to the following schedule:
+>
+>* May 22-26: Europe, Middle East, and Africa (EMEA) region
+>* May 22-26: Asia-Pacific (APAC) region
+>* June 6-10: Americas region
 
 ## Network Address Translation (NAT) IP addresses of [!DNL Target] edges
 
