@@ -186,7 +186,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Prefetch](/help/dev/before-implement/delivery-api-overview/prefetch.md)
     + [Notifications](/help/dev/before-implement/delivery-api-overview/notifications.md)
     + [Integration with Experience Cloud](before-implement/delivery-api-overview/integration.md)
-    + [Known Limitations](/help/dev/before-implement/delivery-api-overview/known-limitations.md)
+    + [Considerations and known limitations](/help/dev/before-implement/delivery-api-overview/known-limitations.md)
     + [Client Hints](/help/dev/before-implement/delivery-api-overview/client-hints.md)
   + Admin API {#admin-api}
     + [Admin API overview](before-administer/admin-api-overview/admin-api-overview.md)
