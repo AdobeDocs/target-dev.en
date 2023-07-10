@@ -6,7 +6,7 @@ exl-id: e760bddc-b1ae-4b7b-bff2-aba81c6b6d34
 ---
 # Delivery API overview
 
-The [!DNL Adobe Target] [!DNL Delivery API] is based on REST. This documentation describes the resources that make up the [!DNL Adobe Target] [!DNL Delivery API]. HTTP methods are utilized to execute operations on those resources.
+The [!DNL Adobe Target Delivery API] is based on REST. This documentation describes the resources that make up the [!DNL Adobe Target] [!DNL Delivery API]. HTTP methods are utilized to execute operations on those resources.
 
 Using [!UICONTROL Adobe Target's Delivery API], you can:
 
