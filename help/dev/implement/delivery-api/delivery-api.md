@@ -2,7 +2,6 @@
 title: Adobe Target Delivery API 
 description: Adobe Target Delivery API
 keywords: delivery api
-exl-id: e760bddc-b1ae-4b7b-bff2-aba81c6b6d34
 ---
 # Delivery API
 
