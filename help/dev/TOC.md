@@ -188,6 +188,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Integration with Experience Cloud](before-implement/delivery-api-overview/integration.md)
     + [Considerations and known limitations](/help/dev/before-implement/delivery-api-overview/known-limitations.md)
     + [Client Hints](/help/dev/before-implement/delivery-api-overview/client-hints.md)
+    + [Delivery API](/help/dev/implement/delivery-api/delivery-api.md)
   + Admin API {#admin-api}
     + [Admin API overview](before-administer/admin-api-overview/admin-api-overview.md)
     + [Adobe Target Admin API](/help/dev/administer/admin-api/admin-api-overview-new.md)
