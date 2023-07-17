@@ -3,6 +3,7 @@ title: Adobe Target Delivery API Getting Started
 description: How do I use the [!UICONTROL Adobe Target Delivery API]?
 keywords: delivery api
 exl-id: 142ec3be-b017-4cdc-9079-b1cc173a710a
+feature: APIs/SDKs
 ---
 # Getting Started with the [!UICONTROL Adobe Target Delivery API]
 

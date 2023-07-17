@@ -3,7 +3,6 @@ keywords: mobile app, mobile app process, target mobile app, mobile target locat
 description: Learn how to use [!DNL Adobe Target] for mobile app optimization and personalization, with iterative testing and rules-based and AI-powered personalization.
 title: Can I use [!DNL Target] with Mobile Apps?
 feature: Implement Mobile
-role: Developer
 exl-id: 8f61a0ae-04e4-41ed-ad30-fbcca13c4d21
 ---
 # [!DNL Target] for mobile apps

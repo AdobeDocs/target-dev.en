@@ -3,7 +3,6 @@ keywords: Overview and Reference, webkit, cookies, first-party, third-party, 1st
 description: Learn about [!DNL Target] cookie behavior (first-party cookie, third-party cookie with first-party cookie, or third-party cookie alone).
 title: Where Can I Find Information About [!DNL Target] Cookies?
 feature: at.js
-role: Developer
 exl-id: d44e02ce-8920-4130-bcad-699ca77c0dad
 ---
 # [!DNL Target] cookies

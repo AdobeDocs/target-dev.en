@@ -3,7 +3,6 @@ keywords: implement, implementation, at.js, adobe experience platform web sdk, a
 description: Learn how to implement [!DNL Adobe Target] for client-side web using the [!DNL Adobe Experience Platform Web SDK] (AEP Web SDK) or the at.js JavaScript library.
 title: How Do I Implement [!DNL Target] for Client-Side Web
 feature: at.js
-role: Developer
 exl-id: b3a850ff-ace0-4eea-955a-aa71dfad256f
 ---
 # Overview: implement [!DNL Target] for client-side web

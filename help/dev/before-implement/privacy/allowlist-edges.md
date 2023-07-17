@@ -3,7 +3,6 @@ keywords: implement, implementing, whitelist, white list, allowlist, allow list,
 description: View a list of hosts to help you allowlist [!DNL Adobe Target] edges (geographically distributed serving nodes that ensure optimum response times end users).
 title: How Do I Allowlist [!DNL Target] Edge Nodes?
 feature: Privacy & Security
-role: Developer
 exl-id: a7e5d2fc-da8e-414d-a3da-2441ea21503d
 ---
 # Allowlist [!DNL Target] edge nodes

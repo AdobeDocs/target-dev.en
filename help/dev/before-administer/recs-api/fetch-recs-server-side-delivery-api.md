@@ -1,9 +1,6 @@
 ---
 title: How to Fetch Recommendations with the Delivery API
 description: This article guides developers through the steps required to fetch recommendations content using the Adobe Target Delivery API.
-role: Developer
-level: Intermediate
-topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 kt: 3815
 thumbnail: null

@@ -2,7 +2,6 @@
 title: Subscribe to events in the [!DNL Adobe Target] .NET SDK
 description: Learn how to subscribe to various events that occur within the .NET SDK using the [!UICONTROL OnDeviceDecisioningHandler] object.
 feature: APIs/SDKs
-role: Developer
 exl-id: 7578033f-3de5-4d13-9739-46ad1269ec5f
 ---
 # SDK Events (.NET)

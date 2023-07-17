@@ -2,7 +2,6 @@
 title: Implement proxy configuration in the [!DNL Adobe Target] Java SDK
 description: Learn how to configure the TargetClient proxy configuration in the [!DNL Adobe Target] Java SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 32e8277d-3bba-4621-b9c7-3a49ac48a466
 ---
 # Proxy Configuration (Java)

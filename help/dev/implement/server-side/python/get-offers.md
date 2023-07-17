@@ -2,7 +2,6 @@
 title: Use getOffers() in [!DNL Adobe Target] when using the Python SDK
 description: Learn how to use getOffers() to execute a decision and retrieve an experience from [!DNL Adobe Target].
 feature: APIs/SDKs
-role: Developer
 exl-id: 9539b806-e070-430e-80cf-cf632ce3f207
 ---
 # Get Offers (Python)

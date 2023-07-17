@@ -4,6 +4,7 @@ description: Adobe Target Delivery API User Permissions
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 keywords: delivery api
 exl-id: 332f90bd-4079-4653-aa38-b35837631c94
+feature: APIs/SDKs
 ---
 # User Permissions (Premium)
 

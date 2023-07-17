@@ -2,7 +2,6 @@
 title: Install the Java SDK
 description: Learn how t install the [!DNL Adobe Target] Java SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 5828d5b3-c487-49bf-9458-7ef94374e32d
 ---
 # Install the Java SDK

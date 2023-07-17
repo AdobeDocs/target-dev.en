@@ -2,6 +2,7 @@
 title: Adobe Target API Overview
 description: Overview of the different Adobe Target APIs, including delivery api, reporting api, admin api, profile api, recommendations api, and links to postman collections.
 exl-id: bf886103-36af-4061-b8be-2fe645f45ff3
+feature: APIs/SDKs
 ---
 # Target API overview
 

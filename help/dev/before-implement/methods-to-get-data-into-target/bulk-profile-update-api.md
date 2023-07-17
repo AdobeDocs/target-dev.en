@@ -3,7 +3,6 @@ keywords: implement, implementing, setting up, setup, bulk profile update
 description: Get data into [!DNL Target] using the bulk profile update API.
 title: How Do I Get Data into [!DNL Target] Using the Bulk Profile Update API?
 feature: Implementation
-role: Developer
 exl-id: 654b13b7-1683-4c44-80e6-7557b9d29f66
 ---
 # Bulk profile update API

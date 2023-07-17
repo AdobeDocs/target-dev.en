@@ -2,7 +2,6 @@
 title: Initialize the [!DNL Adobe Target] Node.js SDK to log requests
 description: Learn how to log requests in the [!DNL Adobe Target] Node.js SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 5db3e301-47b3-4330-b185-c0c03f72e790
 ---
 # Logger (Node.js)

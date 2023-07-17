@@ -2,6 +2,7 @@
 title: Adobe Target Delivery API Client Hints
 description: How do I use Client Hints in the [!DNL Adobe Target] Delivery API?
 exl-id: 317b9d7d-5b98-464e-9113-08b899ee1455
+feature: APIs/SDKs
 ---
 # Client Hints and the [!UICONTROL Adobe Target Delivery API]
 

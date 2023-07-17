@@ -2,7 +2,6 @@
 title: Subscribe to events in the [!DNL Adobe Target] Node.js SDK
 description: Learn how to subscribe to various events that occur within the Node.js SDK using the [!UICONTROL OnDeviceDecisioningHandler] object.
 feature: APIs/SDKs
-role: Developer
 exl-id: 40c53840-a560-4819-ae04-f527c36b22fe
 ---
 # SDK Events (Node.js)

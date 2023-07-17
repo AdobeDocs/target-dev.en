@@ -3,7 +3,6 @@ keywords: server side, server-side, sdk, sdks, on-device, decisioning, on device
 description: Learn how to use [!UICONTROL [!UICONTROL on-device decisioning]] to cache your [!DNL Target] A/B and MVT activities on your server to perform in-memory decisioning at near-zero latency.
 title: What is On-Device Decisioning?
 feature: Implement Server-side
-role: Developer
 exl-id: 22ed3072-56f0-4075-9d1a-d642afe3b649
 ---
 # On-device decisioning overview
