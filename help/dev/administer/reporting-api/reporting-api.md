@@ -3,6 +3,7 @@ title: Adobe Target Reporting API
 description: Adobe Target Reporting API
 openAPISpec: null
 exl-id: 97011e96-f5b5-42f7-ae8d-dabf7e844a03
+feature: APIs/SDKs
 ---
 # [!DNL Adobe Target Reporting API]
 

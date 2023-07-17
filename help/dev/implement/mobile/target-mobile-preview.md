@@ -3,7 +3,6 @@ keywords: qa, preview, preview link, mobile, mobile preview
 description: Use mobile preview links to perform end-to-end QA for mobile app activities. You can enroll yourself into different experiences without special test devices.
 title: How Do I Use the Mobile Preview Link in [!DNL Target] Mobile?
 feature: Implement Mobile
-role: Developer
 exl-id: c0c4237a-de1f-4231-b085-f8f1e96afc13
 ---
 # [!DNL Target] mobile preview

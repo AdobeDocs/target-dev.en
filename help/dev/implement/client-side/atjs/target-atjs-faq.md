@@ -3,7 +3,6 @@ keywords: at.js faq, at.js frequently asked questions, faq, flicker, loader, pag
 description: Read answers to frequently asked questions about the [!DNL Adobe Target] at.js JavaScript library.
 title: What Are Common Questions and Answers About at.js?
 feature: at.js
-role: Developer
 exl-id: 362ccc5b-8731-46c0-bc52-3e55c273e216
 ---
 # at.js Frequently Asked Questions

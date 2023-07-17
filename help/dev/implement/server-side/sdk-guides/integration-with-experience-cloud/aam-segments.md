@@ -3,6 +3,7 @@ title: Integration with Experience Cloud AAM Segments
 description: Integration with Experience Cloud, Audience Manager integration
 keywords: delivery api, server-side, serverside, integration, audience manager, aam
 exl-id: c21e0200-23ba-4a0b-adf4-38e03c087f00
+feature: "Implement Server-side"
 ---
 # AAM segments
 

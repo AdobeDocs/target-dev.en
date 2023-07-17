@@ -2,7 +2,6 @@
 title: Subscribe to events in the [!DNL Adobe Target] Python SDK
 description: Learn how to subscribe to various events that occur within the Python SDK using the [!UICONTROL OnDeviceDecisioningHandler] object.
 feature: APIs/SDKs
-role: Developer
 exl-id: 4e32e3b5-6072-4703-b09d-abb467aa1304
 ---
 # SDK Events (Python)

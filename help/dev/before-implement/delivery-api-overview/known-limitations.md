@@ -3,6 +3,7 @@ title: Adobe Target Delivery API considerations and known limitations
 description: What considerations and known limitations should I consider when using the [!UICONTROL Adobe Target Delivery API]?
 keywords: delivery api
 exl-id: 49fe13b0-efcb-4b1c-a4cb-03b64fbd9214
+feature: APIs/SDKs
 ---
 # Considerations and known limitations
 

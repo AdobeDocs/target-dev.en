@@ -3,7 +3,6 @@ keywords: client care, cname, certificate program, canonical name, cookies, cert
 description: Work with [!UICONTROL Adobe Client Care] to implement CNAME (Canonical Name) support in [!DNL Adobe Target] to handle ad-blocking issues.
 title: How Do I Use CNAME in Target?
 feature: Privacy & Security
-role: Developer
 exl-id: 5709df5b-6c21-4fea-b413-ca2e4912d6cb
 ---
 # CNAME and Target

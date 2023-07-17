@@ -3,7 +3,6 @@ keywords: implement, implementing, setting up, setup, page parameters
 description: Get data into [!DNL Target] using page parameters.
 title: How Do I Get Data into [!DNL Target] Using Page Parameters?
 feature: Implementation
-role: Developer
 exl-id: 9bb7157e-a938-4150-8a15-c9bf0a0e2296
 ---
 # Page parameters

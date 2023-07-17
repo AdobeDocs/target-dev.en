@@ -2,7 +2,6 @@
 title: What features are supported in on-device decisioning?
 description: Learn how to deliver the most relevant and engaging personalized content via machine learning using a live server call.
 feature: APIs/SDKs
-role: Developer
 exl-id: 15d9870f-6c58-4da0-bfe5-ef23daf7d273
 ---
 # Supported features overview

@@ -3,7 +3,6 @@ keywords: serverstate, targetGlobalSettings, targetglobalsettings, globalSetting
 description: Use the [!UICONTROL targetGlobalSettings()] function for the [!DNL Adobe Target] at.js JavaScript library to override settings instead of using the [!DNL Target] UI or REST APIs.
 title: How Do I Use the [!UICONTROL targetGlobalSettings()] Function?
 feature: at.js
-role: Developer
 exl-id: f6218313-6a70-448e-8555-b7b039e64b2c
 ---
 # [!UICONTROL targetGlobalSettings()]

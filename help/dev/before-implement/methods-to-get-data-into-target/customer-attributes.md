@@ -3,7 +3,6 @@ keywords: implement, implementing, setting up, setup, customer attributes
 description: Get data into [!DNL Target] using customer attributes.
 title: How Do I Get Data into [!DNL Target] Using Customer Attributes?
 feature: Implementation
-role: Developer
 exl-id: d05cdd38-ba7c-4f29-a0ef-ae68619e7617
 ---
 # Customer attributes

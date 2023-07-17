@@ -2,7 +2,6 @@
 title: Initialize the .NET SDK using the create method
 description: Learn how to use the create method to initialize the Java SDK and instantiate the [!UICONTROL TargetClient] to make calls to [!DNL Adobe Target] for experiments and personalized experiences.
 feature: APIs/SDKs
-role: Developer
 exl-id: 501010c3-22f4-49a8-b2ac-c7307232d180
 ---
 # Initialize the .NET SDK

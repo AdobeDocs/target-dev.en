@@ -1,9 +1,6 @@
 ---
 title: How to Manage Custom Criteria
 description: Steps required to use Adobe Target APIs to manage, create, list, edit, get, and delete Adobe Target Recommendations criteria.
-role: Developer
-level: Intermediate
-topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 kt: 3815
 thumbnail: null

@@ -3,7 +3,6 @@ keywords: at.js, debug at.js, adobe Experience Cloud debugger, experience cloud 
 description: Use the [!UICONTROL Adobe Experience Cloud Debugger] to view your library configuration, examine requests, turn on console logging, disable [!DNL Target] call requests, and more.
 title: How Do I Debug at.Js with [!UICONTROL Adobe Experience Cloud Debugger]?
 feature: at.js
-role: Developer
 exl-id: ac215560-3f6f-4269-947c-961e7a43c9e1
 ---
 # Debug at.js using the [!UICONTROL Adobe Experience Cloud Debugger]

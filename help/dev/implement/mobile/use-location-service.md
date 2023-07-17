@@ -3,7 +3,6 @@ keywords: mobile app, mobile app location, target mobile app, mobile target loca
 description: Learn how to use the [!DNL Adobe Experience Platform Location Service] to enable your mobile apps with location awareness.
 title: How do I Use the [!DNL Adobe Location Service]?
 feature: Implement Mobile
-role: Developer
 exl-id: ff38c0bb-3451-420f-8538-10f1d0606232
 ---
 # Use [!UICONTROL Location Service]

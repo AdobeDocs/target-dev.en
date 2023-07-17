@@ -3,7 +3,6 @@ keywords: implementation, javascript library, js, atjs, on-device decisioning, o
 description: Learn which features are supported for [!UICONTROL on-device decisioning].
 title: Which Features Are Supported in On-Device Decisioning
 feature: at.js
-role: Developer
 exl-id: bdd65658-6c4a-41ae-a222-59c00a11bdac
 ---
 # Supported features for [!UICONTROL on-device decisioning]

@@ -2,7 +2,6 @@
 title: Use getAttributes in [!DNL Adobe Target] with the Java SDK
 description: Learn how to use getAttributes() to fetch experimentation and personalized experiences from [!DNL Target] and extract attribute values.
 feature: APIs/SDKs
-role: Developer
 exl-id: e493e1b9-7180-4a7c-b98d-be84cc3a57c3
 ---
 # Get Attributes (Java)

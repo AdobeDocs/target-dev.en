@@ -3,7 +3,6 @@ keywords: adobe.target.trackEvent, trackEvent, trackevent, track event, at.js, f
 description: Use the [!UICONTROL adobe.target.trackEvent()] function for the [!DNL Adobe Target] at.js JavaScript library to fire a request to report user actions, such as clicks and conversions on your site.
 title: How Do I Use the [!UICONTROL adobe.target.trackEvent()] Function?
 feature: at.js
-role: Developer
 exl-id: 9a55e4f1-d7f9-47c1-867c-2ce06fb26f9f
 ---
 # [!UICONTROL adobe.target.trackEvent(options)]

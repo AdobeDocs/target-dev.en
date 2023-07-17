@@ -2,6 +2,7 @@
 title: Integration with [!DNL Experience Cloud] overview
 description: Adobe [!DNL Target] server-side SDKs support a seamless integration with Adobe Analytics and Adobe Audience Manager so that you can leverage the power of Adobe Experience Cloud.
 exl-id: 3645114e-320f-4cee-93ec-d75ae25d2c9b
+feature: "Implement Server-side"
 ---
 # Integration with [!DNL Experience Cloud] overview
 

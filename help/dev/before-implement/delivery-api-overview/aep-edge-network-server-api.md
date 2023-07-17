@@ -3,6 +3,7 @@ title: Adobe Experience Platform Edge Network Server API overview
 description: Learn how to use the Adobe Experience Platform Edge Network Server API.
 keywords: Adobe Experience Platform Edge Network Server API
 exl-id: 87019cad-cb0d-4de5-b116-d8c7ef1e4049
+feature: "APIs/SDKs, Recommendations, Administration & Configuration"
 ---
 # [!UICONTROL Adobe Experience Platform Edge Network Server API] overview
 

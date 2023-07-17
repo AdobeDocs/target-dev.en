@@ -3,7 +3,6 @@ keywords: targetPageParams, targetpageparams, pageParams, pageparams, page param
 description: Use the [!UICONTROL targetPageParams()] function for the [!DNL Adobe Target] at.js JavaScript library to attach parameters to the global mbox from outside of the request code.
 title: How Do I Use the [!UICONTROL targetPageParams()] Function?
 feature: at.js
-role: Developer
 exl-id: 274e4d1f-843a-443b-ad98-7139dc4a13f8
 ---
 # [!UICONTROL targetPageParams()] 

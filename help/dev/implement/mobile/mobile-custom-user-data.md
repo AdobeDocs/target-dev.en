@@ -3,7 +3,6 @@ keywords: mobile app, mobile app send data, target mobile app, mobile custom use
 description: Learn how to send additional information about the location or the user to [!DNL Adobe Target] as name-value pairs to help you build custom audiences.
 title: How Do I Send Custom User Data in an iOS app?
 feature: Implement Mobile
-role: Developer
 exl-id: 9cf8e8fd-1898-43b1-b339-d7a21cb35d57
 ---
 # iOS - send custom user data

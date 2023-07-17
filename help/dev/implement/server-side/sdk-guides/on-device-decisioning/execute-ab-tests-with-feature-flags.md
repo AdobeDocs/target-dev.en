@@ -2,7 +2,6 @@
 title: Execute A/B tests with feature flags and on-device decisioning
 description: Execute A/B tests with feature flags using on-device decisioning.
 feature: APIs/SDKs
-role: Developer
 exl-id: abf66e00-742d-4d40-9b6e-9bd71638c31a
 ---
 # Execute A/B tests with feature flags

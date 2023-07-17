@@ -3,7 +3,6 @@ keywords: global mbox parameters, targetPageParams, query string, array, json, d
 description: Learn how to use the [!UICONTROL targetPageParams] function to pass additional targeting or context information into the [!DNL Adobe Target] global mbox.
 title: How Do I Pass Parameters to a Global mbox?
 feature: at.js
-role: Developer
 exl-id: 2a6be3e4-a618-4812-9e87-b01789705c40
 ---
 # Pass Parameters to a global mbox

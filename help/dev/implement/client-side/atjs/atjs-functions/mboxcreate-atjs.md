@@ -3,7 +3,6 @@ keywords: mboxCreate, mboxcreate, mbox create, at.js, functions, function
 description: Use the [!UICONTROL mboxCreate()] function for the [!DNL Adobe Target] at.js JavaScript library to apply offers to the closest DIV with the mboxDefault class name. (at.js 1.x)
 title: How Do I Use the [!UICONTROL mboxCreate()] Function?
 feature: at.js
-role: Developer
 exl-id: 86eba1fc-4e1d-4793-94e7-898bf81f8945
 ---
 # [!UICONTROL mboxCreate(mbox,params)] - at.js 1.x 

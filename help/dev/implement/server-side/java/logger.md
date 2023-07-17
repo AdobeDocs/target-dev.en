@@ -2,7 +2,6 @@
 title: Initialize the [!DNL Adobe Target] Java SDK to log requests
 description: Learn how to log requests in the [!DNL Adobe Target] Java SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 85d1a6ef-0b08-4948-8133-740b7d6141dd
 ---
 # Logger (Java)

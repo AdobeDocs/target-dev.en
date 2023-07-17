@@ -3,7 +3,6 @@ keywords: Adobe Experience Platform Web SDK, aep web sdk, web sdk, sdk, adobe ex
 description: Learn how to use the [!UICONTROL Adobe Experience Platform Web SDK] to interact with the various services in the [!UICONTROL Adobe Experience Cloud] through the [!UICONTROL AEP Edge Network].
 title: How Do I Implement with the [!UICONTROL Experience Platform Web SDK]?
 feature: AEP Web SDK
-role: Developer
 exl-id: 35ee60d2-3d6d-4169-9f22-b2aef4c6548b
 ---
 # [!UICONTROL Adobe Experience Platform Web SDK]
