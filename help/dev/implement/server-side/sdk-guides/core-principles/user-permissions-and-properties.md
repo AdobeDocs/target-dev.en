@@ -2,7 +2,7 @@
 title: User Permissions and Properties
 description: The [!DNL Target] SDKs include support for user permissions and properties.
 exl-id: 612faf1a-e8f9-4321-b831-90fba69ead3a
-feature: "Implement Server-side"
+feature: Implement Server-side
 ---
 # User Permissions and Properties
 

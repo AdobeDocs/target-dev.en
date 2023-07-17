@@ -2,7 +2,7 @@
 title: Adobe Models API Overview
 description: Overview of the Models API, which users can use to block features from being included in machine learning models.
 exl-id: e34b9b03-670b-4f7c-a94e-0c3cb711d8e4
-feature: "APIs/SDKs, Recommendations, Administration & Configuration"
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 ---
 # Models API Overview
 

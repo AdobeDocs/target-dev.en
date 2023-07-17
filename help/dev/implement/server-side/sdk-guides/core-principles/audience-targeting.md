@@ -2,7 +2,7 @@
 title: Audience targeting
 description: Audiences can be used to target your experimentation and personalization activities. [!DNL Adobe Target] supports myriad powerful audience targeting capabilities out of the box.
 exl-id: df1bd856-e848-452c-90a0-abf29e7a2313
-feature: "Implement Server-side"
+feature: Implement Server-side
 ---
 # Audience targeting
 
