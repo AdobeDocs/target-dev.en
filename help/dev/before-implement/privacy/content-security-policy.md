@@ -28,3 +28,68 @@ In a [!DNL Target] implementation, however, these policies should not represent 
 Adobe does not store Personally Identifiable Information (PII) or other sensitive information on [!DNL Adobe Target] edge servers, to which "adobe.tt.omtrdc.net" points.
 
 It is expected that [!DNL Target] can be accessed from any domain via JavaScript calls. The only way to allow this access is by leveraging "Access-Control-Allow-Origin" with a wildcard.
+
+### How do I allow or prevent my site from being embedded as an iFrame under foreign domains?
+
+To allow the [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/vec/visual-experience-composer.html){target=_blank} (VEC) to embed your website in an iFrame, the CSP (if set) must be changed on your web server setting. [!DNL Adobe] domains must be whitelisted and configured.
+
+For security reasons, you might want to prevent your site from being embedded as an iFrame under foreign domains. 
+
+The following sections explain how to allow or prevent the VEC from embedding your site in an iFrame.
+
+#### Allow the VEC to embed your site in an iFrame
+
+The easiest solution to enable the VEC to embed your website in an iFrame is to allow `*.adobe.com`, which is the broadest wildcard. 
+
+For example: 
+
+`Content-Security-Policy: frame-ancestors 'self' *.adobe.com`
+
+As in the following illustration:
+
+![CSP with broadest wildcard](/help/dev/before-implement/privacy/assets/csp-adobe.png)
+
+You might want to allow only the actual [!DNL Adobe] service. This could be achieved by using `*.experiencecloud.adobe.com + https://experiencecloud.adobe.com`. 
+
+For example:
+
+`Content-Security-Policy: frame-ancestors 'self' https://*.experiencecloud.adobe.com https://experiencecloud.adobe.com https://experience.adobe.com`
+
+As in the following illustration:
+
+![CSP with ExperienceCloud scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png)
+
+The most restrictive access to a company's account can be achieved by using `https://<Client Code>.experiencecloud.adobe.com https://experience.adobe.com`, where `<Client Code>` represents your specific client code. 
+
+For example:
+
+`Content-Security-Policy: frame-ancestors 'self'  https://ags118.experiencecloud.adobe.com https://experience.adobe.com`
+
+As in the following illustration:
+
+![CSP with clientcode scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png)
+
+>[!NOTE]
+>
+>If you have [Launch/Tag](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) implemented, it must be unlocked as well. 
+
+For example:
+>
+> `Content-Security-Policy: frame-ancestors 'self' *.adobe.com *.assets.adobedtm.com;`
+
+#### Prevent the VEC from embedding your site in a iFrame
+
+To prevent the VEC from embedding your site in an iFrame, you can restrict to "self" only.
+
+For example:
+
+`Content-Security-Policy: frame-ancestors 'self'`
+
+As shown in the following illustration:
+
+![CSP error](/help/dev/before-implement/privacy/assets/csp-error.png)
+
+The following error message is displayed:
+
+`Refused to frame 'https://kuehl.local/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self'".`
+
