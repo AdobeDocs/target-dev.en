@@ -59,7 +59,7 @@ As in the following illustration:
 
 ![CSP with ExperienceCloud scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png)
 
-The most restrictive access to a company's account can be achieved by using `https://<Client Code>.experiencecloud.adobe.com https://experience.adobe.com`, where <Client Code> represents your specific client code. 
+The most restrictive access to a company's account can be achieved by using `https://<Client Code>.experiencecloud.adobe.com https://experience.adobe.com`, where `<Client Code>` represents your specific client code. 
 
 For example:
 
