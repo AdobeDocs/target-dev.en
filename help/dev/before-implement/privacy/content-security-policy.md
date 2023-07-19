@@ -73,8 +73,8 @@ As in the following illustration (click to enlarge):
 >[!NOTE]
 >
 >If you have [Launch/Tag](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) implemented, it must be unlocked as well. 
-
-For example:
+>
+>For example:
 >
 > `Content-Security-Policy: frame-ancestors 'self' *.adobe.com *.assets.adobedtm.com;`
 
