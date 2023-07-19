@@ -48,7 +48,7 @@ For example:
 As in the following illustration (click to enlarge):
 
 
-![CSP with broadest wildcard](/help/dev/before-implement/privacy/assets/csp-adobe.png){width="400" zoomable="yes"}
+![CSP with broadest wildcard](/help/dev/before-implement/privacy/assets/csp-adobe.png){width="600" zoomable="yes"}
 
 You might want to allow only the actual [!DNL Adobe] service. This could be achieved by using `*.experiencecloud.adobe.com + https://experiencecloud.adobe.com`. 
 
@@ -58,7 +58,7 @@ For example:
 
 As in the following illustration (click to enlarge):
 
-![CSP with ExperienceCloud scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png){width="400" zoomable="yes"}
+![CSP with ExperienceCloud scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png){width="600" zoomable="yes"}
 
 The most restrictive access to a company's account can be achieved by using `https://<Client Code>.experiencecloud.adobe.com https://experience.adobe.com`, where `<Client Code>` represents your specific client code. 
 
@@ -68,7 +68,7 @@ For example:
 
 As in the following illustration (click to enlarge):
 
-![CSP with clientcode scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png){width="400" zoomable="yes"}
+![CSP with clientcode scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ For example:
 
 As shown in the following illustration (click to enlarge):
 
-![CSP error](/help/dev/before-implement/privacy/assets/csp-error.png){width="400" zoomable="yes"}
+![CSP error](/help/dev/before-implement/privacy/assets/csp-error.png){width="600" zoomable="yes"}
 
 The following error message is displayed:
 
