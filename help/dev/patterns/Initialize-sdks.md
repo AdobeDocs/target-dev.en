@@ -13,16 +13,24 @@ Follow the *Activity Initialize SDK* step diagram to ensure that all necessary s
 
 ## Initialize SDKs diagram {#diagram}
 
-The step numbers in the following illustration correspond to the sections below. Click image to expand to full screen.
+The step numbers in the following illustration correspond to the sections below. 
+
+Click image to expand to full screen.
 
 ![Initialize SDKs diagram](/help/dev/patterns/assets/initialize-sdk.png){width="600" zoomable="yes"}
 
+Click one of the following links to navigate to the desired section:
 
-## 1. Load visitor API SDK
+* [1.1: Load visitor API SDK](#load)
+* [1.2: Set Customer ID](#set)
+
+## 1.1: Load visitor API SDK {#load}
 
 This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly.
 
-![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="600" zoomable="yes"}
+Click image to expand to full screen.
+
+![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
 
 ### Prerequisites
 
@@ -31,7 +39,7 @@ The following are prerequisites for performing this step:
 * To use the Visitor ID/API service, your company must be enabled for the Adobe Experience Cloud and have an Organization ID. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
 * You need the VisitorAPI.js file. Reach out to your digital marketing team to get this file.
 
-### Step 1: Configure and refer VisitorAPI.js
+### Configure and refer VisitorAPI.js
 
 For more information, see [Implement the Experience Cloud Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html){target=_blank}.
 
@@ -56,11 +64,13 @@ Complete the following actions:
 
 [Return to the diagram at the top of this page.](#diagram)
 
-## 2. Set Customer ID
+## 1.2: Set Customer ID {#set}
 
 This step helps ensure that your end users' known IDs (CRM ID, User ID, and so forth) are tied to the anonymous ID of Adobe for cross-device personalization.
 
-![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="600" zoomable="yes"}
+Click image to expand to full screen.
+
+![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="100" zoomable="yes"}
 
 ### Prerequisites
 
@@ -68,7 +78,7 @@ The following are prerequisites for performing this step:
 
 * The end user's known ID should be available in the Data Layer.
 
-### Step 2: Set Customer ID
+### Set Customer ID
 
 For more information, see [setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html){target=_blank}.
 
