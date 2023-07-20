@@ -1,5 +1,5 @@
 ---
-keywords: content security policy, csp, at.js, whitelist, allowlist, flicker, pre-hide, pre-hiding, prehiding, content security policy0
+keywords: content security policy, csp, at.js, whitelist, allowlist, flicker, pre-hide, pre-hiding, prehiding, content security policy, iFrame, iframe
 description: Learn about the Content Security Policy (CSP) directives that you should add when using [!DNL Adobe Target].
 title: How Does [!DNL Target] Handle Content Security Policies (CSP)?
 feature: Privacy & Security
@@ -7,7 +7,7 @@ exl-id: ec6942e5-36d8-4f88-b3d6-47f9eaca03a8
 ---
 # Content Security Policy (CSP) directives
 
-If you are using [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) for your [!DNL Adobe Target] implementation, you should add the following CSP directives when using [at.js 2.1 or later](../../implement/client-side/atjs/target-atjs-versions.md):
+If you are using the [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) for your [!DNL Adobe Target] implementation, you should add the following CSP directives when using [at.js 2.1 or later](../../implement/client-side/atjs/target-atjs-versions.md):
 
 * `connect-src` with `*.tt.omtrdc.net` allowlisted. Necessary to allow the network request to the [!DNL Target] edge.
 * `style-src unsafe-inline`. Required for pre-hiding and flicker control.
@@ -68,7 +68,7 @@ For example:
 
 As in the following illustration (click to enlarge):
 
-![CSP with clientcode scoped](/help/dev/before-implement/privacy/assets/csp-experiencecloud.png){width="600" zoomable="yes"}
+![CSP with clientcode scoped](/help/dev/before-implement/privacy/assets/csp-clientcode.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
