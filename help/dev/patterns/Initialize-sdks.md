@@ -38,9 +38,9 @@ Click the following links to navigate to the desired sections:
 
 This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly.
 
-![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
-
 +++See details
+
+![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
 
 **Prerequisites**
 
@@ -74,9 +74,9 @@ For more information, see [Implement the Experience Cloud Service for Target](ht
 
 This step helps ensure that your end users' known IDs (CRM ID, User ID, and so forth) are tied to the anonymous ID of Adobe for cross-device personalization.
 
-![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="100" zoomable="yes"}
-
 +++See details
+
+![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="100" zoomable="yes"}
 
 **Prerequisites**
 
