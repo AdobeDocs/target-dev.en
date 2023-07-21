@@ -32,23 +32,26 @@ Click the following links to navigate to the desired sections:
 * [1.6 Promotion](#promotion)
 * [1.7 Cart-based criteria](#cart)
 * [1.8 Popularity-based criteria](#popularity)
+* [1.9 Item-based criteria](#item)
 
 ## 1.1: Load visitor API SDK {#load}
 
 This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly.
 
++++See details
+
 ![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
 
-### Prerequisites
+**Prerequisites**
 
 * To use the Visitor ID/API service, your company must be enabled for the Adobe Experience Cloud and have an Organization ID. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
 * You need the VisitorAPI.js file. Reach out to your digital marketing team to get this file.
 
-### Configure and refer VisitorAPI.js
+**Configure and refer VisitorAPI.js**
 
 For more information, see [Implement the Experience Cloud Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html){target=_blank}.
 
-### Readings
+**Readings**
 
 * [Experience Cloud Identity Service overview](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html){target=_blank}
 * [About the ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/about-id-service.html){target=_blank}
@@ -56,12 +59,14 @@ For more information, see [Implement the Experience Cloud Service for Target](ht
 * [How the Experience Cloud Identity Service requests and sets IDs](https://experienceleague.adobe.com/docs/id-service/using/intro/id-request.html){target=_blank}
 * [Understanding ID synchronization and match rates](https://experienceleague.adobe.com/docs/id-service/using/intro/match-rates.html){target=_blank}
 
-### Actions
+**Actions**
 
 * Embed the `VisitorAPI.js` file on your webpages.
 * Read about the [available configurations for the Visitor ID/API service](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html){target=_blank}.
 * After the `VisitorAPI.js` file is loaded, use the `Visitor.getInstance` method to initialize using the necessary configurations you need.
 * Familiarize yourself with all the [available methods](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/get-set.html){target=_blank}.
+
++++
 
 [Return to the diagram at the top of this page.](#diagram)
 
@@ -198,9 +203,9 @@ Make recommendations based on the user's [cart contents](https://experienceleagu
 
 ### Available criteria
 
-* People Who Viewed These, Viewed Those
-* People Who Viewed These, Bought Those
-* People Who Bought These, Bought Those
+* [!UICONTROL People Who Viewed These, Viewed Those]
+* [!UICONTROL People Who Viewed These, Bought Those]
+* [!UICONTROL People Who Bought These, Bought Those]
 
 ### Entity parameters required
 
@@ -210,7 +215,38 @@ Make recommendations based on the user's [cart contents](https://experienceleagu
 
 ## 1.8 Popularity-based criteria {#popularity}
 
+Make recommendations based on the overall [popularity](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank} of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.
 
+### Available algorithms
+
+* [!UICONTROL Most Viewed Across the Site]
+* [!UICONTROL Most Viewed by Category]
+* [!UICONTROL Most Viewed by Item Attribute]
+* [!UICONTROL Top Sellers Across the Site]
+* [!UICONTROL Top Sellers by Category]
+* [!UICONTROL Top Sellers by Item Attribute]
+* [!UICONTROL Top by Analytics Metric]
+
+### Entity parameters required
+
+* `entity.categoryId` or the item attribute for popularity based if the criteria is based on the current or the item attribute. 
+* Nothing needs to be passed for Most Viewed/Top sold across the site.
+
+[Return to the diagram at the top of this page.](#diagram)
+
+1.9 Item-based criteria {#item}
+
+Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.
+
+Available algorithm: 
+
+* [!UICONTROL People Who Viewed This, Viewed That]
+People Who Viewed This, Bought That
+People Who Bought This, Bought That
+Items with Similar Attributes
+Entity Parameters Required
+entity.id
+if any profile attribute used as a key
 
 
 
