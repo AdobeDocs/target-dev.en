@@ -9,7 +9,7 @@ hidefromtoc: yes
 ---
 # Initialize SDKs
 
-Follow the *Activity Initialize SDK* step diagram to ensure that all necessary steps leading up to the loading of the [!DNL Adobe Experience Platform Web SDK] are executed in the correct sequence.
+Follow the *Activity Initialize SDK* step diagram to ensure that all necessary steps leading up to the loading of the [!DNL Adobe Target] at.js JavaScript library are executed in the correct sequence.
 
 >[!TIP]
 >
