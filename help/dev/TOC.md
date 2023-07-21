@@ -206,6 +206,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + [Adobe Admin Console APIs](/help/dev/before-implement/delivery-api-overview/adobe-console-api.md)
   + [Adobe Experience Platform Edge Network Server API](/help/dev/before-implement/delivery-api-overview/aep-edge-network-server-api.md)
 + Implementation patterns {#implementation-patterns} {#hidden}
+  + [Implementation patterns overview](/help/dev/patterns/pattern-overview.md)
   + Target implementation pattern {#target}
     + [Initialize SDKs](/help/dev/patterns/Initialize-sdks.md)
 
