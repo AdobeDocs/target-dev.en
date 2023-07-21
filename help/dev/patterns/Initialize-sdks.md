@@ -304,8 +304,8 @@ Make recommendations based on the user's behavior.
 
 **Available criteria**
 
-* Recently Viewed Items
-* Recommended for You
+* [!UICONTROL Recently Viewed Items]
+* [!UICONTROL Recommended for You]
 
 **Entity parameters required**
 
@@ -325,7 +325,7 @@ Make recommendations based on a custom file you upload
 
 **Available criteria**
 
-* Custom algorithm
+* [!UICONTROL Custom algorithm]
 
 **Entity parameters required**
 
@@ -349,7 +349,7 @@ Make recommendations based on a custom file you upload
 
 +++
 
-## 1.13: Provide excludedIds {exclude}
+## 1.13: Provide excludedIds {#exclude}
 
 Pass entity IDs for entities that you want to exclude from your recommendations. For example, you can exclude items that are already in the shopping cart.
 
