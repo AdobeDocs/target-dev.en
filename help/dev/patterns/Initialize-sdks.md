@@ -19,7 +19,7 @@ Click image to expand to full screen.
 
 ![Initialize SDKs diagram](/help/dev/patterns/assets/initialize-sdk.png){width="600" zoomable="yes"}
 
-Click one of the following links to navigate to the desired section:
+Click the following links to navigate to the desired sections:
 
 * [1.1: Load visitor API SDK](#load)
 * [1.2: Set Customer ID](#set)
