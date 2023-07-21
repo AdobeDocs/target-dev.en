@@ -28,6 +28,7 @@ Click the following links to navigate to the desired sections:
 * [1.2: Set Customer ID](#set)
 * [1.3 Configure automatic page load request](#automatic)
 * [1.4 Configure flicker handling](#flicker)
+* [1.5 Configure data mapping](#data-mapping)
 
 ## 1.1: Load visitor API SDK {#load}
 
@@ -108,6 +109,8 @@ Learn about the `pageLoadEnabled` setting in [targetGlobalSettings()](/help/dev/
 
 * Modify the `window.targetGlobalSettings` object to enable automatic page load requests.
 
+[Return to the diagram at the top of this page.](#diagram)
+
 ## 1.4: Configure flicker handling {#flicker}
 
 This step helps ensure that there is no page flicker when delivering experiences.
@@ -134,6 +137,41 @@ If you have disabled bodyHidingEnabled because you do not want to fire APLR and 
 ### Actions
 
 * Modify `window.targetGlobalSettings` object to set `bodyHiddenStyle` and `bodyHidingEnabled`.
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.5 Configure data mapping {#data-mapping}
+
+This step helps ensure that all the data that needs to be sent to [!DNL Target] is set.
+
+![Data mapping diagram](/help/dev/patterns/assets/data-mapping.png){width="100" zoomable="yes"}
+
+### Prerequisites
+
+* The data layer should be ready with all the data that needs to be sent to [!DNL Target].
+* Recommendations: enrich profile.
+  * Pass entity.id to capture data for recently viewed criteria and items based on criteria based on last viewed product.
+  * Pass entity.id to capture data for popularity criteria based on favorite category.
+  * Profile attribute if custom criteria is based on it or used in inclusion rule filtering in any criteria.
+* Recommendations: ingest product data.
+  * Other entity parameters (reserved and custom) can be passed to ingest or update the product catalog in Recommendations.
+  * The product catalog can also be updated by seeing entity feeds using the Target UI or API.
+
+### Map data to Target
+
+For more information, see [targetPageParams()](/help/dev/implement/client-side/atjs/atjs-functions/targetpageparams.md).
+
+### Readings
+
+* [targetPageParams()](/help/dev/implement/client-side/atjs/atjs-functions/targetpageparams.md)
+* [Plan and implement Recommendations](/help/dev/implement/recommendations/recommendations.md)
+* [Set up your Recommendations catalog](/help/dev/implement/recommendations/recommendations.md)
+
+### Actions
+
+* Use the `targetPageParams()` function to set all the required data that needs to be sent to [!DNL Target].
+
+[Return to the diagram at the top of this page.](#diagram)
 
 
 
