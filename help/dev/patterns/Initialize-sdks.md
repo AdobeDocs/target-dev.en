@@ -15,7 +15,6 @@ Follow the *Activity Initialize SDK* step diagram to ensure that all necessary s
 >
 >Click the images in this topic to expand to full screen.
 
-
 ## Initialize SDKs diagram {#diagram}
 
 The step numbers in the following illustration correspond to the sections below. 
@@ -26,13 +25,17 @@ Click the following links to navigate to the desired sections:
 
 * [1.1: Load visitor API SDK](#load)
 * [1.2: Set Customer ID](#set)
-* [1.3 Configure automatic page load request](#automatic)
-* [1.4 Configure flicker handling](#flicker)
-* [1.5 Configure data mapping](#data-mapping)
-* [1.6 Promotion](#promotion)
-* [1.7 Cart-based criteria](#cart)
-* [1.8 Popularity-based criteria](#popularity)
-* [1.9 Item-based criteria](#item)
+* [1.3: Configure automatic page load request](#automatic)
+* [1.4: Configure flicker handling](#flicker)
+* [1.5: Configure data mapping](#data-mapping)
+* [1.6: Promotion](#promotion)
+* [1.7: Cart-based criteria](#cart)
+* [1.8: Popularity-based criteria](#popularity)
+* [1.9: Item-based criteria](#item)
+* [1.10: User-based criteria](#user)
+* [1.11: Custom criteria](#custom)
+* [1.12: Provide attributes used in inclusion rules](#inclusion)
+* [1.13: Provide excludedIds](#exclude)
 
 ## 1.1: Load visitor API SDK {#load}
 
@@ -101,24 +104,28 @@ For more information, see [setCustomerIDs](https://experienceleague.adobe.com/do
 
 This step enables at.js to fetch all the experiences that need to be rendered on the page while loading the at.js JavaScript library file.
 
++++See details
+
 ![Configure automatic page load request](/help/dev/patterns/assets/configure-automatic-page-request.png){width="100" zoomable="yes"}
 
-### Prerequisites
+**Prerequisites**
 
 * Not all data in the data layer needs to be sent to [!DNL Target]. You should have a discussion with the business team (digital marketing team) to determine what data is valuable for experimentation, optimization, and personalization. Only this data should be sent to [!DNL Target].
 * Ensure that you do not send any Personally Identifiable Information (PII) data to [!DNL Target].
 
-### Configure automatic page load request
+**Configure automatic page load request**
 
 For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
-### Readings
+**Readings**
 
 Learn about the `pageLoadEnabled` setting in [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
-### Actions
+**Actions**
 
 * Modify the `window.targetGlobalSettings` object to enable automatic page load requests.
+
++++
 
 [Return to the diagram at the top of this page.](#diagram)
 
@@ -126,13 +133,15 @@ Learn about the `pageLoadEnabled` setting in [targetGlobalSettings()](/help/dev/
 
 This step helps ensure that there is no page flicker when delivering experiences.
 
++++See details
+
 ![Configure flicker handling diagram](/help/dev/patterns/assets/flicker-handling.png){width="100" zoomable="yes"}
 
-### Prerequisites
+**Prerequisites**
 
 * Have a discussion with the team responsible for web page performance regarding the pros and cons of controlling flicker using the default method used by at.js. You can search for design patterns that let you use custom flicker handling solution, such as loader animation. If you do not find a pattern, you can request a new pattern.
 
-### Configure flicker handling
+**Configure flicker handling**
 
 For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
@@ -140,24 +149,28 @@ Setting `bodyHidingEnabled` to `true` hides the entire page body while the page 
 
 If you have disabled bodyHidingEnabled because you do not want to fire APLR and want to fire the page request later, or you do not need flicker handling, you must implement your own flicker handling. You can handle flicker two ways: hiding the sections under test or by showing a throbber on the sections under test.
 
-### Readings
+**Readings**
 
 * [How at.js manages flicker](/help/dev/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
 * Learn about the bodyHiddenStyle and bodyHidingEnabled objects in [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
-### Actions
+**Actions**
 
 * Modify `window.targetGlobalSettings` object to set `bodyHiddenStyle` and `bodyHidingEnabled`.
 
++++
+
 [Return to the diagram at the top of this page.](#diagram)
 
-## 1.5 Configure data mapping {#data-mapping}
+## 1.5: Configure data mapping {#data-mapping}
 
 This step helps ensure that all the data that needs to be sent to [!DNL Target] is set.
 
++++See details
+
 ![Data mapping diagram](/help/dev/patterns/assets/data-mapping.png){width="100" zoomable="yes"}
 
-### Prerequisites
+**Prerequisites**
 
 * The data layer should be ready with all the data that needs to be sent to [!DNL Target].
 * Recommendations: enrich profile.
@@ -168,59 +181,75 @@ This step helps ensure that all the data that needs to be sent to [!DNL Target] 
   * Other entity parameters (reserved and custom) can be passed to ingest or update the product catalog in Recommendations.
   * The product catalog can also be updated by seeing entity feeds using the Target UI or API.
 
-### Map data to Target
+**Map data to [!DNL Target]**
 
 For more information, see [targetPageParams()](/help/dev/implement/client-side/atjs/atjs-functions/targetpageparams.md).
 
-### Readings
+**Readings**
 
 * [targetPageParams()](/help/dev/implement/client-side/atjs/atjs-functions/targetpageparams.md)
 * [Plan and implement Recommendations](/help/dev/implement/recommendations/recommendations.md)
 * [Set up your Recommendations catalog](/help/dev/implement/recommendations/recommendations.md)
 
-### Actions
+**Actions**
 
 * Use the `targetPageParams()` function to set all the required data that needs to be sent to [!DNL Target].
 
++++
+
 [Return to the diagram at the top of this page.](#diagram)
 
-## 1.6 Promotion {#promotion}
+## 1.6: Promotion {#promotion}
 
 Add promoted items and control their placement in your Target Recommendations [designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html){target=_blank}.
 
-### Available options
+++See details
+
+**Available options**
 
 * Promote by IDs
 * [Promote by collection](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/collections.html){target=_blank}
 * [Promote by attribute](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/entity-attributes.html){target=_blank}
 
-### Entity parameters required
+**Entity parameters required**
 
 * Item attribute in promotion needs to be passed when using the "promote by attribute" option.
 
++++
+
 [Return to the diagram at the top of this page.](#diagram)
 
-## 1.7 Cart-based criteria {#cart}
+## 1.7: Cart-based criteria {#cart}
 
-Make recommendations based on the user's [cart contents](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/base-the-recommendation-on-a-recommendation-key.html?lang=en#cart-based){target=_blank}.
+Make recommendations based on the user's cart contents.
 
-### Available criteria
++++See details
+
+**Available criteria**
 
 * [!UICONTROL People Who Viewed These, Viewed Those]
 * [!UICONTROL People Who Viewed These, Bought Those]
 * [!UICONTROL People Who Bought These, Bought Those]
 
-### Entity parameters required
+**Entity parameters required**
 
 * cartIds
 
+**Readings**
+
+* [Cart-based ](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank}
+
++++
+
 [Return to the diagram at the top of this page.](#diagram)
 
-## 1.8 Popularity-based criteria {#popularity}
+## 1.8: Popularity-based criteria {#popularity}
 
-Make recommendations based on the overall [popularity](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank} of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.
+Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.
 
-### Available algorithms
++++See details
+
+**Available criteria**
 
 * [!UICONTROL Most Viewed Across the Site]
 * [!UICONTROL Most Viewed by Category]
@@ -230,26 +259,112 @@ Make recommendations based on the overall [popularity](https://experienceleague.
 * [!UICONTROL Top Sellers by Item Attribute]
 * [!UICONTROL Top by Analytics Metric]
 
-### Entity parameters required
+**Entity parameters required**
 
 * `entity.categoryId` or the item attribute for popularity based if the criteria is based on the current or the item attribute. 
 * Nothing needs to be passed for Most Viewed/Top sold across the site.
 
+**Readings**
+
+* [Popularity-based](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank}
+
++++
+
 [Return to the diagram at the top of this page.](#diagram)
 
-1.9 Item-based criteria {#item}
+## 1.9: Item-based criteria {#item}
 
 Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.
 
-Available algorithm: 
++++See details
+
+**Available criteria** 
 
 * [!UICONTROL People Who Viewed This, Viewed That]
-People Who Viewed This, Bought That
-People Who Bought This, Bought That
-Items with Similar Attributes
-Entity Parameters Required
-entity.id
-if any profile attribute used as a key
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Items with Similar Attributes]
+
+**Entity parameters required**
+
+* `entity.id`
+* If any profile attribute is used as a key
+
+**Readings**
+
+* [Item based](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank}
+
++++
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.10: User-based criteria {#user}
+
+Make recommendations based on the user's behavior.
+
+**Available criteria**
+
+* Recently Viewed Items
+* Recommended for You
+
+**Entity parameters required**
+
+* `entity.id`
+
+**Readings**
+
+* [User-based](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank}
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.11: Custom criteria {#custom}
+
+Make recommendations based on a custom file you upload
+
++++See details
+
+**Available criteria**
+
+* Custom algorithm
+
+**Entity parameters required**
+
+`entity.id` or the attribute used as a key for the custom algorithm
+
+**Readings**
+
+* [Custom criteria](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank}
+
++++
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.12: Provide attributes used in inclusion rules {#inclusion}
+
++++See details
+
+**Readings**
+
+* [Use dynamic and static inclusion rules](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/dynamic-static/use-dynamic-and-static-inclusion-rules.html){target=_blank}
+
++++
+
+## 1.13: Provide excludedIds {exclude}
+
+Pass entity IDs for entities that you want to exclude from your recommendations. For example, you can exclude items that are already in the shopping cart.
+
++++See details
+
+**Readings**
+
+* [Can I dynamically exclude an entity?](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/recommendations-faq.html?lang=en#exclude){target=_blank}
+
++++
+
+[Return to the diagram at the top of this page.](#diagram)
+
+
+
 
 
 
