@@ -19,7 +19,7 @@ Click image to expand to full screen.
 
 ![Initialize SDKs diagram](/help/dev/patterns/assets/initialize-sdk.png){width="600" zoomable="yes"}
 
-Click one of the following links to navigate to the desired section:
+Click the following links to navigate to the desired sections:
 
 * [1.1: Load visitor API SDK](#load)
 * [1.2: Set Customer ID](#set)
@@ -34,7 +34,7 @@ Click image to expand to full screen.
 
 ### Prerequisites
 
-The following are prerequisites for performing this step:
+The following items are prerequisites for performing this step:
 
 * To use the Visitor ID/API service, your company must be enabled for the Adobe Experience Cloud and have an Organization ID. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
 * You need the VisitorAPI.js file. Reach out to your digital marketing team to get this file.
