@@ -1,6 +1,6 @@
 ---
 title: Initialize SDKs
-description: Ensure that all necessary steps for loading the Adobe Experience Platform Web SDK is executed in the correct sequence.
+description: Ensure that all necessary steps for loading the Adobe Experience Platform Web SDK are executed in the correct sequence.
 feature: APIs/SDKs
 level: Experienced
 role: Developer
@@ -38,7 +38,7 @@ Click the following links to navigate to the desired sections:
 * [1.13: Provide excludedIds](#exclude)
 * [1.14: Pass the entity.event.detailsOnly=true parameter](#true)
 * [1.15: Configure remote data mapping](#remote)
-* [1.16: Load the Target Web SDK](#web)
+* [1.16: Load at.js](#web)
 
 ## 1.1: Load visitor API SDK {#load}
 
@@ -105,7 +105,7 @@ For more information, see [setCustomerIDs](https://experienceleague.adobe.com/do
 
 ## 1.3: Configure automatic page load request {#automatic}
 
-This step enables at.js to fetch all the experiences that need to be rendered on the page while loading the at.js JavaScript library file.
+This step enables at.js to fetch all the experiences that must be rendered on the page while loading the at.js JavaScript library file.
 
 +++See details
 
@@ -113,7 +113,7 @@ This step enables at.js to fetch all the experiences that need to be rendered on
 
 **Prerequisites**
 
-* Not all data in the data layer needs to be sent to [!DNL Target]. You should have a discussion with the business team (digital marketing team) to determine what data is valuable for experimentation, optimization, and personalization. Only this data should be sent to [!DNL Target].
+* Not all data in the data layer must be sent to [!DNL Target]. You should have a discussion with the business team (digital marketing team) to determine what data is valuable for experimentation, optimization, and personalization. Only this data should be sent to [!DNL Target].
 * Ensure that you do not send any Personally Identifiable Information (PII) data to [!DNL Target].
 
 **Configure automatic page load request**
@@ -148,9 +148,9 @@ This step helps ensure that there is no page flicker when delivering experiences
 
 For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
-Setting `bodyHidingEnabled` to `true` hides the entire page body while the page load request in in progress. If you have not enabled the automatic page load request for any reason (data later not ready, for example), it is bes to set this setting to `false`.
+Setting `bodyHidingEnabled` to `true` hides the entire page body while the page load request in progress. If you have not enabled the automatic page load request for any reason (data later not ready, for example), it is best to set this setting to `false`.
 
-If you have disabled bodyHidingEnabled because you do not want to fire APLR and want to fire the page request later, or you do not need flicker handling, you must implement your own flicker handling. You can handle flicker two ways: hiding the sections under test or by showing a throbber on the sections under test.
+If you have disabled `bodyHidingEnabled` because you do not want to fire APLR and want to fire the page request later, or you do not need flicker handling, you must implement your own flicker handling. You can handle flicker two ways: hiding the sections under test or by showing a throbber on the sections under test.
 
 **Readings**
 
@@ -167,7 +167,7 @@ If you have disabled bodyHidingEnabled because you do not want to fire APLR and 
 
 ## 1.5: Configure data mapping {#data-mapping}
 
-This step helps ensure that all the data that needs to be sent to [!DNL Target] is set.
+This step helps ensure that all the data that must be sent to [!DNL Target] is set.
 
 +++See details
 
@@ -175,7 +175,7 @@ This step helps ensure that all the data that needs to be sent to [!DNL Target] 
 
 **Prerequisites**
 
-* The data layer should be ready with all the data that needs to be sent to [!DNL Target].
+* The data layer should be ready with all the data that must be sent to [!DNL Target].
 * Recommendations: enrich profile.
   * Pass entity.id to capture data for recently viewed criteria and items based on criteria based on last viewed product.
   * Pass entity.id to capture data for popularity criteria based on favorite category.
@@ -196,7 +196,7 @@ For more information, see [targetPageParams()](/help/dev/implement/client-side/a
 
 **Actions**
 
-* Use the `targetPageParams()` function to set all the required data that needs to be sent to [!DNL Target].
+* Use the `targetPageParams()` function to set all the required data that must be sent to [!DNL Target].
 
 +++
 
@@ -216,7 +216,7 @@ Add promoted items and control their placement in your Target Recommendations [d
 
 **Entity parameters required**
 
-* Item attribute in promotion needs to be passed when using the "promote by attribute" option.
+* Item attribute in promotion must be passed when using the "promote by attribute" option.
 
 +++
 
@@ -265,7 +265,7 @@ Make recommendations based on the overall popularity of an item across your site
 **Entity parameters required**
 
 * `entity.categoryId` or the item attribute for popularity based if the criteria is based on the current or the item attribute. 
-* Nothing needs to be passed for Most Viewed/Top sold across the site.
+* Nothing must be passed for Most Viewed/Top sold across the site.
 
 **Readings**
 
@@ -277,7 +277,7 @@ Make recommendations based on the overall popularity of an item across your site
 
 ## 1.9: Item-based criteria {#item}
 
-Make recommendations based on finding similar items to an item that the user is currently viewing or has recently viewed.
+Make recommendations based on finding similar items to an item that the user is viewing or has recently viewed.
 
 +++See details
 
@@ -326,7 +326,7 @@ Make recommendations based on the user's behavior.
 
 ## 1.11: Custom criteria {#custom}
 
-Make recommendations based on a custom file you upload
+Make recommendations based on a custom file that you upload
 
 +++See details
 
@@ -388,7 +388,7 @@ Use entity attributes to pass product or content information to [!DNL Target Rec
 
 ## 1.15: Configure remote data mapping (remote)
 
-This step ensures that all the data that needs to be send to [!DNL Target] is set.
+This step ensures that all the data that must be sent to [!DNL Target] is set.
 
 +++See details
 
@@ -396,7 +396,11 @@ This step ensures that all the data that needs to be send to [!DNL Target] is se
 
 **Prerequisites**
 
-* Data layer should be ready with all the data that needs to be send to [!DNL Target].
+* Data layer should be ready with all the data that must be sent to [!DNL Target].
+
+**Set up data providers**
+
+For more information, see [Data providers](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md#data-providers).
 
 **Readings**
 
@@ -404,15 +408,15 @@ This step ensures that all the data that needs to be send to [!DNL Target] is se
 
 **Actions**
 
-Use `targetPageParams()` function to set all the required data that needs to be sent to [!DNL Target].
+Use `targetPageParams()` function to set all the required data that must be sent to [!DNL Target].
 
 +++
 
 [Return to the diagram at the top of this page.](#diagram)
 
-## 1.16: Load the Target Web SDK {#web}
+## 1.16: Load at.js {#web}
 
-This step ensures that the Web SDK library is loaded and initialized.
+This step ensures that the at.js SDK library is loaded and initialized.
 
 +++See details
 
