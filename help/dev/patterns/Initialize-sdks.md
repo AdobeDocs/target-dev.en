@@ -11,11 +11,14 @@ hidefromtoc: yes
 
 Follow the *Activity Initialize SDK* step diagram to ensure that all necessary steps leading up to the loading of the [!DNL Adobe Experience Platform Web SDK] are executed in the correct sequence.
 
+>[!TIP]
+>
+>Click the images in this topic to expand to full screen.
+
+
 ## Initialize SDKs diagram {#diagram}
 
 The step numbers in the following illustration correspond to the sections below. 
-
-Click image to expand to full screen.
 
 ![Initialize SDKs diagram](/help/dev/patterns/assets/initialize-sdk.png){width="600" zoomable="yes"}
 
@@ -23,18 +26,16 @@ Click the following links to navigate to the desired sections:
 
 * [1.1: Load visitor API SDK](#load)
 * [1.2: Set Customer ID](#set)
+* [1.3 Configure automatic page load request](#automatic)
+* [1.4 Configure flicker handling](#flicker)
 
 ## 1.1: Load visitor API SDK {#load}
 
 This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly.
 
-Click image to expand to full screen.
-
 ![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
 
 ### Prerequisites
-
-The following items are prerequisites for performing this step:
 
 * To use the Visitor ID/API service, your company must be enabled for the Adobe Experience Cloud and have an Organization ID. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
 * You need the VisitorAPI.js file. Reach out to your digital marketing team to get this file.
@@ -45,8 +46,6 @@ For more information, see [Implement the Experience Cloud Service for Target](ht
 
 ### Readings
 
-The following links provide more information:
-
 * [Experience Cloud Identity Service overview](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html){target=_blank}
 * [About the ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/about-id-service.html){target=_blank}
 * [Cookies and the Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html){target=_blank}
@@ -54,8 +53,6 @@ The following links provide more information:
 * [Understanding ID synchronization and match rates](https://experienceleague.adobe.com/docs/id-service/using/intro/match-rates.html){target=_blank}
 
 ### Actions
-
-Complete the following actions:
 
 * Embed the `VisitorAPI.js` file on your webpages.
 * Read about the [available configurations for the Visitor ID/API service](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html){target=_blank}.
@@ -68,13 +65,9 @@ Complete the following actions:
 
 This step helps ensure that your end users' known IDs (CRM ID, User ID, and so forth) are tied to the anonymous ID of Adobe for cross-device personalization.
 
-Click image to expand to full screen.
-
 ![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="100" zoomable="yes"}
 
 ### Prerequisites
-
-The following are prerequisites for performing this step:
 
 * The end user's known ID should be available in the Data Layer.
 
@@ -88,11 +81,72 @@ For more information, see [setCustomerIDs](https://experienceleague.adobe.com/do
 
 ### Actions
 
-Complete the following actions:
-
 * Use `visitor.setCustomerIDs` to set the end-user known ID.
 
 [Return to the diagram at the top of this page.](#diagram)
+
+## 1.3: Configure automatic page load request {#automatic}
+
+This step enables at.js to fetch all the experiences that need to be rendered on the page while loading the at.js JavaScript library file.
+
+![Configure automatic page load request](/help/dev/patterns/assets/configure-automatic-page-request.png){width="100" zoomable="yes"}
+
+### Prerequisites
+
+* Not all data in the data layer needs to be sent to [!DNL Target]. You should have a discussion with the business team (digital marketing team) to determine what data is valuable for experimentation, optimization, and personalization. Only this data should be sent to [!DNL Target].
+* Ensure that you do not send any Personally Identifiable Information (PII) data to [!DNL Target].
+
+### Configure automatic page load request
+
+For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
+
+### Readings
+
+Learn about the `pageLoadEnabled` setting in [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
+
+### Actions
+
+* Modify the `window.targetGlobalSettings` object to enable automatic page load requests.
+
+## 1.4: Configure flicker handling {#flicker}
+
+This step helps ensure that there is no page flicker when delivering experiences.
+
+![Configure flicker handling diagram](/help/dev/patterns/assets/flicker-handling.png){width="100" zoomable="yes"}
+
+### Prerequisites
+
+* Have a discussion with the team responsible for web page performance regarding the pros and cons of controlling flicker using the default method used by at.js. You can search for design patterns that let you use custom flicker handling solution, such as loader animation. If you do not find a pattern, you can request a new pattern.
+
+### Configure flicker handling
+
+For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
+
+Setting `bodyHidingEnabled` to `true` hides the entire page body while the page load request in in progress. If you have not enabled the automatic page load request for any reason (data later not ready, for example), it is bes to set this setting to `false`.
+
+If you have disabled bodyHidingEnabled because you do not want to fire APLR and want to fire the page request later, or you do not need flicker handling, you must implement your own flicker handling. You can handle flicker two ways: hiding the sections under test or by showing a throbber on the sections under test.
+
+### Readings
+
+* [How at.js manages flicker](/help/dev/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
+* Learn about the bodyHiddenStyle and bodyHidingEnabled objects in [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
+
+### Actions
+
+* Modify `window.targetGlobalSettings` object to set `bodyHiddenStyle` and `bodyHidingEnabled`.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
