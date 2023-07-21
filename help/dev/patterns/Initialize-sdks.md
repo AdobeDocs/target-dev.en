@@ -29,6 +29,9 @@ Click the following links to navigate to the desired sections:
 * [1.3 Configure automatic page load request](#automatic)
 * [1.4 Configure flicker handling](#flicker)
 * [1.5 Configure data mapping](#data-mapping)
+* [1.6 Promotion](#promotion)
+* [1.7 Cart-based criteria](#cart)
+* [1.8 Popularity-based criteria](#popularity)
 
 ## 1.1: Load visitor API SDK {#load}
 
@@ -172,6 +175,42 @@ For more information, see [targetPageParams()](/help/dev/implement/client-side/a
 * Use the `targetPageParams()` function to set all the required data that needs to be sent to [!DNL Target].
 
 [Return to the diagram at the top of this page.](#diagram)
+
+## 1.6 Promotion {#promotion}
+
+Add promoted items and control their placement in your Target Recommendations [designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html){target=_blank}.
+
+### Available options
+
+* Promote by IDs
+* [Promote by collection](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/collections.html){target=_blank}
+* [Promote by attribute](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/entity-attributes.html){target=_blank}
+
+### Entity parameters required
+
+* Item attribute in promotion needs to be passed when using the "promote by attribute" option.
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.7 Cart-based criteria {#cart}
+
+Make recommendations based on the user's [cart contents](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/base-the-recommendation-on-a-recommendation-key.html?lang=en#cart-based){target=_blank}.
+
+### Available criteria
+
+* People Who Viewed These, Viewed Those
+* People Who Viewed These, Bought Those
+* People Who Bought These, Bought Those
+
+### Entity parameters required
+
+* cartIds
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.8 Popularity-based criteria {#popularity}
+
+
 
 
 
