@@ -38,9 +38,9 @@ Click the following links to navigate to the desired sections:
 
 This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly.
 
-+++See details
-
 ![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
+
++++See details
 
 **Prerequisites**
 
@@ -76,21 +76,24 @@ This step helps ensure that your end users' known IDs (CRM ID, User ID, and so f
 
 ![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="100" zoomable="yes"}
 
-### Prerequisites
++++See details
+
+**Prerequisites**
 
 * The end user's known ID should be available in the Data Layer.
 
-### Set Customer ID
-
+**Set Customer ID**
 For more information, see [setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html){target=_blank}.
 
-### Readings
+**Readings**
 
 * [Real-time profile syncing for mbox3rdPartyId](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/3rd-party-id.html){target=_blank}
 
-### Actions
+**Actions**
 
 * Use `visitor.setCustomerIDs` to set the end-user known ID.
+
++++
 
 [Return to the diagram at the top of this page.](#diagram)
 
