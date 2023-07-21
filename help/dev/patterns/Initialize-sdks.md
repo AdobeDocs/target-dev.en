@@ -36,6 +36,9 @@ Click the following links to navigate to the desired sections:
 * [1.11: Custom criteria](#custom)
 * [1.12: Provide attributes used in inclusion rules](#inclusion)
 * [1.13: Provide excludedIds](#exclude)
+* [1.14: Pass the entity.event.detailsOnly=true parameter](#true)
+* [1.15: Configure remote data mapping](#remote)
+* [1.16: Load the Target Web SDK](#web)
 
 ## 1.1: Load visitor API SDK {#load}
 
@@ -203,7 +206,7 @@ For more information, see [targetPageParams()](/help/dev/implement/client-side/a
 
 Add promoted items and control their placement in your Target Recommendations [designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html){target=_blank}.
 
-++See details
++++See details
 
 **Available options**
 
@@ -302,6 +305,8 @@ Make recommendations based on finding similar items to an item that the user is 
 
 Make recommendations based on the user's behavior.
 
++++See details
+
 **Available criteria**
 
 * [!UICONTROL Recently Viewed Items]
@@ -314,6 +319,8 @@ Make recommendations based on the user's behavior.
 **Readings**
 
 * [User-based](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/algorithms.html?lang=en#section_885B3BB1B43048A88A8926F6B76FC482){target=_blank}
+
++++
 
 [Return to the diagram at the top of this page.](#diagram)
 
@@ -349,6 +356,8 @@ Make recommendations based on a custom file you upload
 
 +++
 
+[Return to the diagram at the top of this page.](#diagram)
+
 ## 1.13: Provide excludedIds {#exclude}
 
 Pass entity IDs for entities that you want to exclude from your recommendations. For example, you can exclude items that are already in the shopping cart.
@@ -362,6 +371,78 @@ Pass entity IDs for entities that you want to exclude from your recommendations.
 +++
 
 [Return to the diagram at the top of this page.](#diagram)
+
+## 1.14: Pass the `entity.event.detailsOnly=true` parameter {#true}
+
+Use entity attributes to pass product or content information to [!DNL Target Recommendations].
+
++++See details
+
+**Readings**
+
+* [Entity attributes](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/entity-attributes.html?lang=en){target=_blank}
+
++++
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.15: Configure remote data mapping (remote)
+
+This step ensures that all the data that needs to be send to [!DNL Target] is set.
+
++++See details
+
+![Remote data mapping diagram](/help/dev/patterns/assets/remote-data-mapping.png){width="100" zoomable="yes"}
+
+**Prerequisites**
+
+* Data layer should be ready with all the data that needs to be send to [!DNL Target].
+
+**Readings**
+
+[targetPageParams function](/help/dev/implement/client-side/atjs/atjs-functions/targetpageparams.md)
+
+**Actions**
+
+Use `targetPageParams()` function to set all the required data that needs to be sent to [!DNL Target].
+
++++
+
+[Return to the diagram at the top of this page.](#diagram)
+
+## 1.16: Load the Target Web SDK {#web}
+
+This step ensures that the Web SDK library is loaded and initialized.
+
++++See details
+
+![Load Adobe Target Web SDK diagram](/help/dev/patterns/assets/load-web-sdk.png){width="100" zoomable="yes"}
+
+**Prerequisites**
+
+* Download or ask your digital marketing team for the Web SDK library file called at.js 2.*x*
+
+*Readings*
+
+* [How Target works](https://experienceleague.adobe.com/docs/target/using/introduction/how-target-works.html){target=_blank}
+* [How at.js works](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
+* [Implement Target without a tag manager](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager.md)
+
+**Actions**
+
+Embed the at.js file on all your webpages where experimentation, optimization, personalization, and data collection must happen.
+
++++
+
+[Return to the diagram at the top of this page.](#diagram)
+
+
+
+
+
+
+
+
 
 
 
