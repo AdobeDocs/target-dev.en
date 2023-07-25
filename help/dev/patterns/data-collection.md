@@ -1,5 +1,5 @@
 ---
-title: Data collection
+title: Configure data collection
 description: Ensure that all necessary tasks for data collection are executed in the correct sequence.
 feature: APIs/SDKs
 level: Experienced
@@ -7,7 +7,7 @@ role: Developer
 hide: yes
 hidefromtoc: yes
 ---
-# Data collection
+# Configure data collection
 
 Follow the steps in the *Data Collection* diagram to ensure that all necessary tasks needed for data collection are executed in the correct sequence.
 
