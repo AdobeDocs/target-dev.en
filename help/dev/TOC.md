@@ -208,6 +208,6 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 + Implementation patterns {#implementation-patterns} {#hidden}
   + [Implementation patterns overview](/help/dev/patterns/pattern-overview.md)
   + Target implementation pattern {#target}
-    + [Initialize SDKs](/help/dev/patterns/Initialize-sdks.md)
+    + [Initialize SDKs](/help/dev/patterns/initialize-sdks-new.md)
 
 
