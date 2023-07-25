@@ -9,7 +9,7 @@ hidefromtoc: yes
 ---
 # Initialize SDKs
 
-Follow the steps in the *Initialize SDK* diagram to ensure that all necessary steps needed to load the [!DNL Adobe Target] at.js JavaScript library are executed in the correct sequence.
+Follow the steps in the *Initialize SDK* diagram to ensure that all necessary tasks needed to load the [!DNL Adobe Target] at.js JavaScript library are executed in the correct sequence.
 
 >[!TIP]
 >
