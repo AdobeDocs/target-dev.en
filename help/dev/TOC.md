@@ -209,5 +209,6 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + [Implementation patterns overview](/help/dev/patterns/pattern-overview.md)
   + Target implementation pattern {#target}
     + [Initialize SDKs](/help/dev/patterns/initialize-sdk.md)
+    + [Configure data collection](/help/dev/patterns/data-collection.md)
 
 
