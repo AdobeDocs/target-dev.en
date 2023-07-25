@@ -26,7 +26,7 @@ If you have already mapped data during the [initialize SDK phase](/help/dev/patt
 
 The step numbers in the following illustration correspond to the sections below.
 
-![Data Collection diagram](/help/dev/patterns/assets/data-collection-diagram.png)
+![Data Collection diagram](/help/dev/patterns/assets/data-collection-diagram.png){width="600" zoomable="yes"}
 
 Click the following links to navigate to the desired sections:
 
