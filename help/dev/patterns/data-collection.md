@@ -17,7 +17,7 @@ Follow the steps in the *Data Collection* diagram to ensure that all necessary t
 
 The data layer is ready during page load or the data layer change after page load.
 
-If you have already mapped data during the [initialize SDK phase](/help/dev/patterns/initialize-sdk.md), you need to execute the steps in this diagram if:
+If you have already mapped data during the [initialize SDK phase](/help/dev/patterns/initialize-sdk.md), you must execute the steps in this diagram if:
 
 * Your data layer is augmented in any way on the same page and you want to send that additional data to [!DNL Target]
 * You want to send product-catalog data to [!DNL Target Recommendations]
@@ -36,7 +36,7 @@ Click the following links to navigate to the desired sections:
 
 ## 2.1: Configure data mapping {#configure}
 
-This step helps ensure that all the data that needs to be send to [!DNL Adobe Target] is set.
+This step helps ensure that all the data that must be sent to [!DNL Adobe Target] is set.
 
 +++See details
 
@@ -44,7 +44,7 @@ This step helps ensure that all the data that needs to be send to [!DNL Adobe Ta
 
 **Prerequisites**
 
-* Data layer should be ready with all the data that needs to be send to [!DNL Target].
+* Data layer should be ready with all the data that must be sent to [!DNL Target].
 
 **Readings**
 
@@ -52,7 +52,7 @@ This step helps ensure that all the data that needs to be send to [!DNL Adobe Ta
 
 **Actions**
 
-Use the `targetPageParams()` function to set all the required data that needs to be send to [!DNL Target].
+Use the `targetPageParams()` function to set all the required data that must be sent to [!DNL Target].
 
 +++
 
@@ -80,7 +80,7 @@ Link to Entity attributes to update the product catalog for [!DNL Target Recomme
 
 ## 2.3 Fire the Adobe Target Track API {#fire-api}
 
-This step helps ensure that all the data that needs to be sent to [!DNL Target] is sent.
+This step helps ensure that all the data that must be sent to [!DNL Target] is sent.
 
 +++See details
 
@@ -96,7 +96,7 @@ This step helps ensure that all the data that needs to be sent to [!DNL Target] 
 
 **Actions**
 
-Use [adobe.target.trackEvent() method](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-trackevent.md) to send all data that needs to be sent to [!DNL Target].
+Use [adobe.target.trackEvent() method](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-trackevent.md) to send all data that must be sent to [!DNL Target].
 
 +++
 
