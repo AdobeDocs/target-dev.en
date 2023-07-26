@@ -17,6 +17,8 @@ Follow the steps in the *Initialize SDK* diagram to ensure that all necessary ta
 
 ## Initialize SDKs diagram {#diagram}
 
+For a multi-page application, this flow happens every time the page reloads, or the visitor navigates to a new page on the website.
+
 The step numbers in the following illustration correspond to the sections below. 
 
 ![Initialize SDKs diagram](/help/dev/patterns/assets/initialize-sdk.png){width="600" zoomable="yes"}
