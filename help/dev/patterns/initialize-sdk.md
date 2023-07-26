@@ -46,7 +46,7 @@ Click the following links to navigate to the desired sections:
 
 ## 1.1: Load visitor API SDK {#load}
 
-This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly.
+This step helps ensure that the `VisitorAPI.js` library is loaded, configured, and initialized correctly. 
 
 +++See details
 
