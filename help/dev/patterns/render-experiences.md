@@ -52,7 +52,7 @@ Add promoted items and control their placement in your Target Recommendations [d
 
 **Entity parameters required**
 
-* Item attribute in promotion must be passed when using the "promote by attribute" option.
+* Item attribute in promotions must be passed when using the "promote by attribute" option.
 
 +++
 

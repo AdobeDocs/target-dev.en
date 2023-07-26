@@ -210,5 +210,6 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + Target implementation pattern {#target}
     + [Initialize SDKs](/help/dev/patterns/initialize-sdk.md)
     + [Configure data collection](/help/dev/patterns/data-collection.md)
+    + [Render experiences](/help/dev/patterns/render-experiences.md)
 
 
