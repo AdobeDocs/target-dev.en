@@ -17,7 +17,7 @@ Follow the steps in the *Initialize SDK* diagram to ensure that all necessary ta
 
 ## Initialize SDKs diagram {#diagram}
 
-For a multi-page application, this flow happens every time the page reloads, or the visitor navigates to a new page on the website.
+For multi-page applications, this flow happens every time the page reloads, or the visitor navigates to a new page on the website.
 
 The step numbers in the following illustration correspond to the sections below. 
 
@@ -52,8 +52,8 @@ This step helps ensure that the `VisitorAPI.js` library is loaded, configured, a
 
 **Prerequisites**
 
-* To use the Visitor ID/API service, your company must be enabled for the Adobe Experience Cloud and have an Organization ID. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
-* You need the VisitorAPI.js file. Reach out to your digital marketing team to get this file.
+* To use the Visitor ID/API Service, your company must be enabled for the [!DNL Adobe Experience Cloud] and have an [!UICONTROL Organization ID]. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
+* You need the `VisitorAPI.js` file. Reach out to your digital marketing team to get this file.
 
 **Configure and refer VisitorAPI.js**
 
@@ -70,9 +70,9 @@ For more information, see [Implement the Experience Cloud Service for Target](ht
 **Actions**
 
 * Embed the `VisitorAPI.js` file on your webpages.
-* Read about the [available configurations for the Visitor ID/API service](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html){target=_blank}.
+* Read about the [available configurations for the Visitor ID/API Service](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html){target=_blank}.
 * After the `VisitorAPI.js` file is loaded, use the `Visitor.getInstance` method to initialize using the necessary configurations you need.
-* Familiarize yourself with all the [available methods](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/get-set.html){target=_blank}.
+* Familiarize yourself with the [available methods](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/get-set.html){target=_blank}.
 
 +++
 
@@ -80,7 +80,7 @@ For more information, see [Implement the Experience Cloud Service for Target](ht
 
 ## 1.2: Set Customer ID {#set}
 
-This step helps ensure that your end users' known IDs (CRM ID, User ID, and so forth) are tied to the anonymous ID of Adobe for cross-device personalization.
+This step helps ensure that your visitors' known IDs (CRM ID, User ID, and so forth) are tied to the anonymous ID of [!DNL Adobe] for cross-device personalization.
 
 +++See details
 
@@ -88,7 +88,7 @@ This step helps ensure that your end users' known IDs (CRM ID, User ID, and so f
 
 **Prerequisites**
 
-* The end user's known ID should be available in the Data Layer.
+* The visitors' known ID should be available in the data layer.
 
 **Set Customer ID**
 For more information, see [setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html){target=_blank}.
@@ -99,13 +99,13 @@ For more information, see [setCustomerIDs](https://experienceleague.adobe.com/do
 
 **Actions**
 
-* Use `visitor.setCustomerIDs` to set the end-user known ID.
+* Use `visitor.setCustomerIDs` to set the visitor known ID.
 
 +++
 
 [Return to the diagram at the top of this page.](#diagram)
 
-## 1.3: Configure automatic page load request {#automatic}
+## 1.3: Configure automatic page-load request {#automatic}
 
 This step enables at.js to fetch all the experiences that must be rendered on the page while loading the at.js JavaScript library file.
 
@@ -115,7 +115,7 @@ This step enables at.js to fetch all the experiences that must be rendered on th
 
 **Prerequisites**
 
-* Not all data in the data layer must be sent to [!DNL Target]. You should have a discussion with the business team (digital marketing team) to determine what data is valuable for experimentation, optimization, and personalization. Only this data should be sent to [!DNL Target].
+* Not all data in the data layer must be sent to [!DNL Target]. Consult with your business team (digital marketing team) to determine which data is valuable for experimentation, optimization, and personalization. Only this data should be sent to [!DNL Target].
 * Ensure that you do not send any Personally Identifiable Information (PII) data to [!DNL Target].
 
 **Configure automatic page load request**
@@ -128,7 +128,7 @@ Learn about the `pageLoadEnabled` setting in [targetGlobalSettings()](/help/dev/
 
 **Actions**
 
-* Modify the `window.targetGlobalSettings` object to enable automatic page load requests.
+* Modify the `window.targetGlobalSettings` object to enable automatic page-load requests.
 
 +++
 
@@ -150,7 +150,7 @@ This step helps ensure that there is no page flicker when delivering experiences
 
 For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
-Setting `bodyHidingEnabled` to `true` hides the entire page body while the page load request in progress. If you have not enabled the automatic page load request for any reason (data later not ready, for example), it is best to set this setting to `false`.
+Setting `bodyHidingEnabled` to `true` hides the entire page body while the page-load request is in progress. If you have not enabled the automatic page-load request for any reason (data later not ready, for example), it is best to set this setting to `false`.
 
 If you have disabled `bodyHidingEnabled` because you do not want to fire APLR and want to fire the page request later, or you do not need flicker handling, you must implement your own flicker handling. You can handle flicker two ways: hiding the sections under test or by showing a throbber on the sections under test.
 
@@ -161,7 +161,7 @@ If you have disabled `bodyHidingEnabled` because you do not want to fire APLR an
 
 **Actions**
 
-* Modify `window.targetGlobalSettings` object to set `bodyHiddenStyle` and `bodyHidingEnabled`.
+* Modify the `window.targetGlobalSettings` object to set `bodyHiddenStyle` and `bodyHidingEnabled`.
 
 +++
 
@@ -179,12 +179,12 @@ This step helps ensure that all the data that must be sent to [!DNL Target] is s
 
 * The data layer should be ready with all the data that must be sent to [!DNL Target].
 * Recommendations: enrich profile.
-  * Pass entity.id to capture data for recently viewed criteria and items based on criteria based on last viewed product.
-  * Pass entity.id to capture data for popularity criteria based on favorite category.
-  * Profile attribute if custom criteria is based on it or used in inclusion rule filtering in any criteria.
+  * Pass `entity.id` to capture data for recently viewed criteria and items based on criteria based on last viewed product.
+  * Pass `entity.id` to capture data for popularity criteria based on favorite category.
+  * Pass the profile attribute if custom criteria is based on it or used in inclusion rule filtering in any criteria.
 * Recommendations: ingest product data.
-  * Other entity parameters (reserved and custom) can be passed to ingest or update the product catalog in Recommendations.
-  * The product catalog can also be updated by seeing entity feeds using the Target UI or API.
+  * Other entity parameters (reserved and custom) can be passed to ingest or update the product catalog in [!DNL Recommendations].
+  * The product catalog can also be updated by using entity feeds using the [!DNL Target] UI or API.
 
 **Map data to [!DNL Target]**
 
@@ -206,7 +206,7 @@ For more information, see [targetPageParams()](/help/dev/implement/client-side/a
 
 ## 1.6: Promotion {#promotion}
 
-Add promoted items and control their placement in your Target Recommendations [designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html){target=_blank}.
+Add promoted items and control their placement in your [!DNL Target Recommendations] [designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html){target=_blank}.
 
 +++See details
 
@@ -266,7 +266,7 @@ Make recommendations based on the overall popularity of an item across your site
 
 **Entity parameters required**
 
-* `entity.categoryId` or the item attribute for popularity based if the criteria is based on the current or the item attribute. 
+* `entity.categoryId` or the item attribute for popularity based if the criteria is based on the current item or the item attribute. 
 * Nothing must be passed for Most Viewed/Top sold across the site.
 
 **Readings**
@@ -292,8 +292,7 @@ Make recommendations based on finding similar items to an item that the user is 
 
 **Entity parameters required**
 
-* `entity.id`
-* If any profile attribute is used as a key
+* `entity.id` or any profile attribute used as a key
 
 **Readings**
 
@@ -328,7 +327,7 @@ Make recommendations based on the user's behavior.
 
 ## 1.11: Custom criteria {#custom}
 
-Make recommendations based on a custom file that you upload
+Make recommendations based on a custom file that you upload.
 
 +++See details
 
@@ -410,7 +409,7 @@ For more information, see [Data providers](/help/dev/implement/client-side/atjs/
 
 **Actions**
 
-Use `targetPageParams()` function to set all the required data that must be sent to [!DNL Target].
+Use the `targetPageParams()` function to set all the required data that must be sent to [!DNL Target].
 
 +++
 
@@ -418,7 +417,7 @@ Use `targetPageParams()` function to set all the required data that must be sent
 
 ## 1.16: Load at.js {#web}
 
-This step ensures that the at.js SDK library is loaded and initialized.
+This step ensures that the at.js JavaScript library is loaded and initialized.
 
 +++See details
 
@@ -426,7 +425,7 @@ This step ensures that the at.js SDK library is loaded and initialized.
 
 **Prerequisites**
 
-* Download or ask your digital marketing team for the Web SDK library file called at.js 2.*x*
+* Download or ask your digital marketing team for the Web SDK library file: `at.js 2.*x*`
 
 *Readings*
 
