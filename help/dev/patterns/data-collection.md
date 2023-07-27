@@ -40,7 +40,7 @@ This step helps ensure that all the data that must be sent to [!DNL Adobe Target
 
 +++See details
 
-![Configure data mapping diagram](/help/dev/patterns/data-collection.md){width="100" zoomable="yes"}
+![Configure data mapping diagram](/help/dev/patterns/assets/cofigure-data-mapping.png){width="100" zoomable="yes"}
 
 **Prerequisites**
 
@@ -58,9 +58,9 @@ Use the `targetPageParams()` function to set all the required data that must be 
 
 [Return to the diagram at the top of this page.](#diagram)
 
-## 2.2: Link to Entity attributes {#entity-attributes}
+## 2.2: Link to entity attributes {#entity-attributes}
 
-Link to Entity attributes to update the product catalog for [!DNL Target Recommendations].
+Link to entity attributes to update the product catalog for [!DNL Target Recommendations].
 
 +++See details
 
@@ -70,7 +70,7 @@ Link to Entity attributes to update the product catalog for [!DNL Target Recomme
 
 **Considerations**
 
-* An alternate way to pass entity attributes is to update the product catalog to use [Recommendations product feeds](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/feeds.html){target=_blank} in the Target UI.
+* An alternate way to pass entity attributes is to update the product catalog in the [!DNL Target] UI to use [Recommendations product feeds](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/feeds.html){target=_blank}.
 * Passing entity attributes is applicable only on pages where product-catalog data is available in the data layer.
 * Passing the `entity.event.detailsOnly=true` parameter in any call takes priority.
 
