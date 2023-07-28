@@ -21,7 +21,7 @@ Automatic out-of-the-box flicker handling available with at.js makes sense only 
 
 The step numbers in the following illustration correspond to the sections below. 
 
-![Render experiences diagram](/help/dev/patterns/assets/diagram-render-experiences.png){width="600" zoomable="yes"}
+![Render experiences diagram](/help/dev/patterns/assets/diagram-render-experiences-new.png){width="600" zoomable="yes"}
 
 Click the following links to navigate to the desired sections:
 
