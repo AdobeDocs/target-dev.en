@@ -11,6 +11,10 @@ hidefromtoc: yes
 
 Follow the steps in the *Render Experiences* diagram to ensure that all necessary tasks needed to render experiences are executed in the correct sequence.
 
+>[!NOTE]
+>
+>If you have enabled Automatic Page Load Request during the [Configure Automatic Page Load Request step](/help/dev/patterns/initialize-sdk.md#automatic) in *Initialize SDKS* , you can skip this activity unless you want to call the Adobe Target SDK to render additional experiences using a regional-location request.
+
 >[!TIP]
 >
 >Click the images in this topic to expand to full screen.
@@ -52,7 +56,7 @@ Add promoted items and control their placement in your Target Recommendations [d
 
 **Entity parameters required**
 
-* Item attribute in promotions must be passed when using the "promote by attribute" option.
+* Item attributes in promotions must be passed when using the "promote by attribute" option.
 
 +++
 
@@ -84,7 +88,7 @@ Make recommendations based on the user's cart contents.
 
 ## 3.3: Popularity-based criteria {#popularity}
 
-Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a user's favorite or most-viewed category, brand, genre, and so forth.
+Make recommendations based on the overall popularity of an item across your site or based on the popularity of items within a visitor's favorite or most-viewed category, brand, genre, and so forth.
 
 +++See details
 
@@ -101,7 +105,7 @@ Make recommendations based on the overall popularity of an item across your site
 **Entity parameters required**
 
 * `entity.categoryId` or the item attribute for popularity based if the criteria is based on the current or the item attribute. 
-* Nothing must be passed for Most Viewed/Top sold across the site.
+* Nothing must be passed for Most Viewed/Top Sold across the site.
 
 **Readings**
 
@@ -162,7 +166,7 @@ Make recommendations based on the user's behavior.
 
 ## 3.6: Custom criteria {#custom}
 
-Make recommendations based on a custom file that you upload
+Make recommendations based on a custom file that you upload.
 
 +++See details
 
@@ -216,7 +220,7 @@ Pass entity IDs for entities that you want to exclude from your recommendations.
 
 * [Entity attributes](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/entity-attributes.html){target=_blank}
 
-You can also accomplish this step by creating product feeds using the [!DNL Target] UI to update the product catalog for [!DNL Recommendations].
+You can also accomplish this step by creating [product feeds](https://experienceleague.adobe.com/docs/target/using/recommendations/entities/feeds.html){target=_blank} using the [!DNL Target] UI to update the product catalog for [!DNL Recommendations].
 
 +++
 
@@ -238,7 +242,7 @@ Provide the profile attributes that are used as keys for inclusion rules in any 
 
 ## 3.11: Fire page-load request {#fire}
 
-This step triggers a [!DNL Delivery API] call with `execute` > `pageLoad` payload in the request. The `getOffers()` method fetches the experience and `applyOffers()` renders the experience on the page. The pageLoad request is needed for rendering experiences authored in the [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/vec/visual-experience-composer.html){target=_blank} (VEC).
+This step triggers a [!DNL Delivery API] call with `execute` > `pageLoad` payload in the request. The `getOffers()` method fetches the experience and `applyOffers()` renders the experience on the page. The `pageLoad` request is needed for rendering experiences authored in the [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/vec/visual-experience-composer.html){target=_blank} (VEC).
 
 +++See details
 
