@@ -21,11 +21,7 @@ You can allowlist [!DNL Target] edge nodes, if desired.
 >
 >[!DNL Adobe Target] infrastructure is being updated and customers who want to allowlist addresses must use both sets of IPs. Failing to do so will impact customers using server-side or hybrid implementations where Target API calls for fetching experiences are originated from within a network behind a firewall that is configured to use an allowlist.
 >
->This update is being made according to the following schedule:
->
->* May 22-26: Europe, Middle East, and Africa (EMEA) region
->* May 22-26: Asia-Pacific (APAC) region
->* June 6-10: Americas region
+>All Edge4*x* addresses listed in both tables below are scheduled to be updated on August 9, 2023.
 
 ## Network Address Translation (NAT) IP addresses of [!DNL Target] edges
 
