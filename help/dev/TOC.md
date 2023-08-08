@@ -162,12 +162,6 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Target mobile preview](implement/mobile/target-mobile-preview.md)
     + [Use Location Service](implement/mobile/use-location-service.md)
     + [Target for mobile apps FAQ](implement/mobile/mobile-faq.md)
-  + Adobe Mobile SDK version 4.x {#version-4}
-    + [How Target works in mobile apps](implement/mobile/how-target-works-mobile-apps.md)
-    + [Enable Target in the SDK](implement/mobile/enable-target-in-sdk.md)
-    + [iOS - create a Target location and success metric](implement/mobile/mobile-create-location-and-metric.md)
-    + [iOS - send custom user data](implement/mobile/mobile-custom-user-data.md)
-    + [Prefetch offer content](implement/mobile/prefetch-offer-content.md)
 + Email implementation {#implement-email}
     + [Email: implement Target overview](implement/email/overview.md)
     + [Create an Adbox for an image](implement/email/testing-content-with-the-adbox.md)
