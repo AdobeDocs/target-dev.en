@@ -28,7 +28,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
    * **iOs**: For more information about setting URL schemes for iOS, see [Defining a custom URL scheme for your app](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app){target=_blank} on the Apple Developer website.
    * **Android**: For more information about setting URL schemes for Android, see [Create Deep Links to App Content](https://developer.android.com/training/app-links/deep-linking){target=_blank} on the Android Developers website.
 
-1. **Set up `collectLaunchInfo` API**
+1. **Set up `collectLaunchInfo` API (i0S only)**
 
     For more information, see [Visual preview](https://developer.adobe.com/client-sdks/documentation/adobe-target/#visual-preview){target=_blank} in *Adobe Target* in the *[!DNL Adobe Experience Platform Mobile SDK]* documentation.
 
