@@ -15,7 +15,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
 ## Prerequisites
 
-1. **Use a supported version of the SDK:** The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of Adobe Mobile SDK in your corresponding apps.
+1. **Use a supported version of the SDK:** The mobile preview feature requires that you download and install the appropriate version of Adobe Mobile SDK in your corresponding apps.
 
    For instructions to download the appropriate SDK, see [Current SDK versions](https://developer.adobe.com/client-sdks/documentation/current-sdk-versions/){target=_blank} in the *[!DNL Adobe Experience Platform Mobile SDK]* documentation.
 
