@@ -2,7 +2,6 @@
 title: Send display or click notifications to [!DNL Adobe Target] using the Node.js SDK
 description: Learn how to use sendNotifications() to send display or click notifications to [!DNL Adobe Target] for measurement and reporting.
 feature: APIs/SDKs
-role: Developer
 exl-id: 84bb6a28-423c-457f-8772-8e3f70e06a6c
 ---
 # Send Notifications (Node.js)

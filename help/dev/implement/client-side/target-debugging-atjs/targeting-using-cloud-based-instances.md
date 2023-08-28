@@ -3,7 +3,6 @@ keywords: cloud instances, public suffix list, public suffix, cookie, first-part
 description: Explore issues (with solutions) customers face when using cloud-based instances to test [!DNL Adobe Target] or for proof-of-concept purposes.
 title: Can I Use [!DNL Target] with Cloud-based Instances?
 feature: at.js
-role: Developer
 exl-id: 4b24fdc0-6c74-4b29-bbf9-7a761d4564a2
 ---
 # Use cloud-based instances with [!DNL Target]

@@ -2,7 +2,6 @@
 title: Install the Node.js SDK
 description: Learn how to install the [!DNL Adobe Target] Node.js SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 29d4da84-25a0-4f7a-a6d9-ddd1db51c093
 ---
 # Install the Node js. SDK

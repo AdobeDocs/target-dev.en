@@ -2,7 +2,6 @@
 title: Subscribe to events in the [!DNL Adobe Target] Java SDK
 description: Learn how to subscribe to various events that occur within the Java SDK using the [!UICONTROL OnDeviceDecisioningHandler] object.
 feature: APIs/SDKs
-role: Developer
 exl-id: f2d56762-6bf7-4c6b-9c14-fb20e5cfd60d
 ---
 # SDK Events (Java)

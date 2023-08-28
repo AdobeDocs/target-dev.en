@@ -3,7 +3,6 @@ keywords: flicker, at.js, implementation, asynchronously, asynchronous, synchron
 description: Learn how at.js and [!DNL Target] prevent flicker (default content momentarily displays before being replaced by activity content) during page or app load.
 title: How does at.js Manage Flicker?
 feature: at.js
-role: Developer
 exl-id: 8aacf254-ec3d-4831-89bb-db7f163b3869
 ---
 # How at.js manages flicker

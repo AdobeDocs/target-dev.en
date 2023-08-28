@@ -2,7 +2,6 @@
 title: Deliver personalization using Adobe Target SDKs
 description: Learn how to deliver personalization using [!UICONTROL on-device decisioning].
 feature: APIs/SDKs
-role: Developer
 exl-id: bac64c78-0d3a-40d7-ae2b-afa0f1b8dc4f
 ---
 # Deliver personalization

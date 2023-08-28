@@ -1,9 +1,6 @@
 ---
 title: How to Fetch Recommendations with the Delivery API
 description: This article guides developers through the steps required to fetch recommendations content using the Adobe Target Delivery API.
-role: Developer
-level: Intermediate
-topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 kt: 3815
 thumbnail: null
@@ -83,11 +80,9 @@ The following resources provide examples of various non-HTML focused implementat
 
 |Resource|Details|
 | --- | --- |
-|[Consuming RESTful APIs in AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html)|How to create and deploy an Adobe Experience Manager OSGi bundle that consumes data from a third-party RESTful web service.|
 |[Adobe Target Everywhere - Implement Server Side or in the IoT](https://expleague.azureedge.net/labs/L733/index.html)|Adobe Summit 2019 Lab that provides hands-on experience for a React application that leverages Adobe Target server-side APIs.|
 |[Adobe Target in a Mobile App Without the Adobe SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753)|This guide shows you how to set up Adobe Target in your mobile app without installing the Adobe SDK. This solution uses the Tealium SDK webview and the Remote Commands module to send and receive requests to the Adobe Visitor API (Experience Cloud) and the Adobe Target API.|
-|[How Adobe Target Works in Mobile Apps](../../implement/mobile/how-target-works-mobile-apps.md)|How Target works with the Mobile SDK|
-|[Configuring the Target extension in Experience Platform Launch and Implementing Target APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target)|Steps for configuring the Target extension in Experience Platform Launch, adding the Target Extension to your app, and implementing Target APIs to request activities, prefetch offers, and Enter visual preview mode.|
+|[Configuring the Target extension in Experience Platform Launch and Implementing Target APIs](https://developer.adobe.com/client-sdks/documentation/adobe-target/)|Steps for configuring the Target extension in Experience Platform Launch, adding the Target Extension to your app, and implementing Target APIs to request activities, prefetch offers, and Enter visual preview mode.|
 |[Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk)|Open-sourced Target Node.js SDK v1.0|
 |[Server Side overview](../../implement/server-side/server-side-overview.md)|Information about Adobe Target Server Side Delivery APIs, Server Side Batch Delivery APIs, Node.js SDK, and Adobe Target Recommendations APIs.|
 |[Adobe Campaign Content Recommendations in Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f )|Blog that describes how to leverage content recommendations in email via Adobe Target and Adobe I/O Runtime in Adobe Campaign.|

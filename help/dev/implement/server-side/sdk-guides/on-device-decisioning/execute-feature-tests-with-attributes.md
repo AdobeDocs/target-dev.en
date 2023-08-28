@@ -2,7 +2,6 @@
 title: Execute feature tests with attributes
 description: Execute feature tests with attributes
 feature: APIs/SDKs
-role: Developer
 exl-id: c89d337c-20a9-454c-930c-79d9217e23b6
 ---
 # Execute feature tests with attributes

@@ -2,7 +2,6 @@
 title: Getting Started with Target SDKs
 description: How do I use the Adobe Target SDKs?
 feature: APIs/SDKs
-role: Developer
 exl-id: a5ae9826-7bb5-41de-8796-76edc4f5b281
 ---
 # Getting Started with [!DNL Target] SDKs

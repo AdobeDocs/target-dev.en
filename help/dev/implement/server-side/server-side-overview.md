@@ -3,7 +3,6 @@ keywords: server side, server-side, api, sdk, node.js, nodejs, node js, recommen
 description: Learn about the [!DNL Adobe Target] server-side Delivery APIs, SDKs, and [!DNL Target Recommendations] APIs.
 title: Where Can I Learn About [!DNL Target] Server-Side Delivery APIs and SDKs?
 feature: Implement Server-side
-role: Developer
 exl-id: 3eb0a789-cf1a-4d02-acf7-3c895bcb662f
 ---
 # Server Side: implement [!DNL Target]

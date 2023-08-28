@@ -3,16 +3,11 @@ keywords: qa, preview, preview link, mobile, mobile preview
 description: Use mobile preview links to perform end-to-end QA for mobile app activities. You can enroll yourself into different experiences without special test devices.
 title: How Do I Use the Mobile Preview Link in [!DNL Target] Mobile?
 feature: Implement Mobile
-role: Developer
 exl-id: c0c4237a-de1f-4231-b085-f8f1e96afc13
 ---
 # [!DNL Target] mobile preview
 
 Use the mobile preview link to perform easy end-to-end QA for mobile app activities and enroll yourself into different experiences right on your device without any special test devices.
-
->[!NOTE]
->
->The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of the Adobe Mobile SDK.
 
 ## Overview
 
@@ -20,72 +15,26 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
 ## Prerequisites
 
-1. **Use a supported version of the SDK:** The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of Adobe Mobile SDK in your corresponding apps.
+1. **Use a supported version of the SDK:** The mobile preview feature requires that you download and install the appropriate version of Adobe Mobile SDK in your corresponding apps.
 
-   For instructions to download the appropriate SDK, see:
-
-    * **iOS:** [Before You start](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) in the *Mobile Services iOS Help*. 
-    * **Android:** [Before You start](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) in the *Mobile Services Android Help*.
+   For instructions to download the appropriate SDK, see [Current SDK versions](https://developer.adobe.com/client-sdks/documentation/current-sdk-versions/){target=_blank} in the *[!DNL Adobe Experience Platform Mobile SDK]* documentation.
 
 1. **Set up a URL scheme:** The preview link uses a URL scheme to open your app. You must specify a unique URL scheme for the preview.
 
-   The following illustration is an example on iOS:
+   For more information, see [Visual preview](https://developer.adobe.com/client-sdks/documentation/adobe-target/#visual-preview){target=_blank} in *Adobe Target* in the *[!DNL Adobe Experience Platform Mobile SDK]* documentation.
 
-   ![alt image](assets/mobile-preview-url-scheme-ios.png)
+   The following links contain more information:
 
-   The following illustration is an example on Android:
+   * **iOs**: For more information about setting URL schemes for iOS, see [Defining a custom URL scheme for your app](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app){target=_blank} on the Apple Developer website.
+   * **Android**: For more information about setting URL schemes for Android, see [Create Deep Links to App Content](https://developer.android.com/training/app-links/deep-linking){target=_blank} on the Android Developers website.
 
-   ![alt image](assets/Android_Deeplink.png)
+1. **Set up `collectLaunchInfo` API (i0S only)**
 
-1. **Track Adobe DeepLink**
-
-   **iOS:** In the app delegate, call `[ADBMobile trackAdobeDeepLink:url` when the delegate is asked to open the resource with the URL scheme that was specified in the previous step.
-
-   The following code snippet is an example:
-
-   ```javascript {line-numbers="true"}
-   - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
-                options:(NSDictionary<NSString *,id> *)options { 
-    
-       if ([[url scheme] isEqualToString:@"com.adobe.targetmobile"]) { 
-           [ADBMobile trackAdobeDeepLink:url]; 
-           return YES; 
-       } 
-       return NO; 
-   } 
-   
-   ```
-
-   **Android:** In the app , call `Config.trackAdobeDeepLink(URL);` when the caller is asked to open the resource with the URL scheme that was specified in the previous step.
-
-   ```javascript {line-numbers="true"}
-    private Boolean shouldOpenDeeplinkUrl() { 
-        Intent appLinkIntent = getIntent(); 
-        String appLinkAction = appLinkIntent.getAction(); 
-        Uri appLinkData = appLinkIntent.getData; 
-        if (appLinkData.toString().startsWith("com.adobe.targetmobile")) { 
-            Config.trackAdobeDeepLink(appLinkData); 
-            return true; 
-        } 
-        return false; 
-     }
-   ```
-
-   To make Mobile Preview work for Android, you must also add the following code snippet in AndroidManifest.xml if using version 5 of the Adobe Mobile SDK:
-
-   ```javascript {line-numbers="true"}
-   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
-   ```
-
-   If you are using version 4 of the Adobe Mobile SDK, use the following code snippet:
-
-   ```javascript {line-numbers="true"}
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
-   ```
+    For more information, see [Visual preview](https://developer.adobe.com/client-sdks/documentation/adobe-target/#visual-preview){target=_blank} in *Adobe Target* in the *[!DNL Adobe Experience Platform Mobile SDK]* documentation.
 
 ## Generating a Preview Link
 
-1. In the [!DNL Target] UI, click the **[!UICONTROL More Options]** icon (three vertical ellipses), then select **[!UICONTROL Create Mobile Preview]**.
+1. In the [!DNL Target] UI, click the **[!UICONTROL More Options]** icon (the vertical ellipsis), then select **[!UICONTROL Create Mobile Preview]**.
 
    ![alt image](assets/mobile-preview-create.png)
 

@@ -3,7 +3,6 @@ keywords: implement, implementing, rfi, request for information
 description: Know the considerations you should address before implementing Adobe Target. Complete necessary tasks and gather information when preparing to implement Target.
 title: How Should I Prepare to Implement Target?
 feature: Implementation
-role: Developer
 exl-id: cd2a1016-e085-4b61-8680-c0cc176c8277
 ---
 # Prepare to implement [!DNL Target]

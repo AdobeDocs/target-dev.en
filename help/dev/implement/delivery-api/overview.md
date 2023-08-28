@@ -1,10 +1,13 @@
 ---
 title: Adobe Target Delivery API Overview
-description: Adobe Target Delivery API] Introduction
+description: Adobe Target Delivery API Overview
 keywords: delivery api
 exl-id: e760bddc-b1ae-4b7b-bff2-aba81c6b6d34
+feature: APIs/SDKs
 ---
 # Delivery API overview
+
+The [!DNL Adobe Target Delivery API] is based on REST. This documentation describes the resources that make up the [!DNL Adobe Target] [!DNL Delivery API]. HTTP methods are utilized to execute operations on those resources.
 
 Using [!UICONTROL Adobe Target's Delivery API], you can:
 
@@ -19,29 +22,3 @@ For more information, see the [[!UICONTROL Adobe Target Delivery API]](https://d
 >[!NOTE]
 >
 >You can still access the [legacy /v1/mbox and /v2/batchmbox API documentation](https://developers.adobetarget.com/api/legacy-api/index.html). However, features will be developed in the Delivery API (as documented here) that will not be backported to the legacy APIs.
-
-<!--
-
----
-title: Adobe Target Delivery API and SDKs
-description: Adobe Target Delivery API and SDKs
-keywords: delivery api
----
-
-# SDKs
-
-Adobe Target offers SDKs to interact with the Target Delivery API and help ease the Adobe Target integration with other Experience Cloud solutions such as Adobe Analytics and Adobe Audience Manager by helping you follow best practices in managing sessions and cookies. Therefore, it is highly recommended to leverage a SDK to mask away these complexities and prevent incorrect utilization of the API.
-
-## Node.js SDK
-
-The [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) is open sourced and maintained within Github, where you can find the documentation and usage instructions.
-
-Read the [changelog](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) for the Node.js SDK.
-
-## Java SDK
-
-The [Java SDK](https://github.com/adobe/target-java-sdk) is open sourced and maintained within Github, where you can find the documentation and usage instructions.
-
-Read the [changelog](https://github.com/adobe/target-java-sdk/blob/main/CHANGELOG.md) for the Java SDK.
-
--->

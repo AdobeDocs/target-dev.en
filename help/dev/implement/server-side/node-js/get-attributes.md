@@ -2,7 +2,6 @@
 title: How to use asynchronous requests in the [!DNL Adobe Target] Node.js SDK
 description: Learn how [!DNL Target] Node.js SDK supports asynchronous requests, which can reduce the effective target time to zero.
 feature: APIs/SDKs
-role: Developer
 exl-id: aa06f3ca-7d2a-4334-8092-730a8705dfb0
 ---
 # Get Attributes (Node.js)

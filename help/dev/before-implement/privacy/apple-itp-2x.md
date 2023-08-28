@@ -3,7 +3,6 @@ keywords: apple, ITP, intelligent tracking prevention, experience cloud id, ecid
 description: Learn about [!DNL Adobe Target] and the impact of the Apple Intelligent Tracking Prevention (ITP) initiative that seeks to protect Safari users' privacy.
 title: How Does [!DNL Target] Handle Apple ITP Support?
 feature: Privacy & Security
-role: Developer
 exl-id: 6deee03b-df86-4d0d-999c-b11855ddfda5
 ---
 # Apple Intelligent Tracking Prevention (ITP) 2.x

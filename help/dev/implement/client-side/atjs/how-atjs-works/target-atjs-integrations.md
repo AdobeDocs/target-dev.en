@@ -3,7 +3,6 @@ keywords: at.js integration, supported integrations, unsupported integrations, t
 description: See the integrations supported (and not supported) by [!DNL Adobe Target] at.js, including [!UICONTROL Analytics for Target] (A4T), the [!UICONTROL Experience Cloud ID Service], and more.
 title: What Integrations Does at.js Support?
 feature: at.js
-role: Developer
 exl-id: d2c61e77-5fc7-4c35-905b-76b8c4f9df4b
 ---
 # at.js integrations

@@ -3,7 +3,6 @@ keywords: custom events, at.js, request failed, request succeeded, content rende
 description: Use custom events for the [!DNL Adobe Target] at.js JavaScript library to be notified when an mbox request or offer fails or succeeds.
 title: How Do I Use at.js Custom Events?
 feature: at.js
-role: Developer
 exl-id: a4baed9a-9eb8-4343-9834-709b03e44ca2
 ---
 # at.js custom events

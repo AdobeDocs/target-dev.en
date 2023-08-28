@@ -2,7 +2,6 @@
 title: Install the .NET SDK
 description: Learn how t install the [!DNL Adobe Target] .NET SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 3cc84775-4692-4d14-9e82-db2873140835
 ---
 # Install the .NET SDK

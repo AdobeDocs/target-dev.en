@@ -3,7 +3,6 @@ keywords: api, adobe i/o, classic, adobe developer console
 description: Learn how to transition from the [!DNL Adobe Target Classic] APIs to the [!DNL Target] APIs on the [!DNL Adobe Developer Console].
 title: How Do I Transition From [!DNL Target Classic] APIs to [!DNL Target] APIs on the [!DNL Adobe Developer Console]?
 feature: APIs/SDKs
-role: Developer
 exl-id: b84e3767-89ad-4e2d-9bb4-7e31bffbc285
 ---
 # Transition from [!DNL Target Classic] APIs to [!DNL Target] APIs on the [!DNL Adobe Developer Console]

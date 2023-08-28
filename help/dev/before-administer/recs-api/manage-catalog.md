@@ -1,9 +1,6 @@
 ---
 title: How to Manage your Recommendations catalog using APIs
 description: Steps required to use Adobe Target APIs to create, update, save, get, and delete entities in your Recommendations catalog.
-role: Developer
-level: Intermediate
-topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 kt: 3815
 thumbnail: null

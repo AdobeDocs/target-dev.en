@@ -3,7 +3,6 @@ keywords: global mbox, customize global mbox, edit at.js, at.js, implement at.js
 description: Learn how to customize a global mbox for at.js on the [!UICONTROL Administration]-[!UICONTROL Implementation] page in [!DNL Adobe Target].
 title: How Do I Customize a Global mbox?
 feature: at.js
-role: Developer
 exl-id: f7809c3d-6e77-4bbe-8da3-4ab0a448c801
 ---
 # Customize a global mbox

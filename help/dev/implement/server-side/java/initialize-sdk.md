@@ -2,7 +2,6 @@
 title: Initialize the Java SDK using the create method
 description: Learn how to use the create method to initialize the Java SDK and instantiate the [!UICONTROL TargetClient] to make calls to [!DNL Adobe Target] for experiments and personalized experiences.
 feature: APIs/SDKs
-role: Developer
 exl-id: 0e0ddead-7de8-4549-b81c-e72598558e4b
 ---
 # Initialize the Java SDK

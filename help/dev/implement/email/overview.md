@@ -3,7 +3,6 @@ keywords: Implementation, at.js non javascript, adbox, redirector, mbox
 description: Learn how to implement [!DNL Adobe Target] in non-JavaScript scenarios, such as using an AdBox or Redirector.
 title: How Do I Implement [!DNL Target] for Email?
 feature: Implement Email
-role: Developer
 exl-id: dda00b75-5d58-4405-ae58-75e7883a30ed
 ---
 # Email: implement [!DNL Target]

@@ -3,7 +3,6 @@ keywords: implement, implementing, setting up, setup, page parameter, tomcat, ur
 description: Get data into [!DNL Target] (page parameters, profile attributes, script profile attributes, data providers, single and bulk profile update APIs, Customer Attributes).
 title: How Do I Get Data into Target?
 feature: Implementation
-role: Developer
 exl-id: a54e306a-ea8e-4d3f-bc5d-b5895b6b9a84
 ---
 # Methods overview

@@ -3,6 +3,7 @@ title: Integration with [!DNL Adobe Experience Cloud]
 description: How do I integrate [!DNL Target] with the [!DNL Adobe Experience Cloud]?
 keywords: delivery api, server-side, serverside, integration, a4t
 exl-id: 157b216c-30f6-4199-a0e8-ef5d6478de72
+feature: APIs/SDKs
 ---
 # Integration with [!DNL Adobe Experience Cloud]
 

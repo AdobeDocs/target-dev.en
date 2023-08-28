@@ -2,7 +2,6 @@
 title: Use getAttributes in [!DNL Adobe Target] with the .NET SDK
 description: Learn how to use getAttributes() to fetch experimentation and personalized experiences from [!DNL Target] and extract attribute values.
 feature: APIs/SDKs
-role: Developer
 exl-id: 808da83d-3077-468b-a2ad-e35c25905f7d
 ---
 # Get Attributes (.NET)

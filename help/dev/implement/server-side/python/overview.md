@@ -2,7 +2,6 @@
 title: Get started with the [!DNL Adobe Target] Python SDK
 description: Learn how [!DNL Adobe Target] customers can install, initialize, and use the Python SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 2ccd1b4e-d9af-4547-81fe-c70e6f00df3d
 ---
 # Python SDK overview

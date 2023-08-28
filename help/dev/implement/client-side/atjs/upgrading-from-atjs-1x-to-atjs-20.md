@@ -3,7 +3,6 @@ keywords: at.js releases, at.js versions, single page app, spa, cross domain, cr
 description: Learn how to upgrade from [!DNL Adobe Target] at.js 1.x to at.js 2.x. Examine system flow diagrams, learn about new and deprecated functions, and more.
 title: How Do I Upgrade from at.js Version 1.x to Version 2.x?
 feature: at.js
-role: Developer
 exl-id: fbfa5743-0fa5-44c6-89b3-fdee9b50e126
 ---
 # Upgrading from at.js 1.*x* to at.js 2.*x* 

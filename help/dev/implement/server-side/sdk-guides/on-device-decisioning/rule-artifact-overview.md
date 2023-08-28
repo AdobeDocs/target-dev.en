@@ -2,7 +2,6 @@
 title: Understand the on-device decisioning rule artifact
 description: Learn how to use the rule artifact, which is a JSON representation of your [!DNL Adobe Target] [!UICONTROL on-device decisioning] activities.
 feature: APIs/SDKs
-role: Developer
 exl-id: 3dfb08df-eaa9-43d4-b009-e5f64c3a96d7
 ---
 # Rule artifact overview

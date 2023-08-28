@@ -3,7 +3,6 @@ keywords: implement, implementing, setting up, setup, script profile attributes
 description: Get data into [!DNL Target] using script profile attributes.
 title: How Do I Get Data into [!DNL Target] Using Script Profile Attributes?
 feature: Implementation
-role: Developer
 exl-id: ba11f1de-e68b-4505-8e3e-cd4d46ef59a2
 ---
 # Script profile attributes

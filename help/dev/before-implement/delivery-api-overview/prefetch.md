@@ -3,6 +3,7 @@ title: Adobe Target Delivery API Prefetch
 description: How do I use prefetch in the [!UICONTROL Adobe Target Delivery API]?
 keywords: delivery api
 exl-id: eab88e3a-442c-440b-a83d-f4512fc73e75
+feature: APIs/SDKs
 ---
 # Prefetch
 

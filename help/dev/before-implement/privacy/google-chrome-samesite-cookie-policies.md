@@ -3,7 +3,6 @@ keywords: google, samesite, cookies, chrome 80, ietf
 description: Discover how [!DNL Adobe Target] handles the SameSite IETF standard introduced with Google Chrome version 80 and what you need to do to comply with these policies.
 title: How Does [!DNL Target] Handle Google's Samesite Cookie Policies?
 feature: Privacy & Security
-role: Developer
 exl-id: 58a83def-9625-4d44-914f-203509c6c434
 ---
 # Google Chrome SameSite cookie policies

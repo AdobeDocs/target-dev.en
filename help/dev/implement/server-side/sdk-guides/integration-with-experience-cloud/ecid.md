@@ -2,6 +2,7 @@
 title: Experience Cloud ID (ECID) Service
 description: Although using the [!DNL Target] SDKs for fetching content from [!DNL Target] can be powerful, the added value of using the [!UICONTROL Experience Cloud ID] (ECID) for user tracking extends beyond Adobe [!DNL Target]. The ECID enables you to leverage [!DNL Adobe Experience Cloud] products and features, such as A4T reporting and [!DNL Adobe Audience Manager] (AAM) segments.
 exl-id: fd7e5c3e-51c1-4965-ab6a-f50a6b0c910b
+feature: Implement Server-side
 ---
 # [!UICONTROL Experience Cloud ID] (ECID) Service
 

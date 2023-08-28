@@ -2,7 +2,6 @@
 title: Automatically download, store, and update the on-device decisioning rule artifact
 description: Learn how to work with the on-device decisioning rule artifact while initializing the [!DNL Adobe Target] SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: be41a723-616f-4aa3-9a38-8143438bd18a
 ---
 # Downloading, storing, and updating the rule artifact automatically via the [!DNL Adobe Target] SDK

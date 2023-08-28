@@ -3,7 +3,6 @@ keywords: Overview and Reference, webkit, cookies, first-party, third-party, 1st
 description: Learn about [!DNL Target] cookie behavior (first-party cookie, third-party cookie with first-party cookie, or third-party cookie alone).
 title: Where Can I Find Information About [!DNL Target] Cookies?
 feature: at.js
-role: Developer
 exl-id: d44e02ce-8920-4130-bcad-699ca77c0dad
 ---
 # [!DNL Target] cookies
@@ -12,13 +11,15 @@ The cookie behavior depends on whether it is a first-party cookie, a third-party
 
 >[!NOTE]
 >
+>For detailed information about the different cookies used by [!DNL Target], see [[!DNL Adobe Target] cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} in the *Experience Cloud Central Interface Components Guide*.
+>
 >This topic contains information about `mboxSession` and `mboxPC`. Implementation best practices recommend that you do not link or store sensitive information with the cookie data: `mboxSession` or `mboxPC`.
 
 See also [Delete the [!DNL Target] cookie](cookie-deleting.md).
 
 ## When to Use first-party or third-party cookies
 
-Your site setup determines which cookies you want to use. It is helpful to understand how [!DNL Target] works when trying to understand first and third-party cookies. See [How [!DNL Adobe] [!DNL Target] Works](https://experienceleague.adobe.com/docs/target/using/introduction/how-target-works.html) for more information.
+Your site setup determines which cookies you want to use. It is helpful to understand how [!DNL Target] works when trying to understand first-party and third-party cookies. See [How [!DNL Adobe] [!DNL Target] Works](https://experienceleague.adobe.com/docs/target/using/introduction/how-target-works.html) for more information.
 
 There are three main use cases for cookies:
 
