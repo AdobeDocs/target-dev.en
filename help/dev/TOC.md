@@ -162,6 +162,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Target mobile preview](implement/mobile/target-mobile-preview.md)
     + [Use Location Service](implement/mobile/use-location-service.md)
     + [Target for mobile apps FAQ](implement/mobile/mobile-faq.md)
+    + [Implement Target with the AEP Mobile SDK in a native app with web views](/help/dev/implement/mobile/native-app.md)
 + Email implementation {#implement-email}
     + [Email: implement Target overview](implement/email/overview.md)
     + [Create an Adbox for an image](implement/email/testing-content-with-the-adbox.md)
