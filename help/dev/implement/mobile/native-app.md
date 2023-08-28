@@ -73,7 +73,7 @@ Target.getSessionId { (id, err) in
 
 ## Test in the web views
 
-Web preview links are generated on the [!UICONTROL Activity detail] page by clicking the [!UICONTROL Adobe QA] link to display a pop-up to copy each experience preview link, similar to the following:
+Web preview links are generated on the [!UICONTROL Activity detail] page by clicking the [[!UICONTROL Adobe QA] link](/help/dev/implement/mobile/target-mobile-preview.md) to display a pop-up to copy each experience preview link, similar to the following:
 
 ```
 ?at_preview_token=mhFIzJSF7JWb-RsnakpBqi_s83Sl64hZp928VWpkwvI&at_preview_index=1_1&at_preview_listed_activities_only=true
