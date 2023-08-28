@@ -3,7 +3,6 @@ keywords: adobe.target.getOffer, getOffer, getoffer, get offer, at.js, functions
 description: Use the [!UICONTROL adobe.target.getOffer()] function and its options for the [!DNL Adobe Target] at.js library to fire requests to get a [!DNL Target] offer.
 title: How Do I Use the [!UICONTROL adobe.target.getOffer()] Function?
 feature: at.js
-role: Developer
 exl-id: 7b917d42-06e8-4838-a09d-0c4872c9beaa
 ---
 # [!DNL adobe.target.getOffer(options)]

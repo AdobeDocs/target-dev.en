@@ -2,7 +2,6 @@
 title: Initialize the [!DNL Adobe Target] Python SDK to log requests
 description: Learn how to log requests in the [!DNL Adobe Target] Python SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: 0b3792a5-a9a7-4768-a429-598b49f1fd93
 ---
 # Logger (Python)

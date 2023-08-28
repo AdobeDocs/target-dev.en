@@ -3,7 +3,6 @@ keywords: privacy, ip address, geosegmentation, opt out, optout, opt-out, data p
 description: Learn how [!DNL Adobe Target] complies with applicable data privacy laws including collection and handling of IP addresses, PII, and opt-out instructions.
 title: How Does Target Handle Privacy Issues, including PII?
 feature: Privacy & Security
-role: Developer
 exl-id: 4330e034-2483-4a25-9c87-48dbef6fc9de
 ---
 # Privacy

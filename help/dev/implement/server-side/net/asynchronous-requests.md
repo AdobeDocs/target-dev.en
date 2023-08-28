@@ -2,7 +2,6 @@
 title: How to use asynchronous requests in the [!DNL Adobe Target] .NET SDK
 description: Learn how [!DNL Target] Java SDK supports asynchronous requests, which can reduce the effective target time to zero.
 feature: APIs/SDKs
-role: Developer
 exl-id: fd36cc7b-a884-4e57-93c2-8aff8256109a
 ---
 # Asynchronous Requests (.NET)

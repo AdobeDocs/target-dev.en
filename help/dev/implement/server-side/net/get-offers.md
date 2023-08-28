@@ -2,7 +2,6 @@
 title: Use getOffers() in [!DNL Adobe Target] when using the .NET SDK
 description: Learn how to use getOffers() to execute a decision and retrieve an experience from [!DNL Adobe Target].
 feature: APIs/SDKs
-role: Developer
 exl-id: 4d1d1cbd-c7e5-4146-9fea-08e01923874d
 ---
 # Get Offers (.NET)

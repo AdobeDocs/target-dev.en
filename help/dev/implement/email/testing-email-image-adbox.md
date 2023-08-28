@@ -3,7 +3,6 @@ keywords: email, adbox, email image adbox
 description: Learn how to use [!DNL Adobe Target] to dynamically test images in email, and even change those images on the fly when someone opens the email.
 title: How Do I Test an Email Image Adbox?
 feature: Implement Email
-role: Developer
 exl-id: 4512741a-567f-41bb-9721-3e1c4f5302e1
 ---
 # Test an email image Adbox

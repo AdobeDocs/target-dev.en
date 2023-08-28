@@ -3,7 +3,6 @@ keywords: implement, implementing, implementation, tag manager, dtm, at.js, dyna
 description: Learn how to implement the [!DNL Adobe Target] at.js library using the legacy [!DNL Dynamic Tag Management] (DTM). Tags in [!DNL Adobe Experience Platform] are the preferred method to implement [!DNL Target].
 title: Can I Implement [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)?
 feature: Implement Server-side
-role: Developer
 exl-id: 8ddabd5f-c9ec-4282-a806-32af3d1d16fb
 ---
 # Implement [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)

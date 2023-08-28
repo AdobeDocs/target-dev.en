@@ -3,7 +3,6 @@ keywords: serverstate, targetGlobalSettings, targetglobalsettings, globalSetting
 description: Use the [!UICONTROL targetGlobalSettings()] function for the [!DNL Adobe Target] at.js JavaScript library to override settings instead of using the [!DNL Target] UI or REST APIs.
 title: How Do I Use the [!UICONTROL targetGlobalSettings()] Function?
 feature: at.js
-role: Developer
 exl-id: f6218313-6a70-448e-8555-b7b039e64b2c
 ---
 # [!UICONTROL targetGlobalSettings()]
@@ -255,7 +254,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-## Data Providers
+## Data Providers {#data-providers}
 
 This setting lets customers gather data from third-party data providers, such as Demandbase, BlueKai, and custom services, and pass the data to [!DNL Target] as mbox parameters in the global mbox request. It supports the collection of data from multiple providers via async and sync requests. Using this approach makes it easy to manage flicker of default page content, while including independent timeouts for each provider to limit the impact on page performance
 

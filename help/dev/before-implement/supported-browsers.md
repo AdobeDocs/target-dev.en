@@ -3,7 +3,6 @@ keywords: Browsers, Prerequisites, Requirements, internet explorer, chrome, fire
 description: Learn which internet browsers [!DNL Adobe Target] supports for its interface and for content delivery.
 title: What Browsers Does [!DNL Target] Support?
 feature: Implementation
-role: Developer
 exl-id: 1d778e14-26b0-477b-ac28-d304db70a133
 ---
 # Supported browsers

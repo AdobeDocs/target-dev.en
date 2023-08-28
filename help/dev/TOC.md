@@ -163,12 +163,6 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Use Location Service](implement/mobile/use-location-service.md)
     + [Target for mobile apps FAQ](implement/mobile/mobile-faq.md)
     + [Implement Target with the AEP Mobile SDK in a native app with web views](/help/dev/implement/mobile/native-app.md)
-  + Adobe Mobile SDK version 4.x {#version-4}
-    + [How Target works in mobile apps](implement/mobile/how-target-works-mobile-apps.md)
-    + [Enable Target in the SDK](implement/mobile/enable-target-in-sdk.md)
-    + [iOS - create a Target location and success metric](implement/mobile/mobile-create-location-and-metric.md)
-    + [iOS - send custom user data](implement/mobile/mobile-custom-user-data.md)
-    + [Prefetch offer content](implement/mobile/prefetch-offer-content.md)
 + Email implementation {#implement-email}
     + [Email: implement Target overview](implement/email/overview.md)
     + [Create an Adbox for an image](implement/email/testing-content-with-the-adbox.md)
@@ -187,8 +181,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Prefetch](/help/dev/before-implement/delivery-api-overview/prefetch.md)
     + [Notifications](/help/dev/before-implement/delivery-api-overview/notifications.md)
     + [Integration with Experience Cloud](before-implement/delivery-api-overview/integration.md)
-    + [Known Limitations](/help/dev/before-implement/delivery-api-overview/known-limitations.md)
+    + [Considerations and known limitations](/help/dev/before-implement/delivery-api-overview/known-limitations.md)
     + [Client Hints](/help/dev/before-implement/delivery-api-overview/client-hints.md)
+    + [Delivery API](/help/dev/implement/delivery-api/delivery-api.md)
   + Admin API {#admin-api}
     + [Admin API overview](before-administer/admin-api-overview/admin-api-overview.md)
     + [Adobe Target Admin API](/help/dev/administer/admin-api/admin-api-overview-new.md)
@@ -205,5 +200,12 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Models API](/help/dev/administer/models-api/models-api-overview.md)
   + [Adobe Admin Console APIs](/help/dev/before-implement/delivery-api-overview/adobe-console-api.md)
   + [Adobe Experience Platform Edge Network Server API](/help/dev/before-implement/delivery-api-overview/aep-edge-network-server-api.md)
++ Implementation patterns {#implementation-patterns} {#hidden}
+  + [Implementation patterns overview](/help/dev/patterns/pattern-overview.md)
+  + Target implementation pattern {#target}
+    + [Initialize SDKs](/help/dev/patterns/initialize-sdk.md)
+    + [Configure data collection](/help/dev/patterns/data-collection.md)
+    + [Render experiences](/help/dev/patterns/render-experiences.md)
+    + [Notify Target](/help/dev/patterns/notify-target.md)
 
 

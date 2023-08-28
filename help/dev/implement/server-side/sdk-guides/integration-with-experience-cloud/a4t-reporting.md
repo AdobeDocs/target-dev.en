@@ -3,6 +3,7 @@ title: Integration with Experience Cloud A4T Reporting
 description: Integration with Experience Cloud, A4T Reporting, Analytics for Target integration
 keywords: delivery api, server-side, serverside, integration, a4t
 exl-id: 0d09d7a1-528d-4e6a-bc6c-f7ccd61f5b75
+feature: Implement Server-side
 ---
 # Analytics for Target (A4T) reporting
 

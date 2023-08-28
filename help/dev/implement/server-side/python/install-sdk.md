@@ -2,7 +2,6 @@
 title: Install the Python SDK
 description: Learn how to install the [!DNL Adobe Target] Python SDK.
 feature: APIs/SDKs
-role: Developer
 exl-id: e4371cc4-2965-4253-9b5d-13fa6835ce67
 ---
 # Install the Python SDK

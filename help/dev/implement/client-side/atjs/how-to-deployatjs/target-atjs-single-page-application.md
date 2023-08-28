@@ -3,7 +3,6 @@ keywords: single page application implementation, implement single page applicat
 description: Learn how to use [!DNL Adobe Target] at.js 2.x to implement [!DNL Target] for Single Page Applications (SPAs).
 title: Can I implement [!DNL Target] for Single Page Applications (SPAs)?
 feature: Implement Server-side
-role: Developer
 exl-id: d59d7683-0a63-47a9-bbb5-0fe4a5bb7766
 ---
 # Single Page Application implementation

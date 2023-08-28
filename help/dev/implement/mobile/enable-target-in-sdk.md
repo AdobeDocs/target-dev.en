@@ -3,7 +3,6 @@ keywords: mobile app, mobile app sdk, target mobile app, mobile target sdk, mobi
 description: Learn how to add the Adobe Mobile Services SDK to your mobile app.
 title: How Do I Enable [!DNL Target] in the [!DNL Adobe Mobile SDK]?
 feature: Implement Mobile
-role: Developer
 exl-id: 4263b96a-23c8-4513-8302-00080122181d
 ---
 # Enable [!DNL Target] in the SDK

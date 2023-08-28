@@ -2,7 +2,6 @@
 description: Learn how to use the [!DNL Adobe Mobile SDK] to show the optimal experiences to your mobile app visitors.
 title: How Does [!DNL Target] Work in Mobile Apps?
 feature: Implement Mobile
-role: Developer
 exl-id: 33001f01-fde6-48cb-ac02-d1a632b2150d
 ---
 # How [!DNL Target] works in mobile apps

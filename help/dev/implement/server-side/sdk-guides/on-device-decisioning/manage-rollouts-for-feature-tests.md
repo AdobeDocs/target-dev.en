@@ -2,7 +2,6 @@
 title: Manage rollouts for feature tests
 description: Learn how to manage rollouts for feature tests using [!UICONTROL on-device decisioning].
 feature: APIs/SDKs
-role: Developer
 exl-id: caa91728-6ac0-4583-a594-0c8fe616342d
 ---
 # Manage rollouts for feature tests

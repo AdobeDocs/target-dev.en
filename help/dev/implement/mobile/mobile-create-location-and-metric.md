@@ -3,7 +3,6 @@ keywords: mobile app, mobile app location, target mobile app, mobile target loca
 description: View sample code to help you learn how to create locations and success metrics in iOS apps so you can use [!DNL Adobe Target] to personalize and optimize your app.
 title: How Do I Create [!DNL Target] Locations and Success Metrics in an iOS app?
 feature: Implement Mobile
-role: Developer
 exl-id: 755c8b26-5c60-48fc-9e7e-5e97a25edb78
 ---
 # iOS - create a [!DNL Target] location and success metric

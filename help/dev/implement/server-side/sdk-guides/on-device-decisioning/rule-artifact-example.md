@@ -2,7 +2,6 @@
 title: Example on-decisioning rule artifact
 description: View an example rule artifact for on-device decisioning.
 feature: APIs/SDKs
-role: Developer
 exl-id: 0e138b78-4ea9-4d17-a6fa-609ad23c4ca8
 ---
 # Example rule artifact

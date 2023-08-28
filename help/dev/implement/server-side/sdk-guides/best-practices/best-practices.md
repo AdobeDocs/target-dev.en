@@ -2,7 +2,6 @@
 title: Best practices when using on-device decisioning
 description: Learn best practices when using [!UICONTROL on-device decisioning] in [!DNL Adobe Target]
 feature: Implement Server-side
-role: Developer
 exl-id: a0ca014d-ad9f-4ecc-961d-cb7ba236507f
 ---
 # Best practices

@@ -3,16 +3,21 @@ keywords: at.js releases, at.js versions, release notes
 description: View the details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.
 title: What is Included in Each Version of at.js?
 feature: at.js
-role: Developer
 exl-id: 609dacba-2ab8-45e9-b189-928d59938c98
 ---
 # at.js version details
 
 Details about changes in each version of the [!DNL Adobe Target] at.js JavaScript library.
 
->[!WARNING]
+>[!IMPORTANT]
 >
->[!DNL Adobe Target] supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure you are running a supported version.
+>[!DNL Adobe Target] supports both at.js 1.*x* and at.js 2.*x*.
+>
+>at.js 1.*x* has entered maintenance mode. The [!DNL Target] team releases bug fixes and security patches when necessary.
+>
+>The [!DNL Target] team provides full support for at.js 2.*x* and releases bug fixes, security patches, features, and performance optimization on an ongoing basis.
+>
+>You should upgrade to the latest versions of either 1.*x* or 2.*x* to obtain bug fixes and security patches for issues discovered in any previous minor version of the corresponding major version.
 
 Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) are the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Adobe Experience Platform catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
 

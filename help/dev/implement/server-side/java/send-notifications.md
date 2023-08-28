@@ -2,7 +2,6 @@
 title: Send display or click notifications to [!DNL Adobe Target] using the Java SDK
 description: Learn how to use sendNotifications() to send display or click notifications to [!DNL Adobe Target] for measurement and reporting.
 feature: APIs/SDKs
-role: Developer
 exl-id: 9231b480-f50f-40d1-ab06-0b9f2a2d79e3
 ---
 # Send Notifications (Java)

@@ -3,7 +3,6 @@ keywords: adobe.target.sendNotifications, sendNotifications, sendnotifications, 
 description: Use [!UICONTROL adobe.target.sendNotifications()] for at.js to send notifications to the [!DNL Target] edge when an experience is rendered not using [!UICONTROL applyOffer](s). (at.js.2.1 +)
 title: How Do I Use the adobe.target.sendNotifications() Function?
 feature: at.js
-role: Developer
 exl-id: 1a08da10-31a0-4b0b-af7d-91ed7d32c308
 ---
 # [!UICONTROL adobe.target.sendNotifications(options)]

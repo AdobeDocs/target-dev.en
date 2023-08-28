@@ -2,6 +2,7 @@
 title: Adobe Target Admin API Overview
 description: Overview of the [!DNL Adobe Target Admin API]
 exl-id: 1168d376-c95b-4c5a-b7a2-c7815799a787
+feature: APIs/SDKs
 ---
 # Target Admin API Overview
 

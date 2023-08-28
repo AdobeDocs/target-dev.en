@@ -3,7 +3,6 @@ keywords: implement target, implementation, implement at.js, tag manager, on-dev
 description: Learn how to specify the settings (account details, implementation methods, etc.) to implement the [!DNL Adobe Target] at.js library without using a tag manager.
 title: Can I Implement [!DNL Target] without a Tag Manager?
 feature: Implement Server-side
-role: Developer
 exl-id: f675ae21-105d-4aa3-9926-59291f1136b5
 ---
 # Implement [!DNL Target] without a tag manager

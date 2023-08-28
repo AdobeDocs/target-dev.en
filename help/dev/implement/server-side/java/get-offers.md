@@ -2,7 +2,6 @@
 title: Use getOffers() in [!DNL Adobe Target] when using the Java SDK
 description: Learn how to use getOffers() to execute a decision and retrieve an experience from [!DNL Adobe Target].
 feature: APIs/SDKs
-role: Developer
 exl-id: 9d7bf956-9d6a-4b4f-a401-2e6814f17f3d
 ---
 # Get Offers (Java)

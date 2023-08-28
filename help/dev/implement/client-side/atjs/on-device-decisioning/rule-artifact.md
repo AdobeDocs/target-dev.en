@@ -3,7 +3,6 @@ keywords: implementation, javascript library, js, atjs, on-device decisioning, o
 description: Learn about the JSON rule artifact used by [!UICONTROL on-device decisioning]].
 title: What is the JSON Rule Artifact Do in On-Device Decisioning?
 feature: at.js
-role: Developer
 exl-id: 14413ccf-b55e-48a8-a474-4401eb1b50fc
 ---
 # [!UICONTROL On-device decisioning] rule artifact

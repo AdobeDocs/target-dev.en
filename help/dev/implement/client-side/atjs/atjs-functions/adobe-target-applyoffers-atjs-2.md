@@ -3,7 +3,6 @@ keywords: adobe.target.applyOffers, applyOffers, applyoffers, apply offers, at.j
 description: Use the [!UICONTROL adobe.target.applyOffers()] function for the [!DNL Adobe Target] at.js JavaScript library to apply multiple offers in the response. (at.js 2.x)
 title: How Do I Use the [!UICONTROL adobe.target.applyOffers()] Function?
 feature: at.js
-role: Developer
 exl-id: c391e3f4-fdf1-4e33-8dcb-6bf46e390538
 ---
 # [!UICONTROL adobe.target.applyOffers(options)] - at.js 2.x
