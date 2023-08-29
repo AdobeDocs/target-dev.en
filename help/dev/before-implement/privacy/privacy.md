@@ -33,6 +33,14 @@ The following settings are available in the [!DNL Target] UI by navigating to **
 
 [!DNL Target] receives the full IP address and obfuscates it (if set to Last octet or Entire IP) as specified. [!DNL Target] then holds the obfuscated IP address in memory only during the current session.
 
+### Datastream-level IP obfuscation when using the [!DNL Adobe Experience Platform Web SDK]
+
+When using the [!DNL Platform Web SDK] (version 23.4 or later), the datastream-level IP obfuscation setting takes precedence over any IP obfuscation option set in [!DNL Target]. For example, if the datastream-level IP obfuscation option is set to [!UICONTROL Full] and the [!DNL Target] IP obfuscation option is set to [!UICONTROL Last octet obfuscation], [!DNL Target] receives a fully obfuscated IP. Because IP obfuscation in [!DNL Target] happens before the geolocation lookup, the datastream-level IP obfuscation setting has no impact.
+
+After IP obfuscation is set at the datastream level and your data is going through the Edge Network, requests coming to [!DNL Target] and [!DNL Adobe Audience Manager] (AAM) contain the obfuscated IP only and any logic based on the client IP is impacted by the datastream-level IP Obfuscation option. Any IP obfuscation set in [!DNL Target] or AAM is applied on the already obfuscated IP.
+
+For more information, see [!UICONTROL IP Obfuscation] in [Configure a datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html){target=_blank} in the *[!DNL Adobe Experience Platfrom] Datastreams Guide*.
+
 ## GeoSegmentation
 
 If you enable the replacement of the last octet of the IP address, the remaining values of the IP address can be analyzed using reports in [!DNL Target]. If the last octet of the IP address has not been obfuscated, then the full IP address can be analyzed in [!DNL Target]. You can use the GeoSegmentation feature to map out visitor location by geographic area. GeoSegmentation data is granular only to the city level or zip code level, and not to the individual level.
