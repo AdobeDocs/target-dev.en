@@ -53,7 +53,7 @@ On-device decisioning supports the following audience rules:
 
 |Audience Rule|On-device Decisioning|
 | --- | --- |
-|[Geo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/categories-audiences/geo.html)|Yes|
+|[Geo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/categories-audiences/geo.html)|Yes<P>When using on-device decisioning, the following geo attributes are supported:<ul><li>Country/Region</li><li>City</li><li>Latitude</li><li>Longitude</li></ul>|
 |[Network](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/categories-audiences/network.html)|No|
 |[Mobile](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/categories-audiences/mobile.html)|No|
 |[Custom Parameters](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/categories-audiences/custom-parameters.html)|Yes|
