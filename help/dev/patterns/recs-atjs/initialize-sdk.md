@@ -21,7 +21,7 @@ For multi-page applications, this flow happens every time the page reloads, or t
 
 The step numbers in the following illustration correspond to the sections below. 
 
-![Initialize SDKs diagram](/help/dev/patterns/assets/diagram-initiaze-sdk.png){width="600" zoomable="yes"}
+![Initialize SDKs diagram](/help/dev/patterns/recs-atjs/assets/diagram-initiaze-sdk.png){width="600" zoomable="yes"}
 
 Click the following links to navigate to the desired sections:
 
