@@ -1,6 +1,6 @@
 ---
 title: Initialize SDKs
-description: Ensure that all necessary steps for loading the Adobe Experience Platform Web SDK are executed in the correct sequence.
+description: Ensure that all necessary steps for loading the [!DNL Adobe Target] at.js JavaScript library are executed in the correct sequence.
 feature: APIs/SDKs
 level: Experienced
 role: Developer
@@ -13,7 +13,7 @@ Follow the steps in the *Initialize SDK* diagram to ensure that all necessary ta
 
 >[!TIP]
 >
->Click the images in this topic to expand to full screen.
+>Click the images in this topic to expand to full screen. 
 
 ## Initialize SDKs diagram {#diagram}
 
@@ -21,7 +21,7 @@ For multi-page applications, this flow happens every time the page reloads, or t
 
 The step numbers in the following illustration correspond to the sections below. 
 
-![Initialize SDKs diagram](/help/dev/patterns/assets/diagram-initiaze-sdk.png){width="600" zoomable="yes"}
+![Initialize SDKs diagram](/help/dev/patterns/recs-atjs/assets/diagram-initiaze-sdk.png){width="600" zoomable="yes"}
 
 Click the following links to navigate to the desired sections:
 
@@ -48,7 +48,7 @@ This step helps ensure that the `VisitorAPI.js` library is loaded, configured, a
 
 +++See details
 
-![Load Visitor API SDK diagram](/help/dev/patterns/assets/load-visitor-api-sdk.png){width="100" zoomable="yes"}
+![Load Visitor API SDK diagram](/help/dev/patterns/recs-atjs/assets/load-visitor-api-sdk.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -84,7 +84,7 @@ This step helps ensure that your visitors' known IDs (CRM ID, User ID, and so fo
 
 +++See details
 
-![Set Customer ID](/help/dev/patterns/assets/set-customer-id.png){width="100" zoomable="yes"}
+![Set Customer ID](/help/dev/patterns/recs-atjs/assets/set-customer-id.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -111,7 +111,7 @@ This step enables at.js to fetch all the experiences that must be rendered on th
 
 +++See details
 
-![Configure automatic page load request](/help/dev/patterns/assets/configure-automatic-page-request.png){width="100" zoomable="yes"}
+![Configure automatic page load request](/help/dev/patterns/recs-atjs/assets/configure-automatic-page-request.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -140,7 +140,7 @@ This step helps ensure that there is no page flicker when delivering experiences
 
 +++See details
 
-![Configure flicker handling diagram](/help/dev/patterns/assets/flicker-handling.png){width="100" zoomable="yes"}
+![Configure flicker handling diagram](/help/dev/patterns/recs-atjs/assets/flicker-handling.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -173,7 +173,7 @@ This step helps ensure that all the data that must be sent to [!DNL Target] is s
 
 +++See details
 
-![Data mapping diagram](/help/dev/patterns/assets/data-mapping.png){width="100" zoomable="yes"}
+![Data mapping diagram](/help/dev/patterns/recs-atjs/assets/data-mapping.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -393,7 +393,7 @@ This step ensures that all the data that must be sent to [!DNL Target] is set.
 
 +++See details
 
-![Remote data mapping diagram](/help/dev/patterns/assets/remote-data-mapping.png){width="100" zoomable="yes"}
+![Remote data mapping diagram](/help/dev/patterns/recs-atjs/assets/remote-data-mapping.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -421,7 +421,7 @@ This step ensures that the at.js JavaScript library is loaded and initialized.
 
 +++See details
 
-![Load Adobe Target Web SDK diagram](/help/dev/patterns/assets/load-web-sdk.png){width="100" zoomable="yes"}
+![Load Adobe Target Web SDK diagram](/help/dev/patterns/recs-atjs/assets/load-web-sdk.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 

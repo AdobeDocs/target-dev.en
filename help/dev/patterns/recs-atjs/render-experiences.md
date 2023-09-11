@@ -13,7 +13,7 @@ Follow the steps in the *Render Experiences* diagram to ensure that all necessar
 
 >[!NOTE]
 >
->If you have enabled Automatic Page Load Request during the [Configure Automatic Page Load Request step](/help/dev/patterns/initialize-sdk.md#automatic) in *Initialize SDKS* , you can skip this activity unless you want to call the Adobe Target SDK to render additional experiences using a regional-location request.
+>If you have enabled Automatic Page Load Request during the [Configure Automatic Page Load Request step](/help/dev/patterns/recs-atjs/initialize-sdk.md#automatic) in *Initialize SDKS* , you can skip this activity unless you want to call the Adobe Target SDK to render additional experiences using a regional-location request. 
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ Automatic out-of-the-box flicker handling available with at.js makes sense only 
 
 The step numbers in the following illustration correspond to the sections below. 
 
-![Render experiences diagram](/help/dev/patterns/assets/diagram-render-experiences-new.png){width="600" zoomable="yes"}
+![Render experiences diagram](/help/dev/patterns/recs-atjs/assets/diagram-render-experiences-new.png){width="600" zoomable="yes"}
 
 Click the following links to navigate to the desired sections:
 
@@ -246,7 +246,7 @@ This step triggers a [!DNL Delivery API] call with `execute` > `pageLoad` payloa
 
 +++See details
 
-![Fire page-load request diagram](/help/dev/patterns/assets/fire-page-load-request.png){width="100" zoomable="yes"}
+![Fire page-load request diagram](/help/dev/patterns/recs-atjs/assets/fire-page-load-request.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -271,7 +271,7 @@ This step triggers a [!DNL Delivery API] call with `execute` > `mboxes` payload 
 
 +++See details
 
-![Fire regional location request diagram](/help/dev/patterns/assets/fire-regional-location-request.png){width="100" zoomable="yes"}
+![Fire regional location request diagram](/help/dev/patterns/recs-atjs/assets/fire-regional-location-request.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 

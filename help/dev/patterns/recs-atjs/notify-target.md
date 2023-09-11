@@ -21,7 +21,7 @@ Any event that needs to be tracked in [!DNL Target] can be a primary conversion 
 
 The step number in the following illustration corresponds to the section below.
 
-![Notify Target diagram](/help/dev/patterns/assets/diagram-notify-target.png){width="600" zoomable="yes"}
+![Notify Target diagram](/help/dev/patterns/recs-atjs/assets/diagram-notify-target.png){width="600" zoomable="yes"}
 
 ## Fire [!DNL Adobe Target] Track API
 
@@ -29,7 +29,7 @@ This step helps you ensure that all events that must be sent to [!DNL Target] ar
 
 +++See details
 
-![Fire Adobe Target Track API diagram](/help/dev/patterns/assets/fire-adobe-target-track-api-diagram.png){width="100" zoomable="yes"}
+![Fire Adobe Target Track API diagram](/help/dev/patterns/recs-atjs/assets/fire-adobe-target-track-api-diagram.png){width="300" zoomable="yes"}
 
 You send the order conversion attributes as mentioned in the *Prerequisites* section below. The name of the mbox does not matter, but the conversion is to use `orderConfirmPage`.
 

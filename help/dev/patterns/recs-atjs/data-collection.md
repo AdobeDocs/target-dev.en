@@ -17,7 +17,7 @@ Follow the steps in the *Data Collection* diagram to ensure that all necessary t
 
 The data layer is ready during page load or the data layer change after page load.
 
-If you have already mapped data during the [initialize SDK phase](/help/dev/patterns/initialize-sdk.md), you must execute the steps in this diagram if:
+If you have already mapped data during the [initialize SDK phase](/help/dev/patterns/recs-atjs/initialize-sdk.md), you must execute the steps in this diagram if:
 
 * Your data layer is augmented in any way on the same page and you want to send that additional data to [!DNL Target]
 * You want to send product-catalog data to [!DNL Target Recommendations]
@@ -26,7 +26,7 @@ If you have already mapped data during the [initialize SDK phase](/help/dev/patt
 
 The step numbers in the following illustration correspond to the sections below.
 
-![Data Collection diagram](/help/dev/patterns/assets/data-collection-diagram.png){width="600" zoomable="yes"}
+![Data Collection diagram](/help/dev/patterns/recs-atjs/assets/data-collection-diagram.png){width="600" zoomable="yes"}
 
 Click the following links to navigate to the desired sections:
 
@@ -40,7 +40,7 @@ This step helps ensure that all the data that must be sent to [!DNL Adobe Target
 
 +++See details
 
-![Configure data mapping diagram](/help/dev/patterns/assets/cofigure-data-mapping.png){width="100" zoomable="yes"}
+![Configure data mapping diagram](/help/dev/patterns/recs-atjs/assets/cofigure-data-mapping.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 
@@ -84,7 +84,7 @@ This step helps ensure that all the data that must be sent to [!DNL Target] is s
 
 +++See details
 
-![Fire Adobe Target Track API diagram](/help/dev/patterns/assets/fire-track-api.png){width="100" zoomable="yes"}
+![Fire Adobe Target Track API diagram](/help/dev/patterns/recs-atjs/assets/fire-track-api.png){width="300" zoomable="yes"}
 
 **Prerequisites**
 

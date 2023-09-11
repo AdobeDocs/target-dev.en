@@ -202,10 +202,11 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + [Adobe Experience Platform Edge Network Server API](/help/dev/before-implement/delivery-api-overview/aep-edge-network-server-api.md)
 + Implementation patterns {#implementation-patterns} {#hidden}
   + [Implementation patterns overview](/help/dev/patterns/pattern-overview.md)
-  + Target implementation pattern {#target}
-    + [Initialize SDKs](/help/dev/patterns/initialize-sdk.md)
-    + [Configure data collection](/help/dev/patterns/data-collection.md)
-    + [Render experiences](/help/dev/patterns/render-experiences.md)
-    + [Notify Target](/help/dev/patterns/notify-target.md)
+  + Recommendations implementation pattern using at.js {#atjs}
+    + [Recommendations implementation pattern using at.js overview](/help/dev/patterns/recs-atjs/recs-implementation-pattern-atjs.md)
+    + [Initialize SDKs](/help/dev/patterns/recs-atjs/initialize-sdk.md)
+    + [Configure data collection](/help/dev/patterns/recs-atjs/data-collection.md)
+    + [Render experiences](/help/dev/patterns/recs-atjs/render-experiences.md)
+    + [Notify Target](/help/dev/patterns/recs-atjs/notify-target.md)
 
 
