@@ -53,7 +53,7 @@ This step helps ensure that the `VisitorAPI.js` library is loaded, configured, a
 **Prerequisites**
 
 * To use the Visitor ID/API Service, your company must be enabled for the [!DNL Adobe Experience Cloud] and have an [!UICONTROL Organization ID]. For more information, see [Experience Cloud Requirements: Organization ID](https://experienceleague.adobe.com/docs/id-service/using/reference/requirements.html?){target=_blank} in the *Identity Service Help* guide.
-* You need the `VisitorAPI.js` file. Reach out to your digital marketing team to get this file.
+* You need the `VisitorAPI.js` file. You should already have this file if you have [!DNL Adobe Analytics] implemented. This file can also be added through the [[!DNL Adobe Experience Platform] tags extension](https://experienceleague.adobe.com/docs/tags.html){target=_blank} or can be downloaded from the [Adobe Analytics Code Manager](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html){target=_blank}.
 
 **Configure and refer VisitorAPI.js**
 
@@ -425,7 +425,7 @@ This step ensures that the at.js JavaScript library is loaded and initialized.
 
 **Prerequisites**
 
-* Download or ask your digital marketing team for the Web SDK library file: `at.js 2.*x*`
+* Download or ask your digital marketing team for the `at.js 2.*x*` JavaScript library file.
 
 *Readings*
 
