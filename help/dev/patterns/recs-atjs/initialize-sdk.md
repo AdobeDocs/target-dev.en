@@ -13,7 +13,7 @@ Follow the steps in the *Initialize SDK* diagram to ensure that all necessary ta
 
 >[!TIP]
 >
->Click the images in this topic to expand to full screen.
+>Click the images in this topic to expand to full screen. 
 
 ## Initialize SDKs diagram {#diagram}
 
