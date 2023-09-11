@@ -28,10 +28,10 @@ Note that the numbers in the image do not indicate the sequence of operations:
 
 Each pattern consists of different parts. Each part corresponds to a critical implementation requirement for your [!DNL Target] implementation.
 
-Each part is explained on a separate page in this guide. For example, the [!DNL Target] implementation pattern contains the following pages: 
+Each part is explained on a separate page in this guide. For example, the [[!DNL Recommendations] implementation pattern using at.js](/help/dev/patterns/recs-atjs/recs-implementation-pattern-atjs.md) contains the following pages: 
 
 * Initialize SDK
-* Enrich Profile
+* Configure data collection
 * Render Experiences
 * Notify [!DNL Target]
 
