@@ -13,7 +13,7 @@ Follow the steps in the *Render Experiences* diagram to ensure that all necessar
 
 >[!NOTE]
 >
->If you have enabled Automatic Page Load Request during the [Configure Automatic Page Load Request step](/help/dev/patterns/recs-atjs/initialize-sdk.md#automatic) in *Initialize SDKS* , you can skip this activity unless you want to call the Adobe Target SDK to render additional experiences using a regional-location request.
+>If you have enabled Automatic Page Load Request during the [Configure Automatic Page Load Request step](/help/dev/patterns/recs-atjs/initialize-sdk.md#automatic) in *Initialize SDKS* , you can skip this activity unless you want to call the Adobe Target SDK to render additional experiences using a regional-location request. 
 
 >[!TIP]
 >
