@@ -1,6 +1,6 @@
 ---
 title: Initialize SDKs
-description: Ensure that all necessary steps for loading the Adobe Experience Platform Web SDK are executed in the correct sequence.
+description: Ensure that all necessary steps for loading the [!DNL Adobe Target] at.js JavaScript library are executed in the correct sequence.
 feature: APIs/SDKs
 level: Experienced
 role: Developer
