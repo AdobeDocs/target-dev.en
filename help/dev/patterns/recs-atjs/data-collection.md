@@ -17,7 +17,7 @@ Follow the steps in the *Data Collection* diagram to ensure that all necessary t
 
 The data layer is ready during page load or the data layer change after page load.
 
-If you have already mapped data during the [initialize SDK phase](/help/dev/patterns/initialize-sdk.md), you must execute the steps in this diagram if:
+If you have already mapped data during the [initialize SDK phase](/help/dev/patterns/recs-atjs/initialize-sdk.md), you must execute the steps in this diagram if:
 
 * Your data layer is augmented in any way on the same page and you want to send that additional data to [!DNL Target]
 * You want to send product-catalog data to [!DNL Target Recommendations]
