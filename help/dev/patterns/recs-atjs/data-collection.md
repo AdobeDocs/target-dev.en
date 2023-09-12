@@ -40,7 +40,7 @@ This step helps ensure that all the data that must be sent to [!DNL Adobe Target
 
 +++See details
 
-![Configure data mapping diagram](/help/dev/patterns/recs-atjs/assets/cofigure-data-mapping.png){width="300" zoomable="yes"}
+![Configure data mapping diagram](/help/dev/patterns/recs-atjs/assets/cofigure-data-mapping.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
@@ -84,7 +84,7 @@ This step helps ensure that all the data that must be sent to [!DNL Target] is s
 
 +++See details
 
-![Fire Adobe Target Track API diagram](/help/dev/patterns/recs-atjs/assets/fire-track-api.png){width="300" zoomable="yes"}
+![Fire Adobe Target Track API diagram](/help/dev/patterns/recs-atjs/assets/fire-track-api.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 

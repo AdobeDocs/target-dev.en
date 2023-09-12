@@ -246,7 +246,7 @@ This step triggers a [!DNL Delivery API] call with `execute` > `pageLoad` payloa
 
 +++See details
 
-![Fire page-load request diagram](/help/dev/patterns/recs-atjs/assets/fire-page-load-request.png){width="300" zoomable="yes"}
+![Fire page-load request diagram](/help/dev/patterns/recs-atjs/assets/fire-page-load-request.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
@@ -271,7 +271,7 @@ This step triggers a [!DNL Delivery API] call with `execute` > `mboxes` payload 
 
 +++See details
 
-![Fire regional location request diagram](/help/dev/patterns/recs-atjs/assets/fire-regional-location-request.png){width="300" zoomable="yes"}
+![Fire regional location request diagram](/help/dev/patterns/recs-atjs/assets/fire-regional-location-request.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
