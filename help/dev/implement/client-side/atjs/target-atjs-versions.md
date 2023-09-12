@@ -19,7 +19,12 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >You should upgrade to the latest versions of either 1.*x* or 2.*x* to obtain bug fixes and security patches for issues discovered in any previous minor version of the corresponding major version.
 
-Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) are the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Adobe Experience Platform catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
+Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) are the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Adobe Experience Platform catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.6+
+
+## at.js version 2.10.3 (September 12, 2023)
+
+* Fixed an issue that incorrectly triggered the `at-content-rendering-succeeded` custom event when no offers are rendered. The correct event, `at-content-rendering-no-offers`, is now triggered.
+* Added `eventToken` and `responseTokens` to error object for the `at-content-rendering-failed` custom event.
 
 ## at.js version 2.10.2 (March 7, 2023)
 
