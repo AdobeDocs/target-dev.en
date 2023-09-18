@@ -421,7 +421,7 @@ This step ensures that the at.js JavaScript library is loaded and initialized.
 
 +++See details
 
-![Load Adobe Target at.js diagram](/help/dev/patterns/recs-atjs/assets/load-atjs-combined.png.png){width="400" zoomable="yes"}
+![Load Adobe Target at.js diagram](/help/dev/patterns/recs-atjs/assets/load-atjs-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
