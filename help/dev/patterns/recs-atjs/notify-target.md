@@ -23,13 +23,14 @@ The step number in the following illustration corresponds to the section below.
 
 ![Notify Target diagram](/help/dev/patterns/recs-atjs/assets/diagram-notify-target.png){width="600" zoomable="yes"}
 
-## Fire [!DNL Adobe Target] Track API
+## 4.1: Fire [!DNL Adobe Target] Track API
 
 This step helps you ensure that all events that must be sent to [!DNL Target] are sent using the `trackEvent` method.
 
 +++See details
 
-![Fire Adobe Target Track API diagram](/help/dev/patterns/recs-atjs/assets/fire-adobe-target-track-api-diagram.png){width="400" zoomable="yes"}
+![Fire Adobe Target Track API diagram](/help/dev/patterns/recs-atjs/assets/fire-adobe-target-track-api-diagram-combined.png
+){width="400" zoomable="yes"}
 
 You send the order conversion attributes as mentioned in the *Prerequisites* section below. The name of the mbox does not matter, but the conversion is to use `orderConfirmPage`.
 
