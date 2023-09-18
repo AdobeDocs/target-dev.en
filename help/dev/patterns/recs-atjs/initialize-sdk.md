@@ -48,7 +48,7 @@ This step helps ensure that the `VisitorAPI.js` library is loaded, configured, a
 
 +++See details
 
-![Load Visitor API SDK diagram](/help/dev/patterns/recs-atjs/assets/load-visitor-api-sdk.png){width="400" zoomable="yes"}
+![Load Visitor API SDK diagram](/help/dev/patterns/recs-atjs/assets/load-visitor-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
