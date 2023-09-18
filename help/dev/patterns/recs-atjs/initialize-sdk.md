@@ -173,7 +173,7 @@ This step helps ensure that all the data that must be sent to [!DNL Target] is s
 
 +++See details
 
-![Data mapping diagram](/help/dev/patterns/recs-atjs/assets/data-mapping.png){width="400" zoomable="yes"}
+![Data mapping diagram](/help/dev/patterns/recs-atjs/assets/data-mapping-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
@@ -393,7 +393,7 @@ This step ensures that all the data that must be sent to [!DNL Target] is set.
 
 +++See details
 
-![Remote data mapping diagram](/help/dev/patterns/recs-atjs/assets/remote-data-mapping.png){width="400" zoomable="yes"}
+![Remote data mapping diagram](/help/dev/patterns/recs-atjs/assets/remote-data-mapping-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
@@ -421,7 +421,7 @@ This step ensures that the at.js JavaScript library is loaded and initialized.
 
 +++See details
 
-![Load Adobe Target Web SDK diagram](/help/dev/patterns/recs-atjs/assets/load-web-sdk.png){width="400" zoomable="yes"}
+![Load Adobe Target at.js diagram](/help/dev/patterns/recs-atjs/assets/load-atjs-combined.png.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
