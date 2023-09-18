@@ -84,7 +84,7 @@ This step helps ensure that your visitors' known IDs (CRM ID, User ID, and so fo
 
 +++See details
 
-![Set Customer ID](/help/dev/patterns/recs-atjs/assets/set-customer-id.png){width="400" zoomable="yes"}
+![Set Customer ID](/help/dev/patterns/recs-atjs/assets/set-customer-id-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
