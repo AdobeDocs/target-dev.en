@@ -111,7 +111,7 @@ This step enables at.js to fetch all the experiences that must be rendered on th
 
 +++See details
 
-![Configure automatic page load request](/help/dev/patterns/recs-atjs/assets/configure-automatic-page-request.png){width="400" zoomable="yes"}
+![Configure automatic page load request](/help/dev/patterns/recs-atjs/assets/configure-automatic-page-request-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
@@ -140,7 +140,7 @@ This step helps ensure that there is no page flicker when delivering experiences
 
 +++See details
 
-![Configure flicker handling diagram](/help/dev/patterns/recs-atjs/assets/flicker-handling.png){width="400" zoomable="yes"}
+![Configure flicker handling diagram](/help/dev/patterns/recs-atjs/assets/flicker-handling-combined.png){width="400" zoomable="yes"}
 
 **Prerequisites**
 
