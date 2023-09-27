@@ -19,7 +19,9 @@ Follow the steps in the *Initialize SDK* diagram to ensure that all necessary ta
 
 For multi-page applications, this flow happens every time the page reloads, or the visitor navigates to a new page on the website.
 
-The step numbers in the following illustration correspond to the sections below. 
+>[!NOTE]
+>
+>The step numbers in the following illustration correspond to the sections below. The step numbers are in no particular order and do not reflect the order of steps taken in the [!DNL Target] UI while creating the activity.  
 
 ![Initialize SDKs diagram](/help/dev/patterns/recs-atjs/assets/diagram-initiaze-sdk.png){width="600" zoomable="yes"}
 
