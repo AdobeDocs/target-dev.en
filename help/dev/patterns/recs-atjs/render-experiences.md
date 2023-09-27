@@ -23,7 +23,9 @@ Follow the steps in the *Render Experiences* diagram to ensure that all necessar
 
 Automatic out-of-the-box flicker handling available with at.js makes sense only when you have [!UICONTROL Automatic Page Load Request] enabled. This option hides the entire HTML body while fetching the experiences from [!DNL Target]. In this case, it is your responsibility to handle flicker. Search for implementation patterns available for flicker handling for guidance. 
 
-The step numbers in the following illustration correspond to the sections below. 
+>[!NOTE]
+>
+>The step numbers in the following illustration correspond to the sections below. The step numbers are in no particular order and do not reflect the order of steps taken in the [!DNL Target] UI while creating the activity. 
 
 ![Render experiences diagram](/help/dev/patterns/recs-atjs/assets/diagram-render-experiences-new.png){width="600" zoomable="yes"}
 
