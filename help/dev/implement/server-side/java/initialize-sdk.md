@@ -38,6 +38,9 @@ ClientConfigBuilder ClientConfig.builder()
 |socketTimeout|Number|No|10000|Socket timeout for all requests in milliseconds|
 |maxConnectionsPerHost|Number|No|100|Max Connections per [!DNL Target] host|
 |maxConnectionsTotal|Number|No|200|Max Connections including all [!DNL Target] hosts|
+|connectionTtlMs|Number|No|-1|Total time to live (TTL) defines maximum life span of persistent connections in milliseconds. By default connections will be kept alive indefinitely|
+|idleConnectionValidationMs|Number|No|1000|Period of inactivity in milliseconds after which persistent connections are re-validated prior to being reused|
+|evictIdleConnectionsAfterSecs|Number|No|20|The time in seconds to evict idle connections from the connection pool|
 |enableRetries|Boolean|No|true|Automatic retries for socket timeouts (max 4)|
 |logRequests|Boolean|No|false|Log [!DNL Target] requests and responses in debug|
 |logRequestStatus|Boolean|No|false|Log [!DNL Target] response time, status, and URL|
