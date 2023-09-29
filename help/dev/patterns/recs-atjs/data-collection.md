@@ -4,8 +4,6 @@ description: Ensure that all necessary tasks for data collection are executed in
 feature: APIs/SDKs
 level: Experienced
 role: Developer
-hide: yes
-hidefromtoc: yes
 ---
 # Configure data collection
 
@@ -101,4 +99,6 @@ Use [adobe.target.trackEvent() method](/help/dev/implement/client-side/atjs/atjs
 +++
 
 [Return to the diagram at the top of this page.](#diagram)
+
+Proceed to Step 3: [Render experiences](/help/dev/patterns/recs-atjs/render-experiences.md)
 

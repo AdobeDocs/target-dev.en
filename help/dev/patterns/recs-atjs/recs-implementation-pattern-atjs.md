@@ -4,8 +4,6 @@ description: Understand how to use the implementation pattern for Recommendation
 feature: APIs/SDKs
 level: Experienced
 role: Developer
-hide: yes
-hidefromtoc: yes
 ---
 # [!DNL Recommendations] implementation pattern using at.js overview
 

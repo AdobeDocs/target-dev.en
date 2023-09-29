@@ -4,8 +4,6 @@ description: Understand how to use implementation patterns
 feature: APIs/SDKs
 level: Experienced
 role: Developer
-hide: yes
-hidefromtoc: yes
 ---
 # Implementation patterns overview
 

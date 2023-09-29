@@ -200,7 +200,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Models API](/help/dev/administer/models-api/models-api-overview.md)
   + [Adobe Admin Console APIs](/help/dev/before-implement/delivery-api-overview/adobe-console-api.md)
   + [Adobe Experience Platform Edge Network Server API](/help/dev/before-implement/delivery-api-overview/aep-edge-network-server-api.md)
-+ Implementation patterns {#implementation-patterns} {#hidden}
++ Implementation patterns {#implementation-patterns}
   + [Implementation patterns overview](/help/dev/patterns/pattern-overview.md)
   + Recommendations implementation pattern using at.js {#atjs}
     + [Recommendations implementation pattern using at.js overview](/help/dev/patterns/recs-atjs/recs-implementation-pattern-atjs.md)
