@@ -4,8 +4,6 @@ description: Ensure that all necessary steps for loading the [!DNL Adobe Target]
 feature: APIs/SDKs
 level: Experienced
 role: Developer
-hide: yes
-hidefromtoc: yes
 ---
 # Initialize SDKs
 
@@ -442,6 +440,8 @@ Embed the at.js file on all your webpages where experimentation, optimization, p
 +++
 
 [Return to the diagram at the top of this page.](#diagram)
+
+Proceed to Step 2: [Configure data collection](/help/dev/patterns/recs-atjs/data-collection.md).
 
 
 

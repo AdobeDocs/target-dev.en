@@ -4,8 +4,6 @@ description: Ensure that all events that need to be tracked by [!DNL Target] are
 feature: APIs/SDKs
 level: Experienced
 role: Developer
-hide: yes
-hidefromtoc: yes
 ---
 # Notify [!DNL Target]
 
@@ -43,6 +41,10 @@ You don't need to include the order conversion attributes in this call. These ca
   * `productPurchaseId`: Product IDs that were purchased as part of the order. Separate multiple products using commas.
   * `orderTotal`: Order total for the purchase.
   * `orderId`: Order ID of the purchase.
+
+  The following illustration shows a [rule for [!DNL tags] in [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/tags.html){target=_blank} that should be fired only on the [!UICONTROL Confirmation] page.
+
+  ![Action Configuration page](/help/dev/patterns/recs-atjs/assets/action-configuration.png){width="400" zoomable="yes"}
 
 * If you are tracking an event for cart add, send `cartIds` as a parameter. A comma-separated list of product IDs can be passed for `cardIds`.
 

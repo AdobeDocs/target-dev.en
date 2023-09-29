@@ -4,8 +4,6 @@ description: Ensure that all necessary steps for rendering experiences are execu
 feature: APIs/SDKs
 level: Experienced
 role: Developer
-hide: yes
-hidefromtoc: yes
 ---
 # Render experiences
 
@@ -46,7 +44,7 @@ Click the following links to navigate to the desired sections:
 
 ## 3.1: Promotion {#promotion}
 
-Add promoted items and control their placement in your Target Recommendations [designs](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html){target=_blank}.
+Add promoted items and control their placement in your recommendations design by choosing Front or Back promotions in the [!DNL Target] UI while creating the activity.
 
 +++See details
 
@@ -59,6 +57,10 @@ Add promoted items and control their placement in your Target Recommendations [d
 **Entity parameters required**
 
 * Item attributes in promotions must be passed when using the "promote by attribute" option.
+
+**Readings**
+
+* [Add promotions](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/adding-promotions.html){target=_blank}
 
 +++
 
@@ -291,3 +293,5 @@ This step triggers a [!DNL Delivery API] call with `execute` > `mboxes` payload 
 +++
 
 [Return to the diagram at the top of this page.](#diagram)
+
+Proceed to Step 4: [Notify Target](/help/dev/patterns/recs-atjs/notify-target.md).
