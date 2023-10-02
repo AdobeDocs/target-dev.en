@@ -15,7 +15,7 @@ The following pattern is currently available:
 
 * [[!DNL Recommendations] implementation pattern using at.js](/help/dev/patterns/recs-atjs/recs-implementation-pattern-atjs.md)
 
-These implementation patterns are intended to focus on what to do, when to do it, and where to do it rather than how to do it. Detailed flow diagrams help you understand the sequence of operations and links to relevant documentation provide contextual and step-by-step instructions. 
+These implementation patterns focus on what to do, when to do it, and where to do it. Detailed flow diagrams help you understand the sequence of operations and links to relevant documentation provide contextual and step-by-step instructions. 
 
 ## Suggest ideas for new patterns or corrections to existing patterns
 
