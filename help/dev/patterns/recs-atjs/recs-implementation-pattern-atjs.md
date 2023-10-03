@@ -4,6 +4,7 @@ description: Understand how to use the implementation pattern for Recommendation
 feature: APIs/SDKs
 level: Experienced
 role: Developer
+exl-id: d568cd1d-acc3-42e0-ae2c-5787e6f361f8
 ---
 # [!DNL Recommendations] implementation pattern using at.js overview
 
@@ -32,4 +33,3 @@ Each part is explained in a separate article in this guide:
 * [Configure data collection](/help/dev/patterns/recs-atjs/data-collection.md)
 * [Render experiences](/help/dev/patterns/recs-atjs/render-experiences.md)
 * [Notify Target](/help/dev/patterns/recs-atjs/notify-target.md)
-

@@ -2,7 +2,7 @@
 title: Adobe Admin Console APIs
 description: Learn how to use the Adobe Admin Console APIs.
 keywords: Adobe Console API;console;api
-exl-id: 18fb9c75-aa71-4902-bcb8-3ead9d2d087d
+exl-id: 515cb851-6553-42af-a1a9-e72c8952e210
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 ---
 # Adobe Admin Console APIs

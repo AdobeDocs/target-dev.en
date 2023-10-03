@@ -4,6 +4,7 @@ description: Ensure that all events that need to be tracked by [!DNL Target] are
 feature: APIs/SDKs
 level: Experienced
 role: Developer
+exl-id: efccadab-d139-4423-8613-c2743d87b3a0
 ---
 # Notify [!DNL Target]
 
@@ -56,10 +57,3 @@ You don't need to include the order conversion attributes in this call. These ca
 **Actions**
 
 * Use `adobe.target-trackEvent()` method to send all data that must be sent to [!DNL Target].
-
-
-
-
-
-
-

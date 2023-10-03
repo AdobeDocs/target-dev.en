@@ -4,6 +4,7 @@ description: Understand how to use implementation patterns
 feature: APIs/SDKs
 level: Experienced
 role: Developer
+exl-id: 65fd369a-6034-4b51-8ddf-e53e526a795d
 ---
 # Implementation patterns overview
 
@@ -53,17 +54,4 @@ The [!DNL Target] team can review your comments or edits and communicate with yo
 
 >[!NOTE]
 >
->[!DNL Adobe] employees can use the *Implementation Patterns for [!DNL Adobe Target] Implementation* wiki for more information about how to contribute to design patterns. Follow the directions above about how to suggest an idea, then ask for the link and the [!DNL Target] team can provide a link to the internal [!DNL Adobe] wiki. 
-
-   
-
-
-
-
-
-
-
-
-
-
-
+>[!DNL Adobe] employees can use the *Implementation Patterns for [!DNL Adobe Target] Implementation* wiki for more information about how to contribute to design patterns. Follow the directions above about how to suggest an idea, then ask for the link and the [!DNL Target] team can provide a link to the internal [!DNL Adobe] wiki.

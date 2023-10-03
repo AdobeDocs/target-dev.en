@@ -4,8 +4,8 @@ description: Learn how to implement [!DNL Adobe Target] with the [!DNL AEP Mobil
 title: Implement [!DNL Adobe Target] in a mobile app that uses native code with web views
 feature: Implement Mobile
 role: Developer
+exl-id: 3dd2e1d7-c744-4ba8-aaa4-6c2fe64d01fa
 ---
-
 # Implement [!DNL Target] with the [!DNL AEP Mobile SDK] in a native app with web views
 
 This article shares best practices for implementing [!DNL Adobe Target] in a mobile app that uses native code with web views using the [!DNL Adobe Experience Platform Mobile SDK]. 
