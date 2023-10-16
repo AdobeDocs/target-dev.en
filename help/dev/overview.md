@@ -1,5 +1,5 @@
 ---
-keywords: target developer guide; overview
+keywords: target developer guide; overview;home
 title: Adobe Target Developer Guide
 description: How do I implement and administer [!DNL Adobe Target] and work with its APIs and SDKs?
 contributors: https://github.com/icaraps
