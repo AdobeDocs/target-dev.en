@@ -8,7 +8,6 @@ mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/target-dev.en
 index: yes
 role: Developer
-level: Intermediate
 ---
 
 # Metadata for internal use

@@ -8,8 +8,6 @@ exl-id: 655cff9b-fc04-45cf-9068-5c6c32b70d79
 ---
 # [!DNL Adobe Target] Developer Guide
 
-![Adobe Target banner image](/help/dev/assets/target-home-banner-simple.png)
-
 **([View [!DNL Target] documentation updates](https://experienceleague.adobe.com/docs/target/using/release-notes/doc-change.html){target=_blank})**
 
 This *[!DNL Adobe Target] Developer Guide* provides resources and guides for [!DNL Target] developers, including API and SDK documentation to implement and administer [!DNL Target].
