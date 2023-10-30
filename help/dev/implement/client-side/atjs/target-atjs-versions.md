@@ -25,6 +25,10 @@ Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-
 
 * Fixed an issue that caused inconsistencies in response tokens sent on custom events.
 
+## at.js version 2.11.1 (October 13, 2023)
+
+* Fixed an issue that caused uncaught errors while a page running at.js is in quirks mode.
+
 ## at.js version 2.11.0 (October 10, 2023)
 
 * Added support for setting custom [!DNL Adobe Experience Platform] (AEP) `sandboxId` and `sandboxName` in `targetGlobalSettings`, which is passed to the Delivery API on `getOffer/getOffers` calls. 
