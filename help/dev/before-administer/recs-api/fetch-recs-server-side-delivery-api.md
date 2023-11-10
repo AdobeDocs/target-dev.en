@@ -91,22 +91,22 @@ The following resources provide examples of various non-HTML focused implementat
 
 Most of the time, recommendations are configured in the Adobe Target UI, then used or accessed via the Target APIs, for reasons such as the ones mentioned in the sections above. This UI-API coordination is common. However, sometimes users may want to perform all actions via APIs—both setup, as well as the use of results. Although much less common, users can absolutely configure, execute, *and* leverage the results of recommendations entirely using the APIs.
 
-We learned in an [earlier section](manage-catalog.md) how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, the [Adobe Developer Console](https://developer.adobe.com/console/home) allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all Recommendations APIs may be found [here](http://developers.adobetarget.com/api/recommendations/), but here is a summary for reference.
+We learned in an [earlier section](manage-catalog.md) how to manage Adobe Target Recommendations entities and deliver them server-side. Similarly, the [Adobe Developer Console](https://developer.adobe.com/console/home) allows you to manage criteria, promotions, collections, and design templates without having to log in to Adobe Target. A complete list of all Recommendations APIs may be found [here](https://developer.adobe.com/target/administer/recommendations-api/), but here is a summary for reference.
 
 |Resource|Details|
 | --- | --- |
-|[Collections](http://developers.adobetarget.com/api/recommendations/#tag/Collections)|List, create, get, edit, and delete collections.|
-|[Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Criteria)|List and get criteria.|
-|[Designs](http://developers.adobetarget.com/api/recommendations/#tag/Designs)|List, create, get, edit, delete, and validate designs.|
-|[Entities](http://developers.adobetarget.com/api/recommendations/#tag/Entities)|Save, delete, and get entities.|
-|[Promotions](http://developers.adobetarget.com/api/recommendations/#tag/Promotions)|List, create, get, edit, and delete promotions.|
-|[Category Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria)|List, create, get, edit, and delete category criteria.|
-|[Custom Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria)|List, create, get, edit, and delete custom criteria.|
-|[Item Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria)|List, create, get, edit, and delete item criteria.|
-|[Popularity Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria)|List, create, get, edit, and delete popularity criteria.|
-|[Profile Attribute Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria)|List, create, get, edit, and delete profile attribute criteria.|
-|[Recent Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria)|List, create, get, edit, and delete recent criteria.|
-|[Sequence Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria)|List, create, get, edit, and delete sequence criteria.|
+|[Collections](https://developer.adobe.com/target/administer/recommendations-api/#tag/Collections)|List, create, get, edit, and delete collections.|
+|[Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Criteria)|List and get criteria.|
+|[Designs](https://developer.adobe.com/target/administer/recommendations-api/#tag/Designs)|List, create, get, edit, delete, and validate designs.|
+|[Entities](https://developer.adobe.com/target/administer/recommendations-api/#tag/Entities)|Save, delete, and get entities.|
+|[Promotions](https://developer.adobe.com/target/administer/recommendations-api/#tag/Promotions)|List, create, get, edit, and delete promotions.|
+|[Category Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Category-Criteria)|List, create, get, edit, and delete category criteria.|
+|[Custom Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Custom-Criteria)|List, create, get, edit, and delete custom criteria.|
+|[Item Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Item-Criteria)|List, create, get, edit, and delete item criteria.|
+|[Popularity Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Popularity-Criteria)|List, create, get, edit, and delete popularity criteria.|
+|[Profile Attribute Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Profile-Attribute-Criteria)|List, create, get, edit, and delete profile attribute criteria.|
+|[Recent Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Recent-Criteria)|List, create, get, edit, and delete recent criteria.|
+|[Sequence Criteria](https://developer.adobe.com/target/administer/recommendations-api/#tag/Sequence-Criteria)|List, create, get, edit, and delete sequence criteria.|
 
 ## Reference documentation
 

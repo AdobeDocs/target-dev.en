@@ -9,4 +9,4 @@ feature: APIs/SDKs, Recommendations, Administration & Configuration
 
 The [!UICONTROL Adobe Target Recommendations API] can be found here:
 
-* [http://developers.adobetarget.com/api/recommendations/](http://developers.adobetarget.com/api/recommendations/){target=_blank}
+* [https://developer.adobe.com/target/administer/recommendations-api//](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank}
