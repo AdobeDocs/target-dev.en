@@ -74,7 +74,7 @@ This *[!DNL Adobe Target] Developer Guide* provides resources and guides for [!D
 
 [**[!DNL Target Reporting API]**](https://developer.adobe.com/target/administer/admin-api/#tag/Reports): Retrieve [!UICONTROL A/B Test] and [!UICONTROL Automated Personalization] activity report data.
 
-[**[!DNL Target Recommendations API]**](http://developers.adobetarget.com/api/recommendations/): Use the [!DNL Target Recommendations] API.
+[**[!DNL Target Recommendations API]**](https://developer.adobe.com/target/administer/recommendations-api/): Use the [!DNL Target Recommendations] API.
 
 [**[!DNL Target Models API]**](administer/models-api/models-api-overview.md): Manage blocklists to define the features used in [!DNL Target] machine learning models.
 
