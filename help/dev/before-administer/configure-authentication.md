@@ -30,7 +30,7 @@ Here are the preliminary steps required to generate the legacy JWT authenticatio
 |Resource|Details|
 | --- | --- |
 |Postman|In order to complete these steps successfully, get the [Postman app](https://www.postman.com/downloads/) for your operating system. Postman basic is free with account creation. While not required in order to use [!DNL Adobe Target] APIs in general, Postman makes API workflows easier, and [!DNL Adobe Target] provides several Postman collections to help execute its APIs and learn how they operate. The rest of this guide assumes working knowledge of Postman. For assistance, see the [Postman documentation](https://learning.getpostman.com/).  |
-|References|Familiarity with the following resources is assumed throughout the rest of this guide:<ul><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Target Admin and Profile API documentation](../administer/admin-api/admin-api-overview-new.md)</li><li>[Recommendations API documentation](https://developers.adobetarget.com/api/recommendations/)</li></ul>|
+|References|Familiarity with the following resources is assumed throughout the rest of this guide:<ul><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Target Admin and Profile API documentation](../administer/admin-api/admin-api-overview-new.md)</li><li>[Recommendations API documentation](https://developer.adobe.com/target/administer/recommendations-api/)</li></ul>|
 
 ## Create an Adobe I/O project
 

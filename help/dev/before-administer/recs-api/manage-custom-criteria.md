@@ -19,7 +19,7 @@ To create custom criteria, define and import the desired mapping between the key
 
 ## Create Custom Criteria
 
-To create custom criteria using the [Create Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom), the syntax is:
+To create custom criteria using the [Create Custom Criteria API](https://developer.adobe.com/target/administer/recommendations-api/#operation/createCriteriaCustom), the syntax is:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
@@ -33,7 +33,7 @@ Only proceed with the following steps after you have read the warning above and 
 
     ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-1. Add your **Body** as **raw** JSON that defines the location of your custom criteria CSV file. Use the example provided in the [Create Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) documentation as a template, supplying your `environmentId` and other values as necessary. For this example, we use LAST_PURCHASED as the key.
+1. Add your **Body** as **raw** JSON that defines the location of your custom criteria CSV file. Use the example provided in the [Create Custom Criteria API](https://developer.adobe.com/target/administer/recommendations-api/#operation/getAllCriteriaCustom) documentation as a template, supplying your `environmentId` and other values as necessary. For this example, we use LAST_PURCHASED as the key.
 
     ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
@@ -49,7 +49,7 @@ In this case, we have an error. Let's investigate the error by examining the cus
 
 ## List Custom Criteria
 
-To retrieve a list of all your custom criteria along with details for each, use the [List Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). The syntax is:
+To retrieve a list of all your custom criteria along with details for each, use the [List Custom Criteria API](https://developer.adobe.com/target/administer/recommendations-api/#operation/getAllCriteriaCustom). The syntax is:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
@@ -60,7 +60,7 @@ In this case, the error occurred because the server information is incorrect, me
 
 ## Edit Custom Criteria
 
-To change the details of a custom criteria definition, use the [Edit Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). The syntax is:
+To change the details of a custom criteria definition, use the [Edit Custom Criteria API](https://developer.adobe.com/target/administer/recommendations-api/#operation/updateCriteriaCustom). The syntax is:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -80,7 +80,7 @@ Let's verify the success of the updated custom criteria, using the **[!UICONTROL
 
 ## Get Custom Criteria
 
-To view custom criteria details for a specific custom criteria, use the [Get Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). The syntax is:
+To view custom criteria details for a specific custom criteria, use the [Get Custom Criteria API](https://developer.adobe.com/target/administer/recommendations-api/#operation/getCriteriaCustom). The syntax is:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -93,7 +93,7 @@ To view custom criteria details for a specific custom criteria, use the [Get Cus
 
 ## Delete Custom Criteria
 
-Using the criteria ID noted earlier, delete your custom criteria, using the [Delete Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). The syntax is:
+Using the criteria ID noted earlier, delete your custom criteria, using the [Delete Custom Criteria API](https://developer.adobe.com/target/administer/recommendations-api/#operation/deleteCriteriaCustom). The syntax is:
 
 `DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
