@@ -11,7 +11,7 @@ exl-id: aea82607-cde4-456a-8dfb-2967badce455
 
 While ensuring that you meet the [requirements to use the use the Recommendations API](/help/dev/before-administer/recs-api/overview.md#prerequisites), you learned how to [generate an access token](/help/dev/before-administer/configure-authentication.md) using the JWT authentication flow to use the [!DNL Adobe Target] Admin APIs on the [Adobe Developer Console](https://developer.adobe.com/console/home).
   
-You can now use the [Recommendations APIs](https://developers.adobetarget.com/api/recommendations/) to add, update, or delete items in your recommendations catalog. As with the rest of the Adobe Target Admin APIs, the Recommendations APIs require authentication.
+You can now use the [Recommendations APIs](https://developer.adobe.com/target/administer/recommendations-api/) to add, update, or delete items in your recommendations catalog. As with the rest of the Adobe Target Admin APIs, the Recommendations APIs require authentication.
 
 >[!NOTE]
 >
@@ -19,11 +19,11 @@ You can now use the [Recommendations APIs](https://developers.adobetarget.com/ap
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
-Before proceeding, get the [Recommendations Postman collection](https://developers.adobetarget.com/api/recommendations/#section/Postman).
+Before proceeding, get the [Recommendations Postman collection](https://developer.adobe.com/target/administer/recommendations-api/#section/Postman).
 
 ## Creating and updating items with the Save Entities API
 
-To populate your Recommendations product database using the API rather than a CSV product feed or Target requests firing on product pages, use the [Save Entities API](https://developers.adobetarget.com/api/recommendations/#operation/saveEntities). This request adds or updates an item in a single Target environment. The syntax is:
+To populate your Recommendations product database using the API rather than a CSV product feed or Target requests firing on product pages, use the [Save Entities API](https://developer.adobe.com/target/administer/recommendations-api/#operation/saveEntities). This request adds or updates an item in a single Target environment. The syntax is:
 
 ```
 POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
@@ -118,7 +118,7 @@ Looks like those last two items don't belong. Let's inspect them using the **[!U
 
 ## Getting item details with the Get Entity API
 
-To retrieve the details of an existing item, use the [Get Entity API](https://developers.adobetarget.com/api/recommendations/#operation/getEntity). The syntax is:
+To retrieve the details of an existing item, use the [Get Entity API](https://developer.adobe.com/target/administer/recommendations-api/#operation/getEntity). The syntax is:
 
 ```
 GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities/[entity.id]
@@ -157,7 +157,7 @@ Suppose you decide these entities need to be removed from your catalog. Let's us
 
 ## Deleting items with the Delete Entities API
 
-To remove items from your catalog, use the [Delete Entities API](https://developers.adobetarget.com/api/recommendations/#operation/deleteEntities). The syntax is:
+To remove items from your catalog, use the [Delete Entities API](https://developer.adobe.com/target/administer/recommendations-api/#operation/deleteEntities). The syntax is:
 
 ```
 DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimited-entity-ids]&environment=[environmentId]
