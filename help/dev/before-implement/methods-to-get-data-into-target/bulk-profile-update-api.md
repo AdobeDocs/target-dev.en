@@ -36,7 +36,7 @@ Profile attributes sent via the site can be updated via the API and vice versa.
 
 The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000 rows per upload.
 
-Updates generally occur in under one hour, but may take as long as 24 hours to be reflected
+Updates generally occur in under one hour, but may take as long as 24 hours to be reflected.
 
 There is no limit on the number or rows you can upload over a period of 24 hours in subsequent batches. However, the ingestion process might be throttled during business hours to ensure that other processes run efficiently.
 
