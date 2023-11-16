@@ -29,7 +29,7 @@ Limit of 1,000,000 API calls (1 million) per 24-hour period
 
 Updates profiles only. Cannot create a profile for a potential user [!DNL Target] has yet to see.
 
-Updates generally occur in under 1 hour, but may take as long as 24 hours to be reflected.
+Updates generally occur in under one hour, but may take as long as 24 hours to be reflected.
 
 ## Code examples
 
