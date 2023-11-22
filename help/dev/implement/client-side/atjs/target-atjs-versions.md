@@ -23,7 +23,7 @@ Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-
 
 ## at.js version 2.11.3 (November 21, 2023)
 
-* Fixed an issue that prevented response tokens from being sent on `at-content-rendering-failed` events.
+* Fixed an issue that prevented response tokens from being sent on `at-content-rendering-failed` events. 
 
 ## at.js version 2.11.2 (October 26, 2023)
 
