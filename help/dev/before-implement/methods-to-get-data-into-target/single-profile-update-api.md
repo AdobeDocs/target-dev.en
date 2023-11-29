@@ -5,31 +5,28 @@ title: How Do I Get Data into [!DNL Target] Using the Single Profile Update API?
 feature: Implementation
 exl-id: e6c394cb-74a3-4991-b656-5ae601f2d5e2
 ---
-# Single profile update API
+# Single Profile Update API
 
 Almost identical to the [!UICONTROL Bulk Profile Update API] in [!DNL Adobe Target], but one visitor profile is updated at a time, in line in the API call instead of with a .csv file.
 
 ## Format
 
-The visitor must be identified via the [!DNL Target] mboxPC value or `mbox3rdPartyId` value. The Experience Cloud ID (ECID) is not supported.
+The visitor must be identified via the [!DNL Target] `mboxPC` value or `mbox3rdPartyId` value. The [!UICONTROL Experience Cloud ID] (ECID) is not supported.
 
-## Example Use Cases
+## Example use cases
 
 You want to update the profile of a single visitor who performs some offline action. Actions can include reaching a call center, a loan is funded, using a loyalty card in store, accessing a kiosk, and so forth.
 
 ## Benefits of method
 
-No limit on the number of profile attributes.
-
-Profile attributes sent via the site can be updated via the API and vice versa.
+* No limit on the number of profile attributes.*
+* Profile attributes sent via the site can be updated via the API and the opposite way.
 
 ## Caveats
 
-Limit of 1,000,000 API calls (1 million) per 24-hour period
-
-Updates profiles only. Cannot create a profile for a potential user [!DNL Target] has yet to see.
-
-Updates generally occur in under one hour, but may take as long as 24 hours to be reflected.
+* Limit of 1,000,000 API calls (1 million) per 24-hour period.
+* Updates profiles only. Cannot create a profile for a potential user [!DNL Target] has yet to see.
+* Updates generally occur in under one hour, but might take as long as 24 hours to be reflected.
 
 ## Code examples
 
