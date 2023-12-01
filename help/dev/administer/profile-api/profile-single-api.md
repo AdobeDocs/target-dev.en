@@ -3,7 +3,6 @@ title: Adobe Target Single Profile Update API
 description: Learn how to use [!DNL Adobe Target] [!UICONTROL Single Profile Update API] to send a single visitor's profile data to [!DNL Target].
 feature: APIs/SDKs
 contributors: https://github.com/icaraps
-feature: APIs/SDKs
 ---
 # [!DNL Adobe Target Single Profile Update API]
 
