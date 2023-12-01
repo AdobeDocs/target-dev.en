@@ -11,9 +11,11 @@ The [!DNL Adobe Target] [!UICONTROL Bulk Profile Update API] lets you update use
 
 Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detailed visitor profile data in the form of profile parameters for many users to [!DNL Target] from any external source. External sources can include Customer Relationship Management (CRM) or Point of Sale (POS) systems, which are not usually available on a web page.
 
+Contrast the [!UICONTROL Bulk Profile Update API] with the [[!DNL Adobe Target Single Profile Update API]](/help/dev/administer/profile-api/profile-single-api.md).
+
 ## [!UICONTROL Customer attributes] versus the [!UICONTROL Bulk Profile Update API]
 
-This option is similar to [!UICONTROL customer attributes] with a few differences:
+This option is similar to [[!UICONTROL customer attributes]](/help/dev/before-implement/methods-to-get-data-into-target/customer-attributes.md) with a few differences:
 
 * [!UICONTROL Customer attributes] use an FTP upload. The [!UICONTROL Target Bulk Profile Update API] uses an HTTP POST API.
 * [!UICONTROL Customer attribute] data can be shared with [!DNL Analytics]. The [!UICONTROL Bulk Profile Update] is useable only in [!DNL Target].
@@ -25,6 +27,8 @@ This option is similar to [!UICONTROL customer attributes] with a few difference
 * You cannot send the following characters in `mbox3rdPartyID`: plus sign (+) and forward slash (/).
 
 ## Resources
+
+For more information, see:
 
 * [[!DNL Adobe Target Profile APIs overview]](/help/dev/administer/profile-api/profile-api-overview.md)
 * [[!DNL Adobe Target Single Profile Update API]](/help/dev/administer/profile-api/profile-single-api.md)
