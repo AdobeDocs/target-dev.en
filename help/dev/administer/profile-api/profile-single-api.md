@@ -6,9 +6,23 @@ contributors: https://github.com/icaraps
 ---
 # [!DNL Adobe Target Single Profile Update API]
 
-The [!DNL Adobe Target] [!UICONTROL Single Profile Update API] lets you send a profile update for a single user. The [!UICONTROL Single Profile Update API] and is generally used when an update must occur in relation to a transaction occurring in a channel that has not implemented [!DNL Target].
+The [!DNL Adobe Target] [!UICONTROL Single Profile Update API] lets you send a profile update for a single user. The [!UICONTROL Single Profile Update API] is almost identical to the [!UICONTROL Bulk Profile Update API], but one visitor profile is updated at a time, inline with the API call instead of with a .cvs file. 
 
-The [!UICONTROL Single Profile Update API] is limited to performing 1 million updates in any rolling 24-hour period. Updates generally occur in under one hour, but might take as long as 24 hours to be reflected. If you must send more updates, or require updates to be processed in shorter time frames, consider sending transactional profile updates via client-side update (preferred), or via the [!DNL Adobe Target] server-side [Delivery API](/help/dev/implement/delivery-api/overview.md).
+The [!UICONTROL Single Profile Update API] and is generally used when an update must occur in relation to a transaction occurring in a channel that has not implemented [!DNL Target]. For example, you want to update the profile of a single visitor who performs some offline action. Actions can include reaching a call center, a loan is funded, using a loyalty card in store, accessing a kiosk, and so forth.
+
+Benefits of the [!UICONTROL Single Profile Update API] include:
+
+* No limit on the number of profile attributes.
+* Profile attributes sent via the site can be updated via the API and the opposite way.
+
+## Caveats
+
+* The [!UICONTROL Single Profile Update API] is limited to performing 1 million updates in any rolling 24-hour period. 
+* Updates generally occur in under one hour, but might take as long as 24 hours to be reflected. 
+
+  If you must send more updates, or require updates to be processed in shorter time frames, consider sending transactional profile updates via client-side update (preferred), or via the [!DNL Adobe Target] server-side [Delivery API](/help/dev/implement/delivery-api/overview.md).
+
+## Format
 
 Specify the profile parameters in the format `profile.paramName=value`. 
 
