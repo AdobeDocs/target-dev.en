@@ -22,6 +22,8 @@ Benefits of the [!UICONTROL Single Profile Update API] include:
 
   If you must send more updates, or require updates to be processed in shorter time frames, consider sending transactional profile updates via client-side update (preferred), or via the [!DNL Adobe Target] server-side [Delivery API](/help/dev/implement/delivery-api/overview.md).
 
+* The [!UICONTROL Single Profile Update API] is a server-to-server API and is not designed to work within a webpage. To update a visitor profile from within your webpage, you can use the [trackEvent()](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-trackevent.md) function or the [Delivery API](/help/dev/implement/delivery-api/overview.md).
+
 ## Format
 
 Specify the profile parameters in the format `profile.paramName=value`. 
