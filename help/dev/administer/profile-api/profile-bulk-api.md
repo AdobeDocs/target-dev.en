@@ -8,7 +8,7 @@ contributors: https://github.com/icaraps
 
 The [!DNL Adobe Target] [!UICONTROL Bulk Profile Update API] lets you update user profiles for multiple visitors to a website in bulk using a batch file.
 
-Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detailed visitor profile data in the form of profile parameters for many users to [!DNL Target] from any external source. External sources can include Customer Relationship Management (CRM) or Point of Sale (POS) systems, which isn't usually available on a web page.
+Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detailed visitor profile data in the form of profile parameters for many users to [!DNL Target] from any external source. External sources can include Customer Relationship Management (CRM) or Point of Sale (POS) systems, which are not usually available on a web page.
 
 |Version|URL example|Features|
 | --- | --- | --- |
@@ -18,6 +18,11 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 >[!NOTE]
 >
 >Version 2 (v2) of the [!UICONTROL Bulk Profile Update API] is the current version. However, [!DNL Target] still supports version 1 (v1).
+
+## Benefits of the Bulk Profile Update API
+
+* No limit on the number of profile attributes.
+* Profile attributes sent via the site can be updated via the API and the opposite way.
 
 ## Caveats
 

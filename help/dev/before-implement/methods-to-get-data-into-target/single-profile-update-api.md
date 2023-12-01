@@ -11,7 +11,7 @@ The [!DNL Adobe Target] [!UICONTROL Single Profile Update API] lets you send a p
 
 The [!UICONTROL Single Profile Update API] and is generally used when an update must occur in relation to a transaction occurring in a channel that has not implemented [!DNL Target]. For example, you want to update the profile of a single visitor who performs some offline action. Actions can include reaching a call center, a loan is funded, using a loyalty card in store, accessing a kiosk, and so forth.
 
-For more information, see:
+## Resources:
 
 * [[!DNL Adobe Target Profile APIs overview]](/help/dev/administer/profile-api/profile-api-overview.md)
 * [[!DNL Adobe Target Single Profile Update API]](/help/dev/administer/profile-api/profile-single-api.md)
