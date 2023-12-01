@@ -38,4 +38,6 @@ https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-57594
 
 ## Resources
 
-* [Updating Profiles](https://developers.adobetarget.com/api/#updating-profiles)
+* [[!DNL Adobe Target Profile APIs overview]](/help/dev/administer/profile-api/profile-api-overview.md)
+* [[!DNL Adobe Target Single Profile Update API]](/help/dev/administer/profile-api/profile-single-api.md)
+* [[!DNL Adobe Target Bulk Profile Update API]](/help/dev/administer/profile-api/profile-bulk-api.md)

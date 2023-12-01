@@ -38,12 +38,10 @@ Your CRM or other internal system stores valuable data about your visitors that 
 * The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000 rows per upload.
 * Updates generally occur in under one hour, but might take as long as 24 hours to be reflected.
 * There is no limit on the number or rows that you can upload over a period of 24 hours in subsequent batches. However, the ingestion process might be throttled during business hours to ensure that other processes run efficiently.
-* Consecutive [V2 batch update calls](https://developers.adobetarget.com/api/#updating-profiles) without mbox calls in between for the same `thirdPartyIds` override the properties updated in the first batch update call.
+* Consecutive V2 batch update calls without mbox calls in between for the same `thirdPartyIds` override the properties updated in the first batch update call.
 
-## Code examples
+## Resources
 
-See [Updating Profiles](https://developers.adobetarget.com/api/#updating-profiles).
-
-### Links to relevant information
-
-[Updating Profiles](https://developers.adobetarget.com/api/#updating-profiles)
+* [[!DNL Adobe Target Profile APIs overview]](/help/dev/administer/profile-api/profile-api-overview.md)
+* [[!DNL Adobe Target Single Profile Update API]](/help/dev/administer/profile-api/profile-single-api.md)
+* [[!DNL Adobe Target Bulk Profile Update API]](/help/dev/administer/profile-api/profile-bulk-api.md)
