@@ -19,3 +19,5 @@ There are two ways to update profiles via API:
 
 * [Single profile update API](/help/dev/administer/profile-api/profile-single-api.md)
 * [Bulk profile update via batch](/help/dev/administer/profile-api/profile-bulk-api.md)
+
+The legacy Profiles API documentation can be found here: [https://developers.adobetarget.com/api/#profiles](https://developers.adobetarget.com/api/#profiles){target=_blank}
