@@ -70,7 +70,7 @@ This *[!DNL Adobe Target] Developer Guide* provides resources and guides for [!D
 
 [**[!DNL Target Admin API]**](administer/admin-api/admin-api-overview-new.md): Use the [!DNL Adobe Target] Admin API to manage properties, activities, audiences, offers, properties, reports, mboxes, hosts, environments, and more.
 
-[**[!DNL Target Profile API]**](/help/dev/administer/profile-api/profile-api-overview.md): Retrieve [!DNL Adobe Target] user profile information.
+[**[!DNL Target Profile API]**](/help/dev/administer/profile-api/profiles-api.md): Retrieve [!DNL Adobe Target] user profile information.
 
 [**[!DNL Target Reporting API]**](https://developer.adobe.com/target/administer/admin-api/#tag/Reports): Retrieve [!UICONTROL A/B Test] and [!UICONTROL Automated Personalization] activity report data.
 
