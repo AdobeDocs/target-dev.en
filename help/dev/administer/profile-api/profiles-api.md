@@ -12,6 +12,10 @@ feature: APIs/SDKs
 
 [!DNL Postman] is a application that makes it easy to fire API calls. This [!DNL Postman] collection contains all the [!DNL Profile API] calls. Click [Run in Postman](https://www.getpostman.com/collections/ec7376f9028977ccaa99){target=_blank} to import the Profile API collection.
 
+## Legacy Profiles API documentation.
+
+The legacy Profiles API documentation can be found here: [https://developers.adobetarget.com/api/#profiles](https://developers.adobetarget.com/api/#profiles){target=_blank}
+
 ## Structure of a [!DNL Target] profile
 
 A Target profile consists of the following objects:
