@@ -1,11 +1,11 @@
 ---
-title: Adobe Target Profile APIs overview
+title: Update profiles
 description: Learn how to use Adobe Target Profile APIs to send visitor data to [!DNL Target].
 contributors: https://github.com/icaraps
 exl-id: 482a4175-1d02-47e9-a5c0-dd00e8560773
 feature: APIs/SDKs
 ---
-# [!DNL Adobe Target Profile APIs overview]
+# Update profiles
 
 A user profile contains demographic and behavioral information of a web page visitor, such as age, gender, products purchased, last time of visit, and so on. [!DNL Adobe Target] uses this information to personalize the content it serves to each visitor.
 

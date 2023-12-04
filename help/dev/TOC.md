@@ -187,8 +187,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + Admin API {#admin-api}
     + [Admin API overview](before-administer/admin-api-overview/admin-api-overview.md)
     + [Adobe Target Admin API](/help/dev/administer/admin-api/admin-api-overview-new.md)
-  + Profile APIs {#profile-apis}
-    + [Profiles APIs overview](/help/dev/administer/profile-api/profile-api-overview.md)
+  + Profile API {#profile-apis}
+    + [Profiles API overview](/help/dev/administer/profile-api/profiles-api.md)
+    + [Fetch profiles](/help/dev/administer/profile-api/profile-fetch.md)
+    + [Update profiles](/help/dev/administer/profile-api/profile-api-overview.md)
     + [Single Profile Update API](/help/dev/administer/profile-api/profile-single-api.md)
     + [Bulk Profile Update API](/help/dev/administer/profile-api/profile-bulk-api.md)
   + [Reporting API](/help/dev/administer/reporting-api/reporting-api.md)
