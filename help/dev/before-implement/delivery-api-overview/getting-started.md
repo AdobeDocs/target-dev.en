@@ -46,7 +46,3 @@ Before making a [!UICONTROL Target Delivery API] call, follow these steps to ens
 1. Create a [!DNL Target] activity (A/B, XT, AP or Recommendations) using the [Form-Based Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en) or the [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/vec/visual-experience-composer.html).
 1. Use the Delivery API to get a response for the mboxes used in the [!DNL Target] activity created in Step 2.
 1. Present the experience to the visitor.
-
-## Postman Collection {#postman}
-
-Postman is an application that makes it easy to fire API calls. [This Postman collection](https://run.pstmn.io/button.svg) contains sample Delivery API calls.
