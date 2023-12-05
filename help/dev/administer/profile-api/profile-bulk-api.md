@@ -66,27 +66,58 @@ If you don't know your client code, in the [!DNL Target] user interface click **
 
 ### Inspect the response
 
-v2 returns a profile-by-profile status and v1 returns only the overall status. The response includes a link to a different URL that has the profile-by-profile success message.
+The Profiles API returns the submission status of the batch for processing along with a link under "batchStatus" to a different URL that shows the overall status of the particular batch job.
 
-### Example response
+### Example API response
+
+The following code snipped is an example of a Profiles API response:
 
 ```
-true http://mboxedge19.tt.omtrdc.net/m2/demo/v2/profile/batchStatus?batchId=demo-1845664501&m2Node=00 Batch submitted for processing
+<response>
+    <success>true</success>
+    <batchStatus>http://mboxedge45.tt.omtrdc.net/m2/demo/profile/batchStatus?batchId=demo-1701473848678-13029383</batchStatus>
+    <message>Batch submitted for processing</message>
+</response>
 ```
 
 If there is an error, the response contains `success=false` and a detailed message for the error.
 
-A successful response looks like the following:
+### Default batch status response
 
-``````
-demo-1845664501 1436187396849-250353.03_03 success 2403081156529-351655.03_03 success 2403081156529-351656.03_03 success 1436187396849-250351.01_00 success 
-``````
+A successful default response when the above `batchStatus` URL link is clicked looks like the following:
+
+```
+<response><batchId>demo4-1701473848678-13029383</batchId><status>complete</status><batchSize>1</batchSize></response>
+```
 
 Expected values for the status fields are:
 
-**success**: The profile was updated. If the profile was not found, one was created with the values from the batch.
-**error**: The profile was not updated or created due to a failure, exception, or message loss.
-**pending**: The profile has not been updated or created yet.
+|Status|Details|
+| --- | --- |
+|[!UICONTROL complete]|The profile batch update request was completed successfully.|
+|[!UICONTROL incomplete]|The profile batch update request is still being processed and not completed.|
+|[!UICONTROL stuck]|The profile batch update request is stuck and was not able to complete.|
 
+### Detailed batch status URL response
 
+A more detailed response can be fetched by passing a parameter `showDetails=true` to the `batchStatus` url above.
 
+For example:
+
+```
+http://mboxedge45.tt.omtrdc.net/m2/demo/profile/batchStatus?batchId=demo-1701473848678-13029383&showDetails=true
+```
+
+#### Detailed response
+
+```
+<response>
+    <batchId>demo4-1701473848678-13029383</batchId>
+    <status>complete</status>
+    <batchSize>1</batchSize>
+    <consumedCount>1</consumedCount>
+    <successfulUpdates>1</successfulUpdates>
+    <profilesNotFound>0</profilesNotFound>
+    <failedUpdates>0</failedUpdates>
+</response>
+```
