@@ -21,7 +21,7 @@ https://<your-client-code>.tt.omtrdc.net/rest/v1/profiles/your-tnt-id?client=<yo
 Replace `<your-client-code>` and `your-tnt-id` and fire a GET request. Here is an example profile fetch call using a `tntid`;
 
 ```
-http://<your-client-code>.tt.omtrdc.net/rest/v1/profiles/111492025094307-353046?client=<your-client-code>
+https://<your-client-code>.tt.omtrdc.net/rest/v1/profiles/111492025094307-353046?client=<your-client-code>
 ```
 
 ## Using a thirdPartyId
