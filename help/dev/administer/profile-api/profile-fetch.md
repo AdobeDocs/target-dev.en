@@ -6,7 +6,19 @@ feature: APIs/SDKs
 ---
 # Update profiles
 
-A [!DNL Target] profile can be fetched in two ways: using a `tntid` or a `thirdPartyId`.
+A [!DNL Target] profile can be fetched in three ways: using an `[!DNL Experience Cloud Visitor ID]` (`ECID`), `tntid` or `thirdPartyId`.
+
+## Using an [!DNL Experience Cloud Visitor ID] (ECID)
+
+You can fetch a profile based on the `ECID`. The HTTP method must be GET.
+
+The URL looks like the following example:
+
+```
+https://<clientCode>.tt.omtrdc.net/rest/v1/profiles/marketingCloudVisitorId/<ECID>?client=<clientCode>
+```
+
+Replace `<clientCode>` with your [!DNL Target] [!UICONTROL Client Code] and `<ECID>` with your [!DNL Experience Cloud Visitor ID] ([!DNL Marketing Cloud Visitor ID]).
 
 ## Using a tntid
 
@@ -18,7 +30,7 @@ The following example shows the request format to fetch a profile using a `tntid
 https://<your-client-code>.tt.omtrdc.net/rest/v1/profiles/your-tnt-id?client=<your-client-code>
 ```
 
-Replace `<your-client-code>` and `your-tnt-id` and fire a GET request. Here is an example profile fetch call using a `tntid`;
+Replace `<your-client-code>` and `your-tnt-id` and fire a GET request. Here is an example profile fetch call using a `tntid`:
 
 ```
 https://<your-client-code>.tt.omtrdc.net/rest/v1/profiles/111492025094307-353046?client=<your-client-code>
