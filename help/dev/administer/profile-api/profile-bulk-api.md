@@ -3,6 +3,7 @@ title: Adobe Target Bulk Profile Update API
 description: Learn how to use [!DNL Adobe Target] [!UICONTROL Bulk Profile Update API] to send multiple visitors' profile data to [!DNL Target] for use in targeting.
 feature: APIs/SDKs
 contributors: https://github.com/icaraps
+exl-id: 0f38d109-5273-4f73-9488-80eca115d44d
 ---
 # [!DNL Adobe Target Bulk Profile Update API]
 

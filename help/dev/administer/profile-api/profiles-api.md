@@ -3,6 +3,7 @@ title: Adobe Target Profiles API
 description: Learn how to use Adobe Target Profile APIs to send visitor data to [!DNL Target].
 contributors: https://github.com/icaraps
 feature: APIs/SDKs
+exl-id: 480cbbbe-4822-48c3-80d4-53628dee57b0
 ---
 # [!DNL Adobe Target Profiles API] overview
 

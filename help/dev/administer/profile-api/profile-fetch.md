@@ -3,6 +3,7 @@ title: Fetch profiles
 description: Learn how to use Adobe Target Profile APIs to fetch visitor data to use in [!DNL Target].
 contributors: https://github.com/icaraps
 feature: APIs/SDKs
+exl-id: b422ae68-49b3-4d60-9ea4-0fa67b6934b0
 ---
 # Update profiles
 
