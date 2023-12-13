@@ -13,6 +13,18 @@ You can override settings in the at.js library using `[!UICONTROL targetGlobalSe
 
 You can override the following settings:
 
+### aepSandboxId
+
+* **Type**: String
+* **Default Value**: null
+* **Description**: Optional parameter used to send [!DNL Adobe Experience Platform] sandbox ID to share [!DNL Adobe Experience Platform] destinations created in the non-default sandbox with [!DNL Target]. If `aepSandboxId` is non-null, `aepSandboxName` must also be provided.
+
+### aepSandboxName
+
+* **Type**: String
+* **Default Value**: null
+* **Description**: Optional parameter used to send [!DNL Adobe Experience Platform] sandbox name to share [!DNL Adobe Experience Platform] destinations created in the non-default sandbox with [!DNL Target]. If `aepSandboxName` is non-null, `aepSandboxId` must also be provided.
+
 ### artifactLocation
 
 * **Type**: String
