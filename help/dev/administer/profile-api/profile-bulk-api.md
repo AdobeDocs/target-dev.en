@@ -13,8 +13,8 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 
 |Version|URL example|Features|
 | --- | --- | --- |
-|v1|`http://CLIENTCODE.tt.omtrdc.net/m2/ CLIENTCODE/profile/batchUpdate`|Support for bulk profile update only.|
-|v2|`http://CLIENTCODE.tt.omtrdc.net/m2/ CLIENTCODE/v2/profile/batchUpdate`|<ul><li>Create profile if not found.</li><li>Per row status update.</li></ul>|
+|v1|`http://CLIENTCODE.tt.omtrdc.net/m2/CLIENTCODE/profile/batchUpdate`|Support for bulk profile update only.|
+|v2|`http://CLIENTCODE.tt.omtrdc.net/m2/CLIENTCODE/v2/profile/batchUpdate`|<ul><li>Create profile if not found.</li><li>Per row status update.</li></ul>|
 
 >[!NOTE]
 >
