@@ -28,6 +28,7 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 ## Caveats
 
 * The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000 rows per upload.
+* Updates generally occur in under one hour, but might take as long as 24 hours to be reflected.
 * There is no limit on the number or rows that you can upload over a period of 24 hours in subsequent batches. However, the ingestion process might be throttled during business hours to ensure that other processes run efficiently.
 * Consecutive v2 batch update calls without mbox calls in between for the same thirdPartyIds override the properties updated in the first batch update call.
 * [!DNL Adobe] does not guarantee that 100% of batch profile data will be onboarded and retained in Target and, thus, be available for use in targeting. In the current design, there is a possibility that a small percentage of data (up to 0.1% of large production batches) might not be onboarded or retained.
