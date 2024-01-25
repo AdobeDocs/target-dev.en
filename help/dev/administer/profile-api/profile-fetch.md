@@ -5,7 +5,7 @@ contributors: https://github.com/icaraps
 feature: APIs/SDKs
 exl-id: b422ae68-49b3-4d60-9ea4-0fa67b6934b0
 ---
-# Update profiles
+# Fetch profiles
 
 A [!DNL Target] profile can be fetched in three ways: using an `[!DNL Experience Cloud Visitor ID]` (`ECID`), `tntid` or `thirdPartyId`.
 
