@@ -109,7 +109,7 @@ Enabling traces will output additional information from [!DNL Adobe Target] in r
 
 ## 3. Verify the [!UICONTROL on-device decisioning] *rule artifact* has been retrieved and cached according to the polling interval defined.
 
-1. Wait the duration of the polling interval (default is 5 minutes) and ensure that the artifact is being fetched by the SDK. The same terminal logs will be output.
+1. Wait the duration of the polling interval (default is 20 minutes) and ensure that the artifact is being fetched by the SDK. The same terminal logs will be output.
 
    Additionally, information from the the[!DNL Target]Trace should be outputted to the terminal with details about the rule artifact.
 
