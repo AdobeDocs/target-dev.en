@@ -292,4 +292,4 @@ public class TargetClientService {
 
 >[!ENDTABS]
 
-For more information about TargetRequestUtils.java, see [Utility Methods (Java)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/utility-methods.html){target=_blank}
+For more information about `TargetRequestUtils.java`, see [Utility Methods (Java)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/utility-methods.html){target=_blank}
