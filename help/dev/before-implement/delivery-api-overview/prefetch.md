@@ -120,7 +120,7 @@ Within the response, you will see the `content` field containing the experience 
 
 [[!UICONTROL Adobe Analytics for Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html){target=_blank} (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments.
 
-The following code snippet is a response from a prefetch an mbox containing `clickTrack` metrics to notify [!DNL Analytics] that an offer was clicked:
+The following code snippet is a response from a prefetch of an mbox containing `clickTrack` metrics to notify [!DNL Analytics] that an offer was clicked:
 
 ```
 {
