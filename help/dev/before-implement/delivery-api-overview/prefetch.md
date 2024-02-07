@@ -116,6 +116,51 @@ Within the `prefetch` field, add one or more `mboxes` you want to prefetch for a
 
 Within the response, you will see the `content` field containing the experience to show to the user for a particular `mbox`. This is very useful when cached on your server so that when a user interacts with your web or mobile application within a session and visits an `mbox` on any particular page of your application, the experience can be delivered from the cache instead of making another [!UICONTROL Adobe Target Delivery API] call. However, when an experience is delivered to the user from the `mbox`, a `notification` will be sent via a Delivery API call in order for impression logging to occur. This is because the response of `prefetch` calls are cached, which means that the user has not seen the experiences at the time the `prefetch` call happens. In order to learn more about the `notification` process, please see [Notifications](notifications.md).
 
+## Prefetch mboxes with clickTrack metrics when using [!UICONTROL Analytics for Target] (A4T)
+
+[[!UICONTROL Adobe Analytics for Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html){target=_blank} (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments.
+
+The following code snippet lets you prefetch an mbox containing `clickTrack` metrics to notify [!DNL Analytics] that an offer was clicked:
+
+```
+{
+  "prefetch": {
+    "mboxes": [
+      {
+        "index": 0,
+        "name": "<mboxName>",
+        "options": [
+           ...
+        ],
+        "metrics": [
+          {
+            "type": "click",
+            "eventToken": "<eventToken>",
+             "analytics": {
+               "payload": {
+                 "pe": "tnt",
+                 "tnta": "..."
+               }
+             }
+          },
+          }
+        ],
+        "analytics": {
+          "payload": {
+            "pe": "tnt",
+            "tnta": "347565:1:0|2,347565:1:0|1"
+          }
+        }
+      }
+    ]
+  }
+}
+```
+
+>[!NOTE]
+>
+>The prefetch for an mbox contains the [!DNL Analytics] payload for qualified activities only. Prefetching success metrics for not yet qualified activities leads to reporting inconsistencies.
+
 ## Prefetch Views
 
 Views support Single Page Applications (SPA) and Mobile Applications more seamlessly. Views can be seen as a logical group of visual elements that together make up a SPA or Mobile experience. Now, through the Delivery API, VEC created AB & XT activities with modifications on [Views for SPA](/help/dev/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application.md) can now be prefetched.
