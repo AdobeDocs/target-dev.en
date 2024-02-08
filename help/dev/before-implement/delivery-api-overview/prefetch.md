@@ -21,7 +21,7 @@ When using prefetch, it's important to be familiar with the following terms:
 
 Clients, such as mobile apps and servers, can prefetch multiple mboxes for a given visitor within a session and cache them to avoid multiple calls to the [!UICONTROL Adobe Target Delivery API].
 
-```
+```shell shell-session
 curl -X POST \
 'https://demo.tt.omtrdc.net/rest/v1/delivery?client=demo&sessionId=7abf6304b2714215b1fd39a870f01afc#1555632114' \
 -H 'Content-Type: application/json' \
@@ -65,7 +65,7 @@ curl -X POST \
 
 Within the `prefetch` field, add one or more `mboxes` you want to prefetch at least once for a visitor within a session. After you prefetch for those `mboxes`, you receive the following response:
 
-```
+```JSON {line-numbers="true"}
 {
     "status": 200,
     "requestId": "5efee0d8-3779-4b12-a74e-e04848faf191",
@@ -122,7 +122,7 @@ Within the response, you see the `content` field containing the experience to sh
 
 The following code snippet is a response from a prefetch of an mbox containing `clickTrack` metrics to notify [!DNL Analytics] that an offer was clicked:
 
-```
+```JSON {line-numbers="true"}
 {
   "prefetch": {
     "mboxes": [
@@ -163,9 +163,9 @@ The following code snippet is a response from a prefetch of an mbox containing `
 
 ## Prefetch Views
 
-Views support Single Page Applications (SPA) and mobile applications more seamlessly. Views can be seen as a logical group of visual elements that together make up a SPA or Mobile experience. Now, through the Delivery API, VEC created AB & XT activities with modifications on [Views for SPA](/help/dev/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application.md) can now be prefetched.
+Views support Single Page Applications (SPA) and mobile applications more seamlessly. Views can be seen as a logical group of visual elements that together make up a SPA or Mobile experience. Now, through the Delivery API, VEC-created [[!UICONTROL A/B Test]](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html){target=_blank} and [[!UICONTROL Experience Targeting]](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html){target=_blank} (X)T activities with modifications on [Views for SPA](/help/dev/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application.md) can now be prefetched.
 
-```
+```shell  {line-numbers="true"}
 curl -X POST \
   'https://demo.tt.omtrdc.net/rest/v1/delivery?client=demo&sessionId=a3e7368c62d944c0855d424cd7a03ab0' \
   -H 'Content-Type: application/json' \
@@ -193,9 +193,9 @@ curl -X POST \
 }'
 ```
 
-The example call above will prefetch all the Views created thru the SPA VEC for AB and XT activities to display for the web `channel`. Notice in the call that we want to prefetch all the Views from the AB or XT activities that a visitor with `tntId`:`84e8d0e211054f18af365d65f45e902b.28_131` who is visiting the `url`:`https://target.enablementadobe.com/react/demo/#/` qualifies for.
+The example call above prefetches all the Views created thru the SPA VEC for [!UICONTROL A/B Test] and XT activities to display for the web `channel`. Notice that the call prefetches all the Views from the [!UICONTROL A/B Test] or XT activities that a visitor with `tntId`:`84e8d0e211054f18af365d65f45e902b.28_131` who is visiting the `url`:`https://target.enablementadobe.com/react/demo/#/` qualifies for.
 
-```
+```JSON  {line-numbers="true"}
 {
     "status": 200,
     "requestId": "14ce028e-d2d2-4504-b3da-32740fa8dd61",
@@ -274,4 +274,4 @@ The example call above will prefetch all the Views created thru the SPA VEC for 
 }
 ```
 
-In the `content` fields of the response, note metadata such as `type`, `selector`, `cssSelector`, and `content`, which are used to render the experience to your end user when a user visits your page. Note that the `prefetched` content can be cached and rendered to the user when necessary.
+In the `content` fields of the response, note metadata such as `type`, `selector`, `cssSelector`, and `content`, which are used to render the experience to your visitor when a user visits your page. Note that the `prefetched` content can be cached and rendered to the user when necessary.
