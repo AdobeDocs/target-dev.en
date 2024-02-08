@@ -7,19 +7,19 @@ feature: APIs/SDKs
 ---
 # Prefetch
 
-Prefetching allows clients like mobile apps and servers to fetch content for multiple mboxes or views in one request, cache it locally, and later notify [!DNL Target] when the user visits those mboxes or views.
+Prefetching allows clients like mobile apps and servers to fetch content for multiple mboxes or views in one request, cache it locally, and later notify [!DNL Target] when the visitor visits those mboxes or views.
 
-When utilizing prefetch, it's important to be familiar with the following terms:
+When using prefetch, it's important to be familiar with the following terms:
 
 |Field Name|Description|
 | --- | --- |
-|`prefetch`|List of mboxes and views that should be fetched but shouldn't be marked as visited. The [!DNL Target] Edge returns an `eventToke`n for each mbox or view that exist in the prefetch array.|
+|`prefetch`|List of mboxes and views that should be fetched but shouldn't be marked as visited. The [!DNL Target] Edge returns an `eventToken` for each mbox or view that exist in the prefetch array.|
 |`notifications`|List of mboxes and views that were previously prefetched and should be marked as visited.|
 |`eventToken`|A hashed encrypted token that is returned when content is prefetched. This token should be sent back to [!DNL Target] in the `notifications` array.|
 
 ## Prefetch Mboxes
 
-Clients like mobile apps and servers can prefetch multiple mboxes for a given user within a session and cache it in order to avoid multiple calls to [!UICONTROL Adobe Target Delivery API].
+Clients, such as mobile apps and servers, can prefetch multiple mboxes for a given visitor within a session and cache them to avoid multiple calls to the [!UICONTROL Adobe Target Delivery API].
 
 ```
 curl -X POST \
@@ -63,7 +63,7 @@ curl -X POST \
 }'
 ```
 
-Within the `prefetch` field, add one or more `mboxes` you want to prefetch for at once for a user within a session. Once you prefetch for those `mboxes` you will receive the following response:
+Within the `prefetch` field, add one or more `mboxes` you want to prefetch at least once for a visitor within a session. After you prefetch for those `mboxes`, you receive the following response:
 
 ```
 {
@@ -114,9 +114,9 @@ Within the `prefetch` field, add one or more `mboxes` you want to prefetch for a
 }
 ```
 
-Within the response, you will see the `content` field containing the experience to show to the user for a particular `mbox`. This is very useful when cached on your server so that when a user interacts with your web or mobile application within a session and visits an `mbox` on any particular page of your application, the experience can be delivered from the cache instead of making another [!UICONTROL Adobe Target Delivery API] call. However, when an experience is delivered to the user from the `mbox`, a `notification` will be sent via a Delivery API call in order for impression logging to occur. This is because the response of `prefetch` calls are cached, which means that the user has not seen the experiences at the time the `prefetch` call happens. In order to learn more about the `notification` process, please see [Notifications](notifications.md).
+Within the response, you see the `content` field containing the experience to show to the visitor for a particular `mbox`. This is very useful when cached on your server so that when a visitor interacts with your web or mobile application within a session and visits an `mbox` on any particular page of your application, the experience can be delivered from the cache instead of making another [!UICONTROL Adobe Target Delivery API] call. However, when an experience is delivered to the visitor from the `mbox`, a `notification` is sent via a Delivery API call for impression logging to occur. This is because the response of `prefetch` calls are cached, which means that the visitor has not seen the experiences at the time the `prefetch` call happens. To learn more about the `notification` process, see [Notifications](notifications.md).
 
-## Prefetch mboxes with clickTrack metrics when using [!UICONTROL Analytics for Target] (A4T)
+## Prefetch mboxes with `clickTrack` metrics when using [!UICONTROL Analytics for Target] (A4T)
 
 [[!UICONTROL Adobe Analytics for Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html){target=_blank} (A4T) is a cross-solution integration that lets you create activities based on [!DNL Analytics] conversion metrics and audience segments.
 
@@ -163,7 +163,7 @@ The following code snippet is a response from a prefetch of an mbox containing `
 
 ## Prefetch Views
 
-Views support Single Page Applications (SPA) and Mobile Applications more seamlessly. Views can be seen as a logical group of visual elements that together make up a SPA or Mobile experience. Now, through the Delivery API, VEC created AB & XT activities with modifications on [Views for SPA](/help/dev/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application.md) can now be prefetched.
+Views support Single Page Applications (SPA) and mobile applications more seamlessly. Views can be seen as a logical group of visual elements that together make up a SPA or Mobile experience. Now, through the Delivery API, VEC created AB & XT activities with modifications on [Views for SPA](/help/dev/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application.md) can now be prefetched.
 
 ```
 curl -X POST \
