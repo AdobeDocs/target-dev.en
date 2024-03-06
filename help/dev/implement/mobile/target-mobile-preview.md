@@ -46,7 +46,7 @@ The mobile preview functionality lets you fully test your mobile app activities 
 
 1. Specify your app's URL scheme.
 
-   Thw URL scheme must be the same as what is present in your iOS or Android app. Repeat this process separately for iOS and Android, if necessary.
+   The URL scheme must be the same as what is present in your iOS or Android app. Repeat this process separately for iOS and Android, if necessary.
 
    ![alt image](assets/mobile-preview-enter-url-scheme.png)
 
