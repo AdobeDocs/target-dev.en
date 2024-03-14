@@ -99,7 +99,7 @@ You can also see all activities that are [!UICONTROL on-device decisioning] capa
 
 >[!NOTE]
 >
->After creating and activating an activity that is [!UICONTROL on-device decisioning] capable, it may take up 5-10 minutes before it is included in the rules artifact that is generated and propagated to the Akamai CDN PoPs.
+>After creating and activating an activity that is [!UICONTROL on-device decisioning] capable, it may take up 20 minutes before it is included in the rules artifact that is generated and propagated to the Akamai CDN PoPs.
 
 ## What is the summary of steps I need to follow to ensure my [!UICONTROL on-device decisioning] activities are delivered successfully via [!DNL Adobe Target]'s server-side SDK?
 
