@@ -9,6 +9,12 @@ exl-id: 3eb0a789-cf1a-4d02-acf7-3c895bcb662f
 
 Information about [!DNL Adobe Target] server-side Delivery APIs, SDKs, and [!DNL Target Recommendations] APIs.
 
+>[!NOTE]
+>
+>If your implementation uses at.js and [!DNL AppMeasurement] in client-side, you should use the [!UICONTROL Target Delivery API] and server-side SDKs discussed below.
+>
+>If your implementation uses the [!UICONTROL Adobe Experience Platform Web SDK], you should use the [[!UICONTROL Adobe Experience Platform] [!UICONTROL Edge Network Server API]](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview){target=_blank}.
+
 The following process occurs in a server-side implementation of [!DNL Target]:
 
 1. A client device makes a request for an experience through your server.
