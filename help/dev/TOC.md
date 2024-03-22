@@ -16,6 +16,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
      + [Privacy and data protection regulations](before-implement/privacy/cmp-privacy-and-general-data-protection-regulation.md)
      + [Target cookies](before-implement/privacy/cookie-behavior.md)
      + [Delete the Target cookie](before-implement/privacy/cookie-deleting.md)
+     + [The impact of third-party cookie deprecation on Target (at.js)](/help/dev/before-implement/privacy/third_party_cookie_deprecation)
      + [Google Chrome SameSite cookie policies](before-implement/privacy/google-chrome-samesite-cookie-policies.md)
      + [Apple Intelligent Tracking Prevention (ITP) 2.x](before-implement/privacy/apple-itp-2x.md)
      + [Content Security Policy (CSP) directives](before-implement/privacy/content-security-policy.md)
