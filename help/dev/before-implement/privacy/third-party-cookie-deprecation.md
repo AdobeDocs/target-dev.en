@@ -3,6 +3,7 @@ keywords: Overview and Reference, cookies, first-party, third-party, 1st-party, 
 description: Learn about the impact of third-party cookie deprecation on [!DNL Adobe Target] (at.js)
 title: The Impact of Third-Party Cookie Deprecation on [!DNL Adobe Target] (at.js)
 feature: at.js
+exl-id: 3827abff-aeb9-40cc-99c1-72409d4082dd
 ---
 # The impact of third-party cookie deprecation on Target (at.js)
 
