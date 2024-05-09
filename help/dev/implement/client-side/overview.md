@@ -18,3 +18,6 @@ To implement [!DNL Target] client-side, you must use one of the following JavaSc
 * [[!DNL Target] at.js JavaScript library](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md)
 
   The at.js JavaScript library improves page load times for web implementations, improves security, and provides better implementation options for single page applications. If you choose to migrate to at.js, see [How At.js Works](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md) and [[!DNL Adobe Target] Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+
+
+See [Comparing the at.js library to the Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/adobe-target/web-sdk-atjs-comparison){target=_blank} to learn about the differences between the two implementation approaches.
