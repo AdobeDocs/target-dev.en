@@ -158,6 +158,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
       + [Logger (Python)](implement/server-side/python/logger.md)
 + [Hybrid implementation](implement/hybrid/hybrid-overview.md)
 + [Recommendations implementation](implement/recommendations/recommendations.md)
++ [Recommendations implementation beta](/help/dev/implement/recommendations/recommendations-beta.md)
 + Mobile app implementation {#mobile-apps}
     + [Target for mobile apps overview](implement/mobile/overview.md)
     + [Target mobile preview](implement/mobile/target-mobile-preview.md)
