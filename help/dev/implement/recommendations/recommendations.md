@@ -131,7 +131,7 @@ Use settings to manage your [!UICONTROL Recommendations] implementation.
 
 To access the **[!UICONTROL Recommendations Settings]** options, open Target in the [!DNL Adobe Experience Cloud], then click **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
-![alt image](assets/recs_settings.png)
+![Recommendations Settings page](/help/dev/implement/recommendations/assets/recs_settings.png)
 
 The following options are available:
 
