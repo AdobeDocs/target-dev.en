@@ -8,7 +8,7 @@ hide: yes
 ---
 # Plan and implement [!UICONTROL Recommendations] 
 
-Information to help you plan and implement [!DNL Adobe Target Recommendations].
+Information to help you plan and implement [!DNL Adobe Target Recommendations]. 
 
 >[!NOTE]
 >
