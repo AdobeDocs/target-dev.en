@@ -146,7 +146,7 @@ The [!DNL Target] [!UICONTROL client code].
 
 If you don't know your [!UICONTROL client code], in the [!DNL Target] user interface, click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**. The [!UICONTROL client code] is shown in the [!UICONTROL Account Details] section.
 
-#### Authentication taken
+#### Authentication token
 
 The [!DNL Adobe Target] Admin APIs, including [!DNL Recommendations Admin] APIs, are secured by authentication to ensure that only authorized users use them to access [!DNL Adobe Target]. Use the [Adobe Developer Console](https://developer.adobe.com/console/home) to manage this authentication for all [!DNL Adobe Experience Cloud solutions], including [!DNL Adobe Target].
 
@@ -227,6 +227,8 @@ sets a URL relative to the thumbnail base URL.
 ### [!UICONTROL Custom Attribute Key Configuration]
 
 Base your recommendations on an item stored in the visitor's profile. For example, 'last item added to cart', or 'last video watched viewed 90% or more'.
+
+Click **[!UICONTROL Add]** to create a new configuration, specify a name for the configuration, select the desire profile attribute, then click **[!UICONTROL Save]**.
 
 ## 6. (Optional) Administer [!UICONTROL Recommendations] using Admin APIs
 
