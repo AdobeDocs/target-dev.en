@@ -25,7 +25,7 @@ Before setting up your first [!UICONTROL Recommendations] activity in [!DNL Adob
 
 ## 1. Implement [!UICONTROL Target]
 
-[!DNL Target Recommendations] requires you to implement the [!DNL Adobe Experience Platform Web SDK] or at.js 0.9.2 (or later). See the [[!UICONTROL Target] client-side implementation guides](../client-side/overview.md) for more information.
+[!DNL Target Recommendations] requires you to implement the [!DNL Adobe Experience Platform Web SDK] or at.js 0.9.2 (or later). See the [[!UICONTROL Target] client-side implementation guides](../client-side/overview.md) for more information. 
 
 ## 2. Set up your [!UICONTROL Recommendations] catalog
 
