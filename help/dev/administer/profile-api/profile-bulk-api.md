@@ -38,8 +38,16 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 To update profile data in bulk, create a batch file. The batch file is a text file with values separated by commas similar to the following sample file.
 
 ``````
-batch=pcId, param1, param2, param3, param4 123, value1 124, value1,,, value4 125,, value2 126, value1, value2, value3, value4
+batch=pcId,param1,param2,param3,param4
+123,value1
+124,value1,,,value4
+125,,value2
+126,value1,value2,value3,value4
 ``````
+
+>[!NOTE]
+>
+>The `batch=` parameter is required and must be specified at the beginning of the file.
 
 You reference this file in the POST call to [!DNL Target] servers to process the file. When creating the batch file, consider the following:
 
