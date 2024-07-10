@@ -35,3 +35,17 @@ ClientConfig clientConfig = ClientConfig.builder()
     .build();
 TargetClient targetClient = TargetClient.create(clientConfig);
 ```
+
+## On-device decisioning
+
+For requests to fetch the rules artifact, your proxy should be configured to not cache the response. However, if it is not possible to configure the proxy's caching mechanism for that request, use a configuration option as a workaround to bypass the proxy-level cache. This workaround adds the `Authorization` header with an empty string value to the rules request, which should indicate to the proxy that the response should not be cached.  
+
+In order to enable this workaround, set the following:
+
+```java {line-numbers="true"}
+ClientConfig.builder()
+    .shouldArtifactRequestBypassProxyCache(true)
+    .build();
+```
+
+
