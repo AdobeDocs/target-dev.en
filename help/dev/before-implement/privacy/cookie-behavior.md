@@ -114,6 +114,7 @@ The cookie keeps various values to manage how your visitors experience campaigns
 |--- |--- |
 |First-party domains|The standard implementation for [!DNL Target] customers. The "mbox" cookies is set in the customer's domain.|
 |Third-party tracking|Third-party tracking is important for advertising and targeting use cases in [!DNL Target] and in [!DNL Adobe Audience Manager] (AAM). Third-party tracking requires cross-site scripting techniques. [!DNL Target] uses two cookies, "mboxSession" and "mboxPC" set in the `clientcode.tt.omtrd.net` domain.|
+
 **What is Apple's approach?**
 
 From Apple:
