@@ -19,7 +19,16 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >You should upgrade to the latest versions of either 1.*x* or 2.*x* to obtain bug fixes and security patches for issues discovered in any previous minor version of the corresponding major version.
 
-Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) are the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Adobe Experience Platform catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.6+
+Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) are the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Adobe Experience Platform catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
+
+## at.js version 2.11.6 (September 29, 2024)
+
+* Fixed an issue that prevented [!DNL Target] from operating correctly with redirect offers within the [!UICONTROL Visual Experience Composer] (VEC) or [!UICONTROL Form-Based Experience Composer].
+
+## at.js version 2.11.5 (August 14, 2024)
+
+* Implemented caching for cookie read and write operations to reduce the overhead of repeated, costly string parsing and manipulation.
+* Implemented the newer URL Search Params API when available, as it is faster than manually parsing and manipulating strings.
 
 ## at.js version 2.11.4 (January 24, 2024)
 
