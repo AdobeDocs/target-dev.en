@@ -63,3 +63,29 @@ adobe.target.getOffers({
     console.log('AT: View triggered on : ' + pageView);
 });
 ```
+
+## Example: Best compatibility for `triggerView()` with the [!UICONTROL Adobe Visual Editing Helper extension]
+
+Consider the following when using the [Adobe Visual Editing Helper extension](https://experienceleague.adobe.com/en/docs/target/using/experiences/vec/troubleshoot-composer/visual-editing-helper-extension){target=_blank}:
+
+Due to [!DNL Googl]e's new V3 Manifest policies for [!DNL Chrome] extensions, the [!UICONTROL Visual Editing Helper extension] must wait for the `DOMContentLoaded` event before loading the [!DNL Target] libraries in the VEC. This delay might cause web pages to fire the `triggerView()` call before the authoring libraries are ready, resulting in the view not being populated on load.
+
+To mitigate this issue, use a listener for the page `load` event. 
+
+Here's an example implementation:
+
+```javascript
+function triggerViewIfLoaded() {
+    adobe.target.triggerView("homeView");
+}
+
+if (document.readyState === "complete") {
+    // If the page is already loaded
+    triggerViewIfLoaded();
+} else {
+    // If the page is not yet loaded, set up an event listener
+    window.addEventListener("load", triggerViewIfLoaded);
+}
+```
+
+
