@@ -32,6 +32,7 @@ Content delivery has been tested across the following browsers and devices:
 
 Note the following:
 
+* The [!DNL Adobe Experience Platform Web SDK] is designed to work optimally in the latest versions of [!DNL Google Chrome], [!DNL Safari], [!DNL Firefox], and [!DNL Microsoft Edge Chromium]. You might have trouble using certain features on older versions of these browsers or deprecated browsers, such as [!DNL Internet Explorer].
 * For at.js implementations, [!DNL Target] displays default content in earlier versions of Internet Explorer and possibly in earlier versions of the above-listed browsers.
 * Internet Explorer treats all unknown elements (such as custom elements) as the same element type. As a result, delivery does not work with custom elements.
 * [!DNL Target] displays default content in browsers not listed above and in browsers using [quirks mode](https://en.wikipedia.org/wiki/Quirks_mode). at.js requires a doctype that renders in standard mode, for example: `<!DOCTYPE html>` .
