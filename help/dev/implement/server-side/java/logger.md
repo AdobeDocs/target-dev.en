@@ -15,7 +15,7 @@ When [initializing the SDK](initialize-sdk.md), there are several options on the
 |`logRequests`|Logs whole request body as well as response body.|
 |`logRequestStatus`|Logs request's url, status along with response time.|
 
-[!DNL Target] Java SDK uses `slf4j` logging. You need to provide your implementation of logger such as `java.util.logging`, `logback`, and `log4j`. Refer to [http://www.slf4j.org/manual.html](http://www.slf4j.org/manual.html) for more information. All logs will be printed in `debug`.
+[!DNL Target] Java SDK uses `slf4j` logging. You need to provide your implementation of logger such as `java.util.logging`, `logback`, and `log4j`. Refer to [https://www.slf4j.org/manual.html](https://www.slf4j.org/manual.html) for more information. All logs will be printed in `debug`.
 
 ## Example
 
