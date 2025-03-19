@@ -92,7 +92,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 1. Copy and paste this bash function into your terminal, or paste the function into your bash startup script file (usually `~/.bash_profile` or `~/.bashrc`) so the function is available across terminal sessions:
 
    ```
-      function adobeTargetCnameValidation {
+   function adobeTargetCnameValidation {
      local hostname="$1"
      if [ -z "$hostname" ]; then
        echo "ERROR: no hostname specified"
@@ -236,7 +236,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
    If the implementation is ready, you see output like below. The important part is that all validation status lines show `✅` rather than `🚫`. Each Target edge CNAME shard should show `CN=target.example.com`, which matches the primary hostname on the requested certificate (additional SAN hostnames on the certificate aren't printed in this output).
 
    ```
-      $ adobeTargetCnameValidation 
+      $ adobeTargetCnameValidation
     target.example.com==========================================================Adobe Target CNAME implementation validation for hostname target.example.com:
     ✅ target.example.com passes DNS CNAME validation
     ✅ target.example.com passes TLS and HTTP response validation for region IRL1
@@ -268,7 +268,8 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
     *  expire date: Feb 20 23:59:59 2026 GMT
     *  issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
     *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com==========================================================  For additional TLS/SSL validation, see SSL Shopper:    🔎  https://www.sslshopper.com/ssl-checker.html#hostname=target.example.com  To check DNS propagation around the world, see whatsmydns.net:    🔎  DNS A records:     https://whatsmydns.net/#A/target.example.com
-        🔎  DNS CNAME record:  https://whatsmydns.net/#CNAME/target.example.com 
+        🔎  DNS CNAME record:  https://whatsmydns.net/#CNAME/target.example.com
+   
    ```
 
 >[!NOTE]
