@@ -83,7 +83,7 @@ However, after you change the hostname in your [!DNL Target] implementation code
 
 ### What key type and certificate signature algorithm is used for my CNAME implementation?
 
-All certificates are RSA SHA-256 and keys are RSA 2048-bit, by default. Key sizes larger than 2048-bit are not currently supported.
+All certificates are RSA SHA-256 and keys are RSA 2048-bit, by default. Key sizes larger than 2048-bit should be requested explicitly through [!UICONTROL Customer Care]. 
 
 ### How can I validate that my CNAME implementation is ready for traffic?
 
