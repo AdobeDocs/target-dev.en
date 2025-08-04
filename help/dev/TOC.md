@@ -38,8 +38,8 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 + Client-side implementation {#client-side}
    + [Overview: implement Target for client-side web](implement/client-side/overview.md)
    + Adobe Experience Platform Web SDK {#web-sdk}
-      + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk.md)
-      + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk.md)
+      + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
+      + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)
    + at.js implementation {#at-js-implementation}
       + [at.js overview](implement/client-side/atjs/how-atjs-works/overview.md)
       + How at.js works {#at-js}
