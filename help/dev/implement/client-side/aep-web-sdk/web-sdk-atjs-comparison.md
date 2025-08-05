@@ -72,7 +72,7 @@ Configuration for the SDK is done with the [`configure`](https://experienceleagu
 
 ### Using at.js
 
-Using at.js 2.x, if you enable the setting `pageLoadEnabled," the library triggers a call to [!DNL Target] Edge with `execute -> pageLoad`. If all the settings are set to the default values, no custom coding is necessary. Once at.js is added to the page and loaded by the browser, a [!DNL Target] Edge call is executed.
+Using at.js 2.x, if you enable the setting `pageLoadEnabled,` the library triggers a call to [!DNL Target] Edge with `execute -> pageLoad`. If all the settings are set to the default values, no custom coding is necessary. Once at.js is added to the page and loaded by the browser, a [!DNL Target] Edge call is executed.
 
 ### Using [!DNL PLatform Web SDK]
 
