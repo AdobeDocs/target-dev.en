@@ -1,7 +1,6 @@
 ---
-Comparing the at.js library to the [!DNL Platform Web SDK]-
 title: Comparing at.js to the Experience Platform Web SDK
-description: Learn how the at.js features compare to Experience Platform Web SDK
+description: Learn how the at.js features compare to [!DNL Experience Platform Web SDK].
 keywords: target;adobe target;activity.id;experience.id;renderDecisions;decisionScopes;prehiding snippet;vec;Form-Based Experience Composer;xdm;audiences;decisions;scope;schema;system diagram;diagram
 feature: AEP Web SDK
 ---
@@ -15,7 +14,7 @@ This article provides an overview of the differences between the `at.js` library
 
 ### Installing at.js
 
-Adobe lets customers download the library directly from the [!DNL Adobe Experience Cloud], [!UICONTROL Implementation] tab. The at.js library is customized with settings that the customer has like: clientCode, imsOrgId, etc.
+[!DNL Adobe] lets customers download the library directly from the [!DNL Adobe Experience Cloud], [!UICONTROL Implementation] tab. The at.js library is customized with settings that the customer has like: clientCode, imsOrgId, etc.
 
 ### Installing the Web SDK
 
@@ -751,7 +750,7 @@ pre-hiding the personalized containers before it fetches and applies the DOM cha
 
 The page sections that contain personalized content can be pre-hidden by overriding at.js `bodyHiddenStyle.`
 
-By default `bodyHiddenStyle` hides the whole HTML `body.' 
+By default `bodyHiddenStyle` hides the whole HTML `body.` 
 
 Both settings can be overridden using `window.targetGlobalSettings.` `window.targetGlobalSettings` should be placed before loading at.js.
 
@@ -1117,8 +1116,7 @@ adobe.target.getOffers({
 
 Or there is a way to set up the `mbox3rdPartyId` either in `targetPageParams` or `targetPageParamsAll.`
 
-When setting `targetPageParams`, it sends in the requests for `target-global-mbox` also known as `pag-lLoad.
-` 
+When setting `targetPageParams`, it sends in the requests for `target-global-mbox` also known as `pag-lLoad`.
 
 The recommendation is to be set using `targetPageParamsAll` as it will be sent in every [!DNL Target] request. The advantage of using `targetPageParamsAll` is that you can define the `mbox3rdPartyId` on the page once to ensure that all the [!DNL Target] requests have the right `mbox3rdPartyId.`
 
