@@ -40,6 +40,8 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
    + Adobe Experience Platform Web SDK implementation {#aep}
       + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
       + [Single-page application implementation](/help/dev/implement/client-side/aep-web-sdk/spa-implementation.md)
+      + [Accessing response tokens](/help/dev/implement/client-side/aep-web-sdk/accessing-response-tokens.md)
+      + [Comparing the at.js library to the Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison)
    + at.js implementation {#at-js-implementation}
       + [at.js overview](implement/client-side/atjs/how-atjs-works/overview.md)
       + How at.js works {#at-js}
