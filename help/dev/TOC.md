@@ -37,7 +37,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + [CNAME and Adobe Target](before-implement/implement-cname-support-in-target.md)
 + Client-side implementation {#client-side}
    + [Overview: implement Target for client-side web](implement/client-side/overview.md)
-  + Adobe Experience Platform Web SDK implementation {#aep}
+   + Adobe Experience Platform Web SDK implementation {#aep}
       + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
       + [Single-page application implementation](/help/dev/implement/client-side/aep-web-sdk/spa-implementation.md)
    + at.js implementation {#at-js-implementation}
