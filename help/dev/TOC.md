@@ -37,13 +37,15 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + [CNAME and Adobe Target](before-implement/implement-cname-support-in-target.md)
 + Client-side implementation {#client-side}
    + [Overview: implement Target for client-side web](implement/client-side/overview.md)
-   + [Adobe Experience Platform Web SDK implementation overview](implement/client-side/aep-web-sdk.md)
+   + Adobe Experience Platform Web SDK {#web-sdk}
+      + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
+      + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)
    + at.js implementation {#at-js-implementation}
       + [at.js overview](implement/client-side/atjs/how-atjs-works/overview.md)
       + How at.js works {#at-js}
          + [How at.js works overview](implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
          + [How at.js manages flicker](implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
-        + [at.js integrations](implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
+         + [at.js integrations](implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
       + How to deploy at.js {#deploy-at-js}
          + [How to deploy at.js](implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs.md)
          + [Implement Target using Adobe Experience Platform](implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md)

@@ -11,9 +11,9 @@ In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers t
 
 To implement [!DNL Target] client-side, you must use one of the following JavaScript libraries:
 
-* [Adobe Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk.md)
+* [Adobe Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
 
-  The [!UICONTROL Adobe Experience Platform Web SDK] lets you interact with the various services in the [!DNL Adobe Experience Cloud] (including [!DNL Target]) through the [!UICONTROL Adobe Experience Edge Network]. If you choose to migrate to the [!UICONTROL Adobe Experience Platform Web SDK], see [What is [!UICONTROL Adobe Experience Platform Web SDK]](/help/dev/implement/client-side/aep-web-sdk.md).
+  The [!UICONTROL Adobe Experience Platform Web SDK] lets you interact with the various services in the [!DNL Adobe Experience Cloud] (including [!DNL Target]) through the [!UICONTROL Adobe Experience Edge Network]. If you choose to migrate to the [!UICONTROL Adobe Experience Platform Web SDK], see [What is [!UICONTROL Adobe Experience Platform Web SDK]](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md).
 
 * [[!DNL Target] at.js JavaScript library](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md)
 
