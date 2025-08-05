@@ -21,7 +21,7 @@ alloy("sendEvent", {
   });
 ```
 
-In this example, `result.propositions`, if it exists, is an array containing personalization propositions related to the event. See [Rendering personalization content](../rendering-personalization-content.md) for more information on the content of `result.propositions.`
+In this example, `result.propositions`, if it exists, is an array containing personalization propositions related to the event. See [Rendering personalization content](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content) for more information on the content of `result.propositions.`
 
 Assume you want to gather all activity names from all propositions that were automatically rendered by the web SDK and push them into a single array. You could then send the single array to a third party. In this case:
 
