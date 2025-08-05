@@ -51,7 +51,7 @@ To enable [!DNL Target], do the following:
 Then, optionally, you can also add the following options:
 
 * **`decisionScopes`**: Retrieve specific activities (useful for activities created with the form-based composer) by adding this option to your events.
-* **[Prehiding snippet](../manage-flicker.md)**: Hide only certain portions of the page.
+* **[Prehiding snippet](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/manage-flicker)**: Hide only certain portions of the page.
 
 ## Using the [!UICONTROL Adobe Target] VEC
 
@@ -61,7 +61,7 @@ For more information, see [Visual Experience Composer helper extension](https://
 
 ## Rendering personalized content
 
-See [Rendering personalization content](../rendering-personalization-content.md) for more information.
+See [Rendering personalization content](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content) for more information.
 
 ## Audiences in XDM
 
@@ -281,7 +281,7 @@ alloy("sendEvent", {
 
 ## Debugging
 
-mboxTrace and mboxDebug have been deprecated. Use a method of [Web SDK debugging](/help/web-sdk/use-cases/debugging.md) instead.
+mboxTrace and mboxDebug have been deprecated. Use a method of [Web SDK debugging](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/debugging) instead.
 
 ## Terminology
 
