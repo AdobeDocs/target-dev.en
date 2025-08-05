@@ -3,8 +3,8 @@ title: Single-Page Application Implementation for the[!DNL Adobe Experience Plat
 description: Learn how to create a single-page application (SPA) implementation of the [!DNL Adobe Experience Platform Web SDK]using [!DNL Target].
 keywords: target;adobe target;xdm views; views;single page applications;SPA;SPA lifecycle;client-side;AB testing;AB;Experience targeting;XT;VEC
 feature: AEP Web SDK
+exl-id: 17e71e47-c7cc-421a-bc9c-53f45f587449
 ---
-
 # Single-page application implementation 
 
 [!DNL Adobe Experience Platform Web SDK] provides rich features that equip your business to execute personalization on next-generation, client-side technologies such as single-page applications (SPAs).
