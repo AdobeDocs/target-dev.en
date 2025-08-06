@@ -39,9 +39,11 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
    + [Overview: implement Target for client-side web](implement/client-side/overview.md)
    + Adobe Experience Platform Web SDK implementation {#aep}
       + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
+      + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)
       + [Single-page application implementation](/help/dev/implement/client-side/aep-web-sdk/spa-implementation.md)
-      + [Accessing response tokens](/help/dev/implement/client-side/aep-web-sdk/accessing-response-tokens.md)
-      + [Comparing the at.js library to the Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
+      + [Access response tokens](/help/dev/implement/client-side/aep-web-sdk/accessing-response-tokens.md)
+      + [What is mbox3rdPartyId](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
+      + [Compare the at.js library to the Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
    + at.js implementation {#at-js-implementation}
       + [at.js overview](implement/client-side/atjs/how-atjs-works/overview.md)
       + How at.js works {#at-js}

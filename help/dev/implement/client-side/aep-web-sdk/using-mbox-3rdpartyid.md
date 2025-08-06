@@ -4,7 +4,7 @@ description: Learn how to use mbox3rdPartyId with the [!DNL Adobe Experience Pla
 keywords: personalization;target;adobe target;renderDecisions;sendEvent;mbox3rdPartyId;
 feature: AEP Web SDK
 ---
-# What is mbox3rdPartyId
+# Use mbox3rdPartyId
 
 The `mbox3rdPartyId` in [!DNL Adobe Target] is your company's visitor ID, such as the membership ID for your company's loyalty program.
 
