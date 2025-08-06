@@ -1,5 +1,5 @@
 ---
-title: Real-time profile syncing for mbox3rdPartyId
+title: Real-time profile syncing for mbox3rdPartyId 
 description: Learn how to use mbox3rdPartyId with the [!DNL Adobe Experience Platform Web SDK].
 keywords: personalization;target;adobe target;renderDecisions;sendEvent;mbox3rdPartyId;
 feature: AEP Web SDK
@@ -8,7 +8,7 @@ feature: AEP Web SDK
 
 The `mbox3rdPartyId` in [!DNL Adobe Target] is your company's visitor ID, such as the membership ID for your company's loyalty program.
 
-When a visitor logs in to a company's site, the company typically creates an ID that is tied to the visitor's account, loyalty card, membership number, or other applicable identifiers for that company. [Learn more](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/3rd-party-id.html#)
+When a visitor logs in to a company's site, the company typically creates an ID that is tied to the visitor's account, loyalty card, membership number, or other applicable identifiers for that company. [Learn more](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/3rd-party-id.html)
 
 ## How to use `mbox3rdPartyId` with the [!DNL Platform Web SDK]
 
@@ -21,7 +21,7 @@ Configure the `Target Third Party ID Namespace` in your [Datastream](https://exp
 ### Step 2: Send the `mbox3rdpartyId` to [!DNL Target]
 
 Send the `mbox3rdpartyId` to [!DNL Target] in the `sendEvent` command, using the ID namespace that you configured in Step 1.
-[Learn more about sending IDs](../../identity/overview.md#syncing-identities)
+[Learn more about sending IDs](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
 
 ```javascript
 alloy("sendEvent", {

@@ -5,7 +5,7 @@ keywords: target;adobe target;activity.id;experience.id;renderDecisions;decision
 feature: AEP Web SDK
 exl-id: 31c9722b-5d92-4653-aa20-4183d166c097
 ---
-# Comparing the at.js library to the [!DNL Adobe Experience Platform Web SDK]
+# Compare the at.js library to the [!DNL Adobe Experience Platform Web SDK]
 
 ## Overview
 

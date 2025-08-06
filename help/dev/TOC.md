@@ -42,14 +42,15 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
       + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)
       + [Single-page application implementation](/help/dev/implement/client-side/aep-web-sdk/spa-implementation.md)
       + [Access response tokens](/help/dev/implement/client-side/aep-web-sdk/accessing-response-tokens.md)
-      + [What is mbox3rdPartyId](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
+      + [use mbox3rdPartyId](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
       + [Compare the at.js library to the Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
    + at.js implementation {#at-js-implementation}
       + [at.js overview](implement/client-side/atjs/how-atjs-works/overview.md)
       + How at.js works {#at-js}
-         + [How at.js works overview](implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
-         + [How at.js manages flicker](implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
-         + [at.js integrations](implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
+         + [at.js JAVAScript library overview](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md)
+         + [at.js works overview](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
+         + [How at.js manages flicker](/help/dev/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
+         + [at.js integrations](/help/dev/implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
       + How to deploy at.js {#deploy-at-js}
          + [How to deploy at.js](implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs.md)
          + [Implement Target using Adobe Experience Platform](implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md)
@@ -221,5 +222,3 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Configure data collection](/help/dev/patterns/recs-atjs/data-collection.md)
     + [Render experiences](/help/dev/patterns/recs-atjs/render-experiences.md)
     + [Notify Target](/help/dev/patterns/recs-atjs/notify-target.md)
-
-
