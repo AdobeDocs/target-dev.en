@@ -46,8 +46,8 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
          + [Comparing the at.js library to the Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
       + How at.js works {#at-js}
          + [at.js works overview](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
-         + [How at.js manages flicker](implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
-         + [at.js integrations](implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
+         + [How at.js manages flicker](/help/dev/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
+         + [at.js integrations](/help/dev/implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
       + How to deploy at.js {#deploy-at-js}
          + [How to deploy at.js](implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs.md)
          + [Implement Target using Adobe Experience Platform](implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md)
