@@ -45,7 +45,6 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
       + [What is mbox3rdPartyId](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
       + [Compare the at.js library to the Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
    + at.js implementation {#at-js-implementation}
-      + [at.js overview](implement/client-side/atjs/how-atjs-works/overview.md)
       + How at.js works {#at-js}
          + [How at.js works overview](implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
          + [How at.js manages flicker](implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
