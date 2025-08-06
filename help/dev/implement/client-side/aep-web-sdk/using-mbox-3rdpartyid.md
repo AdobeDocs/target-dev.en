@@ -1,8 +1,9 @@
 ---
-title: Real-time profile syncing for mbox3rdPartyId 
+title: Real-time profile syncing for mbox3rdPartyId
 description: Learn how to use mbox3rdPartyId with the [!DNL Adobe Experience Platform Web SDK].
 keywords: personalization;target;adobe target;renderDecisions;sendEvent;mbox3rdPartyId;
 feature: AEP Web SDK
+exl-id: 1c5067ef-38b3-4bf1-bd39-ea0f2cbd1074
 ---
 # Use mbox3rdPartyId
 
