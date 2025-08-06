@@ -3,6 +3,7 @@ title: Accessing response tokens using the Adobe Experience Platform Web SDK
 description: Learn how to access response tokens with the [!DNL Adobe Experience Platform Web SDK].
 keywords: personalization;target;adobe target;renderDecisions;sendEvent;decisionScopes;result.decisions,response tokens;
 feature: AEP Web SDK
+exl-id: b125017c-c257-4f2f-a479-dd0f20e76a9a
 ---
 # Accessing response tokens
 
