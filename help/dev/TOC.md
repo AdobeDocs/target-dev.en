@@ -34,16 +34,17 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
   + [Target security overview](before-implement/target-security-overview.md)
   + [Supported browsers](before-implement/supported-browsers.md)
   + [TLS (Transport Layer Security) encryption changes](before-implement/tls-transport-layer-security-encryption.md)
-  + [CNAME and Adobe Target](before-implement/implement-cname-support-in-target.md)
-+ Client-side implementation {#client-side} 
-     + [Overview: implement Target for client-side web](implement/client-side/overview.md)
-      + Adobe Experience Platform Web SDK implementation {#aep}
-         + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
-         + [Use Adobe Target and Platform Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)
-         + [Single-page application implementation](/help/dev/implement/client-side/aep-web-sdk/spa-implementation.md)
-         + [Accessing response tokens](/help/dev/implement/client-side/aep-web-sdk/accessing-response-tokens.md)
-         + [Using mbox 3rd Party ID](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
-         + [Comparing the at.js library to the Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
+  + [CNAME and Adobe Target](before-implement/implement-cname-support-in-target.md) 
++ Client-side implementation {#client-side}
+   + [Overview: implement Target for client-side web](implement/client-side/overview.md)
+   + Adobe Experience Platform Web SDK implementation {#aep}
+      + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
+      + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)
+      + [Single-page application implementation](/help/dev/implement/client-side/aep-web-sdk/spa-implementation.md)
+      + [Access response tokens](/help/dev/implement/client-side/aep-web-sdk/accessing-response-tokens.md)
+      + [use mbox3rdPartyId](/help/dev/implement/client-side/aep-web-sdk/using-mbox-3rdpartyid.md)
+      + [Compare the at.js library to the Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md)
+   + at.js implementation {#at-js-implementation}
       + How at.js works {#at-js}
          + [at.js JAVAScript library overview](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md)
          + [at.js works overview](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
@@ -220,5 +221,3 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
     + [Configure data collection](/help/dev/patterns/recs-atjs/data-collection.md)
     + [Render experiences](/help/dev/patterns/recs-atjs/render-experiences.md)
     + [Notify Target](/help/dev/patterns/recs-atjs/notify-target.md)
-
-
