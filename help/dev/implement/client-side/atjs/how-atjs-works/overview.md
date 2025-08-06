@@ -10,6 +10,6 @@ The at.js library is the implementation library for client-side implementation o
 
 For more information:
 
-* [How at.js works](how-atjs-works.md)
-* [How at.js manages flicker](manage-flicker-with-atjs.md)
-* [The support status of at.js with common integrations with [!DNL Target]](target-atjs-integrations.md)
+* [How at.js works](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
+* [How at.js manages flicker](/help/dev/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs.md)
+* [The support status of at.js with common integrations with [!DNL Target]](/help/dev/implement/client-side/atjs/how-atjs-works/target-atjs-integrations.md)
