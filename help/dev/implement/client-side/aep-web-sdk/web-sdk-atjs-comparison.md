@@ -3,6 +3,7 @@ title: Comparing at.js to the Experience Platform Web SDK
 description: Learn how the at.js features compare to [!DNL Experience Platform Web SDK].
 keywords: target;adobe target;activity.id;experience.id;renderDecisions;decisionScopes;prehiding snippet;vec;Form-Based Experience Composer;xdm;audiences;decisions;scope;schema;system diagram;diagram
 feature: AEP Web SDK
+exl-id: 31c9722b-5d92-4653-aa20-4183d166c097
 ---
 # Comparing the at.js library to the [!DNL Adobe Experience Platform Web SDK]
 
