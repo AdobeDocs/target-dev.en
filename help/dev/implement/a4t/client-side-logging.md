@@ -48,7 +48,6 @@ The flow looks similar to this:
 
 The following is an example of an `interact` response when [!DNL Analytics] client-side logging is enabled. If the proposition is for an activity that has [!DNL Analytics] reporting, it will have a `scopeDetails.characteristics.analyticsToken` property.
 
-+++See details
 ```json
 {
   "requestId": "1234",
@@ -129,11 +128,8 @@ The following is an example of an `interact` response when [!DNL Analytics] clie
 }
 ```
 
-+++
-
 Propositions for [!UICONTROL Form-based Experience Composer] activities can contain both content and click metric items under the same proposition. Thus, instead of having a single analytics token for content display in `scopeDetails.characteristics.analyticsToken` property, these can have both a display and a click analytics token specified in `scopeDetails.characteristics.analyticsDisplayToken` and `scopeDetails.characteristics.analyticsClickToken` properties, correspondingly.
 
-+++See details
 ```json
 {
   "requestId": "1234",
@@ -199,8 +195,6 @@ Propositions for [!UICONTROL Form-based Experience Composer] activities can cont
   ]
 }
 ```
-
-+++
 
 All the values from `scopeDetails.characteristics.analyticsToken`, as well as `scopeDetails.characteristics.analyticsDisplayToken` (for displayed content) and `scopeDetails.characteristics.analyticsClickToken` (for click metrics) are the A4T payloads that need to be collected and included as `tnta` tag in the [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) call.
 

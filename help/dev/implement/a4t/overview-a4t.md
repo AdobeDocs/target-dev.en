@@ -31,5 +31,5 @@ The logging method is determined by whether you have [!DNL Adobe Analytics] enab
 
 This document provided a brief introduction to the different logging methods for A4T data in the Web SDK. For more detailed information on each of these methods, refer to the following documentation:
 
-* Server-side logging for A4T data in the Experience Platform Web SDK
-* Client-side logging for A4T data in the Experience Platform Web SDK
+* [Server-side logging for A4T data in the Experience Platform Web SDK](/help/dev/implement/a4t/client-side-logging.md)
+* [Client-side logging for A4T data in the Experience Platform Web SDK](/help/dev/implement/a4t/client-side-logging.md)
