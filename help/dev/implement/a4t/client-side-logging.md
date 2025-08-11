@@ -245,7 +245,6 @@ alloy("sendEvent", {
 
 From here, you must implement code to execute the propositions and construct a payload that will ultimately be sent to [!DNL Analytics]. This is an example of what `results.propositions` might contain:
 
-+++See details
 ```json
 [
   {
@@ -368,8 +367,6 @@ From here, you must implement code to execute the propositions and construct a p
   }
 ]
 ```
-
-+++
 
 To extract the [!DNL Analytics] token from a proposition with content items, you can implement a function similar to the following:
 
