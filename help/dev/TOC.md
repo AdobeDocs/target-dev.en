@@ -163,6 +163,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
       + [Asynchronous Requests (Python)](implement/server-side/python/asynchronous-requests.md)
       + [Logger (Python)](implement/server-side/python/logger.md)
 + [Hybrid implementation](implement/hybrid/hybrid-overview.md)
++ Analytics for Target (A4T) with Experience Platform SDK {#a4t}
+   + [Adobe Analytics for Target (A4T) logging in Experience Platform Web SDK](/help/dev/implement/a4t/overview-a4t.md)
+   + [Client-side logging for A4T data in Experience Platform Web SDK](/help/dev/implement/a4t/client-side-logging.md)
+   + [Server-side logging for A4T data in Experience Platform Web SDK](/help/dev/implement/a4t/server-side-a4t.md)
 + [Recommendations implementation](implement/recommendations/recommendations.md)
 + [Recommendations implementation beta](/help/dev/implement/recommendations/recommendations-beta.md)
 + Mobile app implementation {#mobile-apps}
