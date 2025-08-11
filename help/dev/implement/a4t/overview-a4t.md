@@ -5,6 +5,7 @@ seo-title: Adobe Analytics for Target (A4T) Logging in the Experience Platform W
 seo-description: Learn how to control the collection of Adobe Analytics for Target (A4T) data using the Experience Platform Web SDK.
 keywords: a4t;logging;analytics;sdk;web sdk;
 feature: Implementation
+exl-id: 886588bf-4416-4f1e-aecc-467e48c8fb23
 ---
 # [!DNL Adobe Analytics for Target] (A4T) logging in the [!DNL Experience Platform Web SDK]
 
