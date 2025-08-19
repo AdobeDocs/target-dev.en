@@ -20,7 +20,7 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 >
 >Version 2 (v2) of the [!DNL Bulk Profile Update API] is the current version. However, [!DNL Target] continues to support version 1 (v1).
 >
->* **Stand-alone implementations that do not rely on `PCID`, use Version 2**: If your [!DNL Target] implementation uses [!DNL Experience Cloud ID] (ECID) as one of the profile identifiers for anonymous visitors, you must not use `pcId` as the key in a Version 2 (v2) batch file. The use of `pcId` with Version 2 of the [!DNL Bulk Profile Update API] is intended for stand-alone [!DNL Target] implementations that do not rely on `ECID`.
+>* **Stand-alone implementations that do not rely on `ECID`, use Version 2**: If your [!DNL Target] implementation uses [!DNL Experience Cloud ID] (ECID) as one of the profile identifiers for anonymous visitors, you must not use `pcId` as the key in a Version 2 (v2) batch file. The use of `pcId` with Version 2 of the [!DNL Bulk Profile Update API] is intended for stand-alone [!DNL Target] implementations that do not rely on `ECID`.
 >
 >* **Implementations that rely on `thirdPartID`, use Version 1**: Implementations that use `ECID` for profile identification should use Version 1 (v1) of the API if you want to use `pcId` as key in batch file. If your implementation uses `thirdPartyId` for profile identification, then Version 2 (v2) is recommended with `thirdPartyId` as key.
 
