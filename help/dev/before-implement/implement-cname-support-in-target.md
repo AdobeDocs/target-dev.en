@@ -235,18 +235,15 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
      echo "$horizontalRule"
      echo
    }
-   
    ```
 
    +++
 
 1. Paste this command (replacing `target.example.com` with your hostname):
 
-   ```
-   adobeTargetCnameValidation target.example.com
-   ```
-
-   If the implementation is ready, you see output like below. The important part is that all validation status lines show `✅` rather than `🚫`. Each Target edge CNAME shard should show `CN=target.example.com`, which matches the primary hostname on the requested certificate (additional SAN hostnames on the certificate aren't printed in this output).
+   ```adobeTargetCnameValidation target.example.com```
+   
+ If the implementation is ready, you see output like below. The important part is that all validation status lines show `✅` rather than `🚫`. Each Target edge CNAME shard should show `CN=target.example.com`, which matches the primary hostname on the requested certificate (additional SAN hostnames on the certificate aren't printed in this output).
 
     +++ See details
 
@@ -291,7 +288,6 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 >[!NOTE]
 >
 >If this validation command fails on DNS validation but you've already made the necessary DNS changes, you might need to wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records. As a result, you might need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs. To check DNS propagation around the world, see [whatsmydns.net](https://whatsmydns.net/#CNAME).
-
 ### How do I use an opt-out link with CNAME
 
 If you are using CNAME, the opt-out link should contain the "client=`clientcode` parameter, for example:
