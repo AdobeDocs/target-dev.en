@@ -91,8 +91,6 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 
 1. Copy and paste this bash function into your terminal, or paste the function into your bash startup script file (usually `~/.bash_profile` or `~/.bashrc`) so the function is available across terminal sessions:
 
-   +++ See details
-
    ```bash {line-numbers="true"}
     function adobeTargetCnameValidation {
 
@@ -236,8 +234,6 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
      echo
    }
    ```
-
-   +++
 
 1. Paste this command (replacing `target.example.com` with your hostname):
 
