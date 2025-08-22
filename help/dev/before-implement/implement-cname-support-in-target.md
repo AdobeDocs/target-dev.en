@@ -91,6 +91,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 
 1. Copy and paste this bash function into your terminal, or paste the function into your bash startup script file (usually `~/.bash_profile` or `~/.bashrc`) so the function is available across terminal sessions:
 
+   +++See details
    ```
    function adobeTargetCnameValidation {
      local hostname="$1"
@@ -232,17 +233,17 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
      echo "$horizontalRule"
      echo
    }
-   
    ```
+
+   +++
 
 1. Paste this command (replacing `target.example.com` with your hostname):
 
-   ```
-   adobeTargetCnameValidation target.example.com
-   ```
-
+   ```adobeTargetCnameValidation target.example.com```
+   
    If the implementation is ready, you see output like below. The important part is that all validation status lines show `✅` rather than `🚫`. Each Target edge CNAME shard should show `CN=target.example.com`, which matches the primary hostname on the requested certificate (additional SAN hostnames on the certificate aren't printed in this output).
 
+   +++See details
    ```
    $ adobeTargetCnameValidation target.example.com
    
@@ -306,6 +307,8 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
        🔎  DNS CNAME record:  https://whatsmydns.net/#CNAME/target.example.com 
    
    ```
+
++++
 
 >[!NOTE]
 >
