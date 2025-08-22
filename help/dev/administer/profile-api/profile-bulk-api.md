@@ -18,9 +18,15 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 
 >[!NOTE]
 >
->Version 2 (v2) of the [!UICONTROL Bulk Profile Update API] is the current version. However, [!DNL Target] still supports version 1 (v1).
+>Version 2 (v2) of the [!DNL Bulk Profile Update API] is the current version. However, [!DNL Target] continues to support version 1 (v1).
+>
+>* If your [!DNL Target] implementation uses [!DNL Experience Cloud ID] (ECID) as one of the profile identifiers for anonymous visitors, do not use `pcId` as the key in a Version 2 (v2) batch file. The use of `pcId` with v2 of the [!DNL Bulk Profile Update API] is intended only for stand-alone [!DNL Target] implementations that do not rely on ECID.
+>
+>* If your implementation uses ECID for profile identification and you want to use `pcId` as the key in the batch file, use Version 1 (v1) of the API.
+>
+>* If your implementation uses `thirdPartyId` for profile identification, use Version 2 (v2) of the API with `thirdPartyId` as the key.
 
-## Benefits of the Bulk Profile Update API
+## Benefits of the [!UICONTROL Bulk Profile Update API]
 
 * No limit on the number of profile attributes.
 * Profile attributes sent via the site can be updated via the API and the opposite way.

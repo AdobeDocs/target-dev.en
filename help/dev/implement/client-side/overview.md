@@ -11,13 +11,13 @@ In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers t
 
 To implement [!DNL Target] client-side, you must use one of the following JavaScript libraries:
 
-* [Adobe Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk.md)
+* [Adobe Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
 
-  The [!UICONTROL Adobe Experience Platform Web SDK] lets you interact with the various services in the [!DNL Adobe Experience Cloud] (including [!DNL Target]) through the [!UICONTROL Adobe Experience Edge Network]. If you choose to migrate to the [!UICONTROL Adobe Experience Platform Web SDK], see [What is [!UICONTROL Adobe Experience Platform Web SDK]](/help/dev/implement/client-side/aep-web-sdk.md).
+  The [!UICONTROL Adobe Experience Platform Web SDK] lets you interact with the various services in the [!DNL Adobe Experience Cloud] (including [!DNL Target]) through the [!UICONTROL Adobe Experience Edge Network]. If you choose to migrate to the [!UICONTROL Adobe Experience Platform Web SDK], see [What is [!UICONTROL Adobe Experience Platform Web SDK]](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md).
 
-* [[!DNL Target] at.js JavaScript library](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md)
+* [[!DNL Target] at.js JavaScript library](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md)
 
   The at.js JavaScript library improves page load times for web implementations, improves security, and provides better implementation options for single page applications. If you choose to migrate to at.js, see [How At.js Works](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md) and [[!DNL Adobe Target] Skill Builder: Developer chat, migrate Adobe Target's mbox.js to at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 
-See [Comparing the at.js library to the Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/adobe-target/web-sdk-atjs-comparison){target=_blank} to learn about the differences between the two implementation approaches.
+See [Comparing the at.js library to the Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md) to learn about the differences between the two implementation approaches.

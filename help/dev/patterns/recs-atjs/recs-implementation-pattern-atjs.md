@@ -8,7 +8,7 @@ exl-id: d568cd1d-acc3-42e0-ae2c-5787e6f361f8
 ---
 # [!DNL Recommendations] implementation pattern using at.js overview
 
-This implementation pattern helps you understand and create your [!DNL Adobe Target Recommendations] implementation when using the [at.js JavaScript library](/help/dev/implement/client-side/atjs/how-atjs-works/overview.md).
+This implementation pattern helps you understand and create your [!DNL Adobe Target Recommendations] implementation when using the [at.js JavaScript library](/help/dev/implement/client-side/atjs/how-atjs-works/how-atjs-works.md).
 
 Click image to expand to full screen.
 

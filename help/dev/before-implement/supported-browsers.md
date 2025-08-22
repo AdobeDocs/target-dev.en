@@ -15,10 +15,24 @@ For more important information about TLS, see [TLS (Transport Layer Security) En
 
 The [!DNL Target] interface supports the following browsers and devices:
 
+>[!NOTE]
+>
+>Target supports the latest version of each listed browser and the latest version minus 1. 
+
+
 | Device Type | Browser Version |
 |--- |--- |
-|Windows|<ul><li>Microsoft Edge</li><li>Google Chrome (latest, latest minus 1)</li><li>Mozilla Firefox (latest, latest minus 1)</li></ul>|
-|Mac|<ul><li>Firefox (latest, latest minus 1)</li><li>Chrome (latest, latest minus 1)</li></ul>|
+|[!DNL Windows]|<ul><li>[!DNL Microsoft Edge]</li><li>[!DNL Google Chrome]</li><li>[!DNL Mozilla Firefox]</li></ul>|
+|[!DNL Mac]|<ul><li>[!DNL Microsoft Edge]</li><li>[!DNL Google Chrome]</li><li>[!DNL Mozilla Firefox]</li></ul>|
+
+## Visual editing requirements 
+
+To be able to open, author, and preview your web pages reliably in the [!UICONTROL Visual Experience Composer] (VEC), you must have the [Adobe Experience Cloud Visual Editing Helper browser extension](https://experienceleague.adobe.com/en/docs/target/using/experiences/vec/troubleshoot-composer/visual-editing-helper-extension){target=_blank} installed on your web browser or use [!UICONTROL Enhanced Experience Composer (EEC)].
+
+>[!NOTE]
+>
+>[!DNL Google Chrome] and [!DNL Microsoft Edge] are currently the only browsers that support visual editing of web pages in [!DNL Adobe Target].
+
 
 ## Content delivery
 
