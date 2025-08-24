@@ -17,21 +17,6 @@ Using [!UICONTROL Adobe Target's Delivery API], you can:
 * Cache experiences for a user within a session in your server so that multiple API calls can be avoided and as a result achieve better performance.
 * Seamlessly integrate with [!DNL Adobe Experience Cloud] products such as [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], and the [!DNL Experience Cloud ID Service] from the server side.
 
->[!IMPORTANT]
->
->Use caution when updating your [!DNL Recommendations] [!UICONTROL Catalog] via the [!DNL Delivery API]. The [!DNL Delivery API] is public, so avoid using it to populate clickable items in your recommendations catalog. Doing so can introduce invalidated content and pollute your catalog.
->
->Best Practices:
->
->Use the [!DNL Delivery API] only for updating catalog attributes that:
->* Change frequently (for example, price, stock level).
->* Follow a predefined format that can be easily validated on your website.
->* Do not use it for adding or modifying clickable items or other unverified content.
->
->If needed, you can request customer support to disable catalog updates through the Delivery API.
-
-For more information, see the [[!UICONTROL Adobe Target Delivery API]](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} documentation.
-
 >[!NOTE]
 >
 >You can still access the [legacy /v1/mbox and /v2/batchmbox API documentation](https://developers.adobetarget.com/api/legacy-api/index.html). However, features will be developed in the Delivery API (as documented here) that will not be backported to the legacy APIs.
