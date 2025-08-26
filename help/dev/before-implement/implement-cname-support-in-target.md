@@ -20,7 +20,7 @@ Instructions for working with [!DNL Adobe Client Care] to implement CNAME (Canon
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
    ```
-   
+
    >[!WARNING]
    >
    >Adobe's certificate authority, DigiCert, cannot issue a certificate until this step is complete. Therefore, Adobe cannot fulfill your request for a CNAME implementation until this step is complete.
@@ -242,7 +242,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 1. Paste this command (replacing `target.example.com` with your hostname):
 
    `adobeTargetCnameValidation target.example.com`
-   
+
    If the implementation is ready, you see output like below. The important part is that all validation status lines show `✅` rather than `🚫`. Each Target edge CNAME shard should show `CN=target.example.com`, which matches the primary hostname on the requested certificate (additional SAN hostnames on the certificate aren't printed in this output).
 
    +++ See details
