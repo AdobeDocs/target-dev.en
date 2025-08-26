@@ -7,6 +7,8 @@ feature: APIs/SDKs
 ---
 # Considerations and known limitations
 
+The following information lists considerations and known limitations with using the [!DNL Adobe Target] [!DNL Delivery API].
+
 * There is no authentication for [!DNL Target] Delivery APIs.
 * This API does not process cookies or redirect calls.
 * Both HTTP/1.1 and HTTP/2 header names are case-insensitive; however, HTTP/2 enforces lowercase header names. For more information, see the [Hypertext Transfer Protocol Version 2 (HTTP/2) documentation](https://www.rfc-editor.org/rfc/rfc7540#section-8.1.2){target=_blank}.
