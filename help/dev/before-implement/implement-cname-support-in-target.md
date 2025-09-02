@@ -31,6 +31,7 @@ Instructions for working with [!DNL Adobe Client Care] to implement CNAME (Canon
    * SSL certificate hostnames (example: `target.example.com target.example.org`):
    * SSL certificate purchaser (Adobe is highly recommended, see FAQ): Adobe/customer
    * If the customer is purchasing the certificate, also known as "Bring Your Own Certificate" (BYOC), fill out these additional details:
+
       * Certificate organization (example: Example Company Inc):
       * Certificate organizational unit (optional, example: Marketing):
       * Certificate country (example: US):
@@ -300,3 +301,4 @@ Replace `clientcode` with your client code, then add the text or image to be lin
 
 * QA mode is not sticky when you have CNAME and at.js 1.x because it is based on a third-party cookie. The workaround is to add the preview parameters to each URL you navigate to. QA mode is sticky when you have CNAME and at.js 2.x.
 * When using CNAME, it becomes more likely that the size of the cookie header for [!DNL Target] calls increase. Adobe recommends keeping the cookie size under 8 KB.
+
