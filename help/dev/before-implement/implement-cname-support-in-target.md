@@ -13,7 +13,7 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
 ## Request CNAME support in [!DNL Target]
 
 1. Determine the list of hostnames you need for your SSL certificate (see FAQ below).
-1. [Fill out this form](/help/assets/FPC_Request_Form.xlsx) and include it when you [open an [!DNL Adobe] Client Care ticket requesting CNAME support](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [Fill out this form](/help/dev/implement/assets/FPC_Request_Form.xlsx) and include it when you [open an [!DNL Adobe] Client Care ticket requesting CNAME support](https://experienceleague.adobe.com/en/docs/target/using/cmp-resources-and-contact-information#reference_ACA3391A00EF467B87930A450050077C):
 
    * [!DNL Adobe Target] client code:
    * SSL certificate hostnames (example: `target.example.com target.example.org`):
@@ -44,7 +44,7 @@ Instructions for working with [!DNL Adobe] Client Care to implement CNAME (Canon
 
    [!DNL Adobe] Client Care notifies you when your implementation is ready.
 
-1. Update the `serverDomain` ([documentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#serverDomain)) to the new CNAME hostname and set `overrideMboxEdgeServer` to `false` ([documentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#overridemboxedgeserver)) in your at.js configuration.
+1. Update the `serverDomain` ([documentation](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md#serverDomain)) to the new CNAME hostname and set `overrideMboxEdgeServer` to `false` ([documentation](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md#overridemboxedgeserver)) in your at.js configuration.
 
 ## Frequently Asked Questions
 
@@ -80,7 +80,7 @@ No, [!DNL Target] requires a separate hostname and certificate.
 
 ### Is my current implementation of [!DNL Target] impacted by ITP 2.x?
 
-Apple Intelligent Tracking Prevention (ITP) version 2.3 introduced its CNAME Cloaking Mitigation feature, which is able to detect [!DNL Adobe Target] CNAME implementations and reduces the cookie's expiration to seven days. Currently [!DNL Target] has no workaround for ITP's CNAME Cloaking Mitigation. For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Apple Intelligent Tracking Prevention (ITP) version 2.3 introduced its CNAME Cloaking Mitigation feature, which is able to detect [!DNL Adobe Target] CNAME implementations and reduces the cookie's expiration to seven days. Currently [!DNL Target] has no workaround for ITP's CNAME Cloaking Mitigation. For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/dev/before-implement/privacy/apple-itp-2x.md).
 
 ### What kind of service disruptions can I expect when my CNAME implementation is deployed?
 
@@ -336,7 +336,7 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 If you are using CNAME, the opt-out link should contain the "client=`clientcode` parameter, for example:
 `https://my.cname.domain/optout?client=clientcode`.
 
-Replace `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
+Replace `clientcode` with your client code, then add the text or image to be linked to the [opt-out URL](/help/dev/before-implement/privacy/privacy.md).
 
 ## Known limitations
 
