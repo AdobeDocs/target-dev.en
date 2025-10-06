@@ -100,146 +100,145 @@ Use the following set of commands (in the macOS or Linux command-line terminal, 
 
    ```
    function adobeTargetCnameValidation {
-    local hostname="$1"
-    
-    if [ -z "$hostname" ]; then
-      echo "ERROR: no hostname specified"
-      return 1
-    fi
-    
-    local service="Adobe Target CNAME implementation"
-    local edges="41 42 44 45 46 47 48"
-    local edgeDomain="tt.omtrdc.net"
-    local edgeFormat="mboxedge%d%s.$edgeDomain"
-    local poolDomain="pool.data.adobedc.net"
-    local shards=5
-    local shardsFoundCount=0
-    local shardsFound=""
-    local shardsFoundOutput=""
-    local curlRegex="subject:.*CN=|expire date:|issuer:"
-    local curlValidation="SSL certificate verify ok"
-    local curlResponseValidation='"OK"'
-    local curlEndpoint="/uptime?mboxClient=uptime3"
-    local url="https://$hostname$curlEndpoint"
-    local sslShopperUrl="https://www.sslshopper.com/ssl-checker.html#hostname=$hostname"
-    local success="✅"
-    local failure="🚫"
-    local info="🔎"
-    local rule="="
-    local horizontalRule="$(seq ${COLUMNS:-30} | xargs printf "$rule%.0s")"
-    local miniRule="$(seq 5 | xargs printf "$rule%.0s")"
-    local curlVersion="$(curl --version | head -1 | cut -d' ' -f2)"
-    local curlVersionRequired=7.49
-    local edgeCount="$(wc -w <<< "$edges" | tr -d ' ')"
-    local cnameExists=""
-    local endToEndTestSucceeded=""
-    
-    for region in IRL1 IND1 SIN OR SYD VA TYO; do
-      local currShard="${region}-${poolDomain}"
-      local curlResult="$(curl -vsm20 --connect-to "$hostname:443:$currShard:443" "$url" 2>&1)"
+      local hostname="$1"
       
-      if grep -q "$curlValidation" <<< "$curlResult"; then
-        shardsFound+=" $currShard"
-        
-        if grep -q "$curlResponseValidation" <<< "$curlResult"; then
-          shardsFoundCount=$((shardsFoundCount+1))
-          shardsFoundOutput+="\n\n$miniRule $success $hostname [edge shard: $currShard] $miniRule\n"
-        else
-          shardsFoundOutput+="\n\n$miniRule $failure $hostname [edge shard: $currShard] $miniRule\n"
-        fi
-        
-        shardsFoundOutput+="$(grep -E "$curlRegex" <<< "$curlResult" | sort)"
-        
-        if ! grep -q "$curlResponseValidation" <<< "$curlResult"; then
-          shardsFoundOutput+="\nERROR: unexpected HTTP response from this shard using $url"
-        fi
+      if [ -z "$hostname" ]; then
+         echo "ERROR: no hostname specified"
+         return 1
       fi
-    done
-    
-    echo
-    echo "$horizontalRule"
-    echo
-    echo "$service validation for hostname $hostname:"
-    
-    local dnsOutput="$(dig -t CNAME +short "$hostname" 2>&1)"
-    if grep -qFi ".$edgeDomain" <<< "$dnsOutput"; then
-      echo "$success $hostname passes DNS CNAME validation"
-      cnameExists=true
-    else
-      echo -n "$failure $hostname FAILED DNS CNAME validation -- "
-      if [ -n "$dnsOutput" ]; then
-        echo -e "$dnsOutput is not in the subdomain $edgeDomain"
-      else
-        echo "required DNS CNAME record pointing to <target-client-code>.$edgeDomain not found"
-      fi
-    fi
-    
-    for region in IRL1 IND1 SIN OR SYD VA TYO; do
-      local curlResult="$(curl -vsm20 --connect-to "$hostname:443:${region}-pool.data.adobedc.net:443" "https://$hostname$curlEndpoint" 2>&1)"
       
-      if grep -q "$curlValidation" <<< "$curlResult"; then
-        if grep -q "$curlResponseValidation" <<< "$curlResult"; then
-          echo -en "$success $hostname passes TLS and HTTP response validation for region $region"
-          if [ -n "$cnameExists" ]; then
-            echo
-          else
-            echo " -- the DNS CNAME is not pointing to the correct subdomain for ${service}s with Adobe-managed certificates" \
-              "(bring-your-own-certificate implementations don't have this requirement), but this test passes as configured"
-          fi
-          endToEndTestSucceeded=true
-        else
-          echo -n "$failure $hostname FAILED HTTP response validation for region $region --" \
-            "unexpected response from $url -- "
-          if [ -n "$cnameExists" ]; then
-            echo "DNS is NOT pointing to the correct shard, notify Adobe Client Care"
-          else
-            echo "the required DNS CNAME record is missing, see above"
-          fi
-        fi
-      else
-        echo -n "$failure $hostname FAILED TLS validation for region $region -- "
-        if [ -n "$cnameExists" ]; then
-          echo "DNS is likely NOT pointing to the correct shard or there's a validation issue with the certificate or" \
-            "protocols, see curl output below and optionally SSL Shopper ($sslShopperUrl):"
-          echo ""
-          echo "$horizontalRule"
-          echo "$curlResult" | sed 's/^/    /g'
-          echo "$horizontalRule"
-          echo ""
-        else
-          echo "the required DNS CNAME record is missing, see above"
-        fi
-      fi
-    done
-    
-    if [ "$shardsFoundCount" -ge "$edgeCount" ]; then
-      echo -n "$success $hostname passes shard validation for the following $shardsFoundCount edge shards:"
-      echo -e "$shardsFoundOutput"
+      local service="Adobe Target CNAME implementation"
+      local edges="41 42 44 45 46 47 48"
+      local edgeDomain="tt.omtrdc.net"
+      local edgeFormat="mboxedge%d%s.$edgeDomain"
+      local poolDomain="pool.data.adobedc.net"
+      local shards=5
+      local shardsFoundCount=0
+      local shardsFound=""
+      local shardsFoundOutput=""
+      local curlRegex="subject:.*CN=|expire date:|issuer:"
+      local curlValidation="SSL certificate verify ok"
+      local curlResponseValidation='"OK"'
+      local curlEndpoint="/uptime?mboxClient=uptime3"
+      local url="https://$hostname$curlEndpoint"
+      local sslShopperUrl="https://www.sslshopper.com/ssl-checker.html#hostname=$hostname"
+      local success="✅"
+      local failure="🚫"
+      local info="🔎"
+      local rule="="
+      local horizontalRule="$(seq ${COLUMNS:-30} | xargs printf "$rule%.0s")"
+      local miniRule="$(seq 5 | xargs printf "$rule%.0s")"
+      local curlVersion="$(curl --version | head -1 | cut -d' ' -f2)"
+      local curlVersionRequired=7.49
+      local edgeCount="$(wc -w <<< "$edges" | tr -d ' ')"
+      local cnameExists=""
+      local endToEndTestSucceeded=""
+      
+      for region in IRL1 IND1 SIN OR SYD VA TYO; do
+         local currShard="${region}-${poolDomain}"
+         local curlResult="$(curl -vsm20 --connect-to "$hostname:443:$currShard:443" "$url" 2>&1)"
+         
+         if grep -q "$curlValidation" <<< "$curlResult"; then
+            shardsFound+=" $currShard"
+            
+            if grep -q "$curlResponseValidation" <<< "$curlResult"; then
+               shardsFoundCount=$((shardsFoundCount+1))
+               shardsFoundOutput+="\n\n$miniRule $success $hostname [edge shard: $currShard] $miniRule\n"
+            else
+               shardsFoundOutput+="\n\n$miniRule $failure $hostname [edge shard: $currShard] $miniRule\n"
+            fi
+            
+            shardsFoundOutput+="$(grep -E "$curlRegex" <<< "$curlResult" | sort)"
+            
+            if ! grep -q "$curlResponseValidation" <<< "$curlResult"; then
+               shardsFoundOutput+="\nERROR: unexpected HTTP response from this shard using $url"
+            fi
+         fi
+      done
+      
       echo
+      echo "$horizontalRule"
+      echo
+      echo "$service validation for hostname $hostname:"
       
-      if [ -n "$cnameExists" ] && [ -n "$endToEndTestSucceeded" ]; then
-        echo "$horizontalRule"
-        echo ""
-        echo "  For additional TLS/SSL validation, see SSL Shopper:"
-        echo ""
-        echo "    $info  $sslShopperUrl"
-        echo ""
-        echo "  To check DNS propagation around the world, see whatsmydns.net:"
-        echo ""
-        echo "    $info  DNS A records:     https://whatsmydns.net/#A/$hostname"
-        echo "    $info  DNS CNAME record:  https://whatsmydns.net/#CNAME/$hostname"
+      local dnsOutput="$(dig -t CNAME +short "$hostname" 2>&1)"
+      if grep -qFi ".$edgeDomain" <<< "$dnsOutput"; then
+         echo "$success $hostname passes DNS CNAME validation"
+         cnameExists=true
+      else
+         echo -n "$failure $hostname FAILED DNS CNAME validation -- "
+         if [ -n "$dnsOutput" ]; then
+            echo -e "$dnsOutput is not in the subdomain $edgeDomain"
+         else
+            echo "required DNS CNAME record pointing to <target-client-code>.$edgeDomain not found"
+         fi
       fi
-    else
-      echo -n "$failure $hostname FAILED shard validation -- shards found: $shardsFoundCount," \
-        "expected: $edgeCount"
-      echo ""
-    fi
-    
-    echo
-    echo "$horizontalRule"
-    echo
-  }
-
+      
+      for region in IRL1 IND1 SIN OR SYD VA TYO; do
+         local curlResult="$(curl -vsm20 --connect-to "$hostname:443:${region}-pool.data.adobedc.net:443" "https://$hostname$curlEndpoint" 2>&1)"
+         
+         if grep -q "$curlValidation" <<< "$curlResult"; then
+            if grep -q "$curlResponseValidation" <<< "$curlResult"; then
+               echo -en "$success $hostname passes TLS and HTTP response validation for region $region"
+               if [ -n "$cnameExists" ]; then
+                  echo
+               else
+                  echo " -- the DNS CNAME is not pointing to the correct subdomain for ${service}s with Adobe-managed certificates" \
+                     "(bring-your-own-certificate implementations don't have this requirement), but this test passes as configured"
+               fi
+               endToEndTestSucceeded=true
+            else
+               echo -n "$failure $hostname FAILED HTTP response validation for region $region --" \
+                  "unexpected response from $url -- "
+               if [ -n "$cnameExists" ]; then
+                  echo "DNS is NOT pointing to the correct shard, notify Adobe Client Care"
+               else
+                  echo "the required DNS CNAME record is missing, see above"
+               fi
+            fi
+         else
+            echo -n "$failure $hostname FAILED TLS validation for region $region -- "
+            if [ -n "$cnameExists" ]; then
+               echo "DNS is likely NOT pointing to the correct shard or there's a validation issue with the certificate or" \
+                  "protocols, see curl output below and optionally SSL Shopper ($sslShopperUrl):"
+               echo ""
+               echo "$horizontalRule"
+               echo "$curlResult" | sed 's/^/    /g'
+               echo "$horizontalRule"
+               echo ""
+            else
+               echo "the required DNS CNAME record is missing, see above"
+            fi
+         fi
+      done
+      
+      if [ "$shardsFoundCount" -ge "$edgeCount" ]; then
+         echo -n "$success $hostname passes shard validation for the following $shardsFoundCount edge shards:"
+         echo -e "$shardsFoundOutput"
+         echo
+         
+         if [ -n "$cnameExists" ] && [ -n "$endToEndTestSucceeded" ]; then
+            echo "$horizontalRule"
+            echo ""
+            echo "  For additional TLS/SSL validation, see SSL Shopper:"
+            echo ""
+            echo "    $info  $sslShopperUrl"
+            echo ""
+            echo "  To check DNS propagation around the world, see whatsmydns.net:"
+            echo ""
+            echo "    $info  DNS A records:     https://whatsmydns.net/#A/$hostname"
+            echo "    $info  DNS CNAME record:  https://whatsmydns.net/#CNAME/$hostname"
+         fi
+      else
+         echo -n "$failure $hostname FAILED shard validation -- shards found: $shardsFoundCount," \
+            "expected: $edgeCount"
+         echo ""
+      fi
+      
+      echo
+      echo "$horizontalRule"
+      echo
+   }
    ```
 
 1. Paste this command (replacing `target.example.com` with your hostname):
