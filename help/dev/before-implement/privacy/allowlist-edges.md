@@ -62,8 +62,8 @@ To ensure uninterrupted access to [!DNL Target] through the [!DNL Experience Edg
 
 ### Proxy service overview
 
-* **Service Endpoint**: `https://tnt-web-proxy.adobe.io.
-* **Infrastructure**: Hosted on Adobe's Ethos platform.
+* **Service Endpoint**: `https://tnt-web-proxy.adobe.io`.
+* **Infrastructure**: Hosted on the [!DNL Adobe] Ethos platform.
 * **Note**: This service uses latency-based DNS routing and does not rely on static IP addresses.
 
 ### CNAME targets
