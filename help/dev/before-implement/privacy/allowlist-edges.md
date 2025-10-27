@@ -55,3 +55,38 @@ This list will change often, as the load balancers scale up and down based on tr
 |Edge48 (Singapore)|`mboxedge48.tt.omtrdc.net`|52.76.61.44<P>3.1.141.36<P>18.143.112.116|
 
 As the load balancers detect changes in the traffic profile, it will scale up or down. The time required for Elastic Load Balancing to scale can range from 1 to 7 minutes, depending on the changes detected. When the load balancers scale, they update the DNS record with the new list of IP addresses. To ensure you are taking advantage of the increased capacity, Elastic Load Balancing uses a TTL setting on the DNS record of 60 seconds.
+
+## Allowlisting requirements for [!DNL Target] proxy service
+
+To ensure uninterrupted access to [!DNL Target] through the [!DNL Experience Edge Connector] (EEC), customers might need to update their network configurations to allow traffic to the proxy service.
+
+### Proxy service overview
+
+* **Service Endpoint**: `https://tnt-web-proxy.adobe.io`.
+* **Infrastructure**: Hosted on the [!DNL Adobe] Ethos platform.
+* **Note**: This service uses latency-based DNS routing and does not rely on static IP addresses.
+
+### CNAME targets
+
+The proxy service routes traffic dynamically across multiple regions using CNAME records. These are the current targets:
+
+|Edge Location|Egress IP Addresses|
+| --- | --- |
+|Region|CNAME Target|
+|Europe (eu-west-1)|`ethos.pub.ethos11-prod-nld2.ethos.adobe.net`|
+|US East (us-east-2)|`ethos.pub.ethos11-prod-va7.ethos.adobe.net`|
+|US East (us-east-1)|`ethos.pub.ethos11-prod-aus5.ethos.adobe.net`|
+
+### Recommended allowlist entries
+
+To ensure reliable connectivity, allowlist the following hostnames:
+
+* `ethos.pub.ethos11-prod-nld2.ethos.adobe.net`
+* `ethos.pub.ethos11-prod-va7.ethos.adobe.net`
+* `ethos.pub.ethos11-prod-aus5.ethos.adobe.net`
+
+### Optional: IP discovery
+
+If your network policies require IP-based allowlisting, you can view the current public IP addresses associated with the proxy service using this tool:
+
+* `DNSChecker – A Record Lookup for tnt-web-proxy.adobe.io`
