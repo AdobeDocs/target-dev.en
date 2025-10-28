@@ -139,7 +139,7 @@ http://mboxedge45.tt.omtrdc.net/m2/demo/profile/batchStatus?batchId=demo-1701473
 </response>
 ```
 
-## Clarification on handling empty values in the [!DNL Bulk Profile Update API]
+## Handling empty values in the [!DNL Bulk Profile Update API]
 
 When using the [!DNL Target] [!DNL Bulk Profile Update API] (v1 or v2), it's important to understand how the system handles empty parameter or attribute values.
 
@@ -147,7 +147,7 @@ When using the [!DNL Target] [!DNL Bulk Profile Update API] (v1 or v2), it's imp
 
 Sending empty values ("", null, or missing fields) for existing parameters or attributes does not reset or delete those values in the profile store. This is by design.
 
-Empty values are ignored: The API filters out empty values during processing to avoid unnecessary or meaningless updates.
+**Empty values are ignored**: The API filters out empty values during processing to avoid unnecessary or meaningless updates.
 
 **No clearing of existing data**: If a parameter already has a value, sending an empty value leaves it unchanged.
 
