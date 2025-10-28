@@ -61,7 +61,7 @@ You reference this file in the POST call to [!DNL Target] servers to process the
 * The first header should either be a `pcId` or `thirdPartyId`. The [!UICONTROL Marketing Cloud visitor ID] is not supported. [!UICONTROL pcId] is a [!DNL Target]-generated visitorID. `thirdPartyId` is an ID specified by the client application, which is passed to [!DNL Target] through an mbox call as `mbox3rdPartyId`. It must be referred to here as `thirdPartyId`.
 * Parameters and values you specify in the batch file must be URL-encoded using UTF-8 for security reasons. Parameters and values can be forwarded to other edge nodes for processing through HTTP requests.
 * The parameters must be in the format `paramName` only. Parameters are displayed in [!DNL Target] as `profile.paramName`.
-* If you are using [!UICONTROL Bulk Profile Update API] v2, you need not specify all parameter values for each `pcId`. Profiles are created for any `pcId` or `mbox3rdPartyId` that is not found in [!DNL Target]. If you are using v1, profiles are not created for missing pcIds or mbox3rdPartyIds.
+* If you are using [!UICONTROL Bulk Profile Update API] v2, you need not specify all parameter values for each `pcId`. Profiles are created for any `pcId` or `mbox3rdPartyId` that is not found in [!DNL Target]. If you are using v1, profiles are not created for missing pcIds or mbox3rdPartyIds. For more information, see [Handling empty values in the [!DNL Bulk Profile Update API]](#empty) below.
 * The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000. This limit ensures that servers don't get flooded with too many requests.
 * You can send multiple files. However, the sum total of the rows of all the files that you send in a day should not exceed one million for each client.
 * There is no restriction on the number of attributes you can upload. However, the total size of the external profile data, which includes Customer Attributes, Profile API, In-Mbox profile parameters, and Profile Script output, must not exceed 64 KB.
@@ -139,7 +139,7 @@ http://mboxedge45.tt.omtrdc.net/m2/demo/profile/batchStatus?batchId=demo-1701473
 </response>
 ```
 
-## Handling empty values in the [!DNL Bulk Profile Update API]
+## Handling empty values in the [!DNL Bulk Profile Update API] {#empty}
 
 When using the [!DNL Target] [!DNL Bulk Profile Update API] (v1 or v2), it's important to understand how the system handles empty parameter or attribute values.
 
@@ -147,11 +147,11 @@ When using the [!DNL Target] [!DNL Bulk Profile Update API] (v1 or v2), it's imp
 
 Sending empty values ("", null, or missing fields) for existing parameters or attributes does not reset or delete those values in the profile store. This is by design.
 
-**Empty values are ignored**: The API filters out empty values during processing to avoid unnecessary or meaningless updates.
+* **Empty values are ignored**: The API filters out empty values during processing to avoid unnecessary or meaningless updates.
 
-**No clearing of existing data**: If a parameter already has a value, sending an empty value leaves it unchanged.
+* **No clearing of existing data**: If a parameter already has a value, sending an empty value leaves it unchanged.
 
-**Empty-only batches are skipped**: If a batch contains only empty or null values, it is ignored entirely and no updates are applied.
+* **Empty-only batches are skipped**: If a batch contains only empty or null values, it is ignored entirely and no updates are applied.
 
 ### Additional Notes
 
