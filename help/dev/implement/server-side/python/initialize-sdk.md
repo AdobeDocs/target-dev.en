@@ -26,9 +26,9 @@ TargetClient.create(options)
 |client|str|Yes|None|[!UICONTROL Adobe Target client ID]|
 |organization_id|str|Yes|None|[!UICONTROL Experience Cloud Organization ID]|
 |timeout|int|No|3000|Timeout in milliseconds|
-|server_domain|str|No|`client.tt.omtrdc.net`||Overrides default hostname|
+|server_domain|str|No|`client.tt.omtrdc.net`|Overrides default hostname|
 |secure|bool|No|true|Unset to enforce HTTP scheme|
-|logger|object|No|INFO logger||Replaces the default INFO logger|
+|logger|object|No|INFO logger|Replaces the default INFO logger|
 |target_location_hint|str|No|None|[!DNL Target] location hint|
 |property_token|str|No|None|[!DNL Target] Property Token. If specified here, all get_offers calls will use this value.|
 |decisioning_method|str|No|server-side|Determines which decisioning method to use ([on-device](/help/dev/implement/server-side/sdk-guides/on-device-decisioning/overview.md), server-side, hybrid)|

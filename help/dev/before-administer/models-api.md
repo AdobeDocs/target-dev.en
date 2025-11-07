@@ -160,7 +160,7 @@ Note that `blockedFeatureSources` indicates where a feature came from. For the p
 |MOB|Mobile|
 |CRS|Custom - Customer Attributes|
 |UPA|Custom - RT-CDP Profile Attribute|
-|IAC|Visitor Interest Areas||
+|IAC|Visitor Interest Areas|
 
 >[!BEGINTABS]
 

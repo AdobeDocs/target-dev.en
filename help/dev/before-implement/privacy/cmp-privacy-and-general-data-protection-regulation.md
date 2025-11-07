@@ -291,7 +291,7 @@ The following table contains description of the illustrative profile JSON fields
 
 ### Does Target support IP obfuscation?
 
-Target supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](privacy.md/#replacement-of-last-octet-of-ip-addresses).
+Target supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](privacy.md#replacement-of-last-octet-of-ip-addresses).
 
 ### Should I do something to prevent my data from being shared or sold to third parties?
 

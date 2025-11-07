@@ -29,7 +29,7 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 |Field name|Required?|Limitations|Description|
 | --- | --- | --- | --- |
 |request > id|No||One of `tntId`, `thirdPartyId`, or `marketingCloudVisitorId` is required.|
-|Request > id > thirdPartyId|No|Maximum size = 128.|||
+|Request > id > thirdPartyId|No|Maximum size = 128.||
 |Request > experienceCloud|No|||
 |Request > experienceCloud > analytics|No||Adobe Analytics integration|
 |Request > experienceCloud > analytics > logging|No|The following must be implemented on page:<ul><li>Visitor ID Service</li><li>Appmeasurement.js</li></ul>|The following values are supported:<P>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to [!UICONTROL Adobe Analytics] via the [!UICONTROL Data Insertion API].<P>**server_side**: This is the default value where the [!DNL Target] and [!DNL Analytics] backend will use the SDID to stitch the calls together for reporting purposes.|
@@ -55,7 +55,7 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 |Request > execute > pageLoad > order > total|No|`>=` 0.|Retrieve offers with specified order totals when page loads.|
 |Request > execute > pageLoad > order > purchasedProductIds|No|No blank values.<P>Each value's max length 50.<P>Concatenated and separated by comma.<P>Product IDs total length `<=` 250.|Retrieve offers with specified purchased product IDs when page loads.|
 |Request > execute > mboxes|No|Maximum size = 50.<P>No null elements.||
-|Request > execute > mboxes>mbox|Yes|Not blank.<P>No '-clicked' suffix.<P>Maximum size = 250.<P>Allowed characters: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'`|Name of mbox.|
+|Request > execute > mboxes>mbox|Yes|Not blank.<P>No '-clicked' suffix.<P>Maximum size = 250.<P>Allowed characters: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'`\|Name of mbox.|
 |Request > execute > mboxes>mbox>index|Yes|Not null.<P>Unique.<P>`>=` 0.|Note that the index does not represent the order in which the mboxes will be processed. Same as in a web page with several regional mboxes, the order in which they will be processed cannot be specified.|
 |Request > execute > mboxes > mbox > parameters|No|Maximum count = 50.<P>Name not blank.<P>Name length `<=` 128.<P>Accepts String values only.<P>Value length `<=` 5000.<P>Name should not start with "profile."<P>Not allowed names: "orderId", "orderTotal", "productPurchasedId".|Retrieve offers for a given mbox with the specified parameters.|
 |Request > execute > mboxes>mbox>profileParameters|No|Maximum count = 50.<P>Name not blank.<P>Name length `<=` 128.<P>Accepts String values only.<P>Value length `<=`256.<P>Name should not start with "profile."|Retrieve offers for a given mbox with the specified profile parameters.|

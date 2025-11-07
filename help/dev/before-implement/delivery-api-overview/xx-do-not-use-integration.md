@@ -184,7 +184,7 @@ https://{datacollectionhost.sc.omtrdc.net}/b/ss/{rsid}/0/CODEVERSION?pe=tnt&tnta
 |`rsid`|Yes|The report suite ID|
 |`pe`|Yes|Page event. Always set to `tnt`|
 |`tnta`|Yes|Analytics payload returned by Target server in `analytics` -> `payload` -> `tnta`|
-|`mid`|Marketing Cloud Visitor ID|
+|`mid`|Marketing Cloud Visitor ID||
 
 ### Required Header Values
 

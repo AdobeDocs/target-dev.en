@@ -30,7 +30,7 @@ To make sure that events can be used in different scenarios, the custom events h
 |mbox|String|mbox name|
 |message|String|Contains human-readable description, such as what happened, the error message, etc.|
 |tracking|Object|Contains the `sessionId` and `deviceId`. In some cases, `deviceId` could be missing because [!DNL Target] couldn't retrieve it from edge server.|
-|type|String|**On-device decisioning artifact succeeded**<p>Constant:<p>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<p>String value: `artifactDownloadSucceeded`<p>Description: Called when the on-device decisioning artifact is successfully downloaded.<p>**On-device decisioning artifact failed**<p>Constant: `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<p>String Value: `artifactDownloadFailed`<p>Description: Called when the on-device decisioning artifact failed to download.| 
+|type|String|**On-device decisioning artifact succeeded**<p>Constant:<p>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<p>String value: `artifactDownloadSucceeded`<p>Description: Called when the on-device decisioning artifact is successfully downloaded.<p>**On-device decisioning artifact failed**<p>Constant: `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<p>String Value: `artifactDownloadFailed`<p>Description: Called when the on-device decisioning artifact failed to download.|
 
 ## Usage
 

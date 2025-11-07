@@ -58,11 +58,11 @@ Here are the common response codes for the Target Admin APIs.
 
 |Status|Meaning|Description|
 | --- | --- | --- |
-|200|[OK](https://www.rfc-editor.org/rfc/rfc7231#section-6.3.1)|OK||
-|400|[Bad Request](https://www.rfc-editor.org/rfc/rfc7231#section-6.5.1)|Bad Request. Most probably the data provided in the request is invalid.||
-|401|[Unauthorized](https://www.rfc-editor.org/rfc/rfc7235#section-3.1)|The user is not allowed to perform this operation.||
-|403|[Forbidden](https://www.rfc-editor.org/rfc/rfc7231#section-6.5.3)|Access to this resource is forbidden.||
-|404|[Not Found](https://www.rfc-editor.org/rfc/rfc7231#section-6.5.4)|The referenced resource was not found.||
+|200|[OK](https://www.rfc-editor.org/rfc/rfc7231#section-6.3.1)|OK|
+|400|[Bad Request](https://www.rfc-editor.org/rfc/rfc7231#section-6.5.1)|Bad Request. Most probably the data provided in the request is invalid.|
+|401|[Unauthorized](https://www.rfc-editor.org/rfc/rfc7235#section-3.1)|The user is not allowed to perform this operation.|
+|403|[Forbidden](https://www.rfc-editor.org/rfc/rfc7231#section-6.5.3)|Access to this resource is forbidden.|
+|404|[Not Found](https://www.rfc-editor.org/rfc/rfc7231#section-6.5.4)|The referenced resource was not found.|
 
 ## Activities
 
@@ -104,15 +104,15 @@ Batch processing finishes when all operations have been completed, an operation 
 
 |Attribute|Description|Limits|Default|
 | --- | --- | --- | --- |
-|body|body for HTTP batch operation. will be ignored for all actions but POST and PUT. can refer to IDs from previous batch actions, for instance: "offerId": "{operationIdResponse:0}", "segmentId": "{operationIdResponse:1}"|should be a valid JSON; in case referencing an operationIdResponse, the operationId response referred should be a valid ID and the method on that action should be POST|empty object {}||
-|dependsOnOperationIds|list of constraint IDs that will assure that current operation will execute only if specified operations have completed successfully. Can be used to achieve chaining of operations.|maximum 255 operations are allowed; unique values are only allowed; should point to a valid operationId in the array; cyclical dependencies are not allowed|||
-|headers|array of key-value headers to be sent with particular operation. In case authentication for batch API has been performed via Authorization header, it will be copied for individual operations as well.|max number of headers in array allowed is 50|Content-Type: application/json||
-|headers->name|header name|should be unique among other header names. headers are case insensitive by rfc, otherwise the values will override each other.|||
-|headers->value|header value|N/A|empty string||
-|method|HTTP method to use. Available options: GET, POST, PUT, PATCH, DELETE|only GET, POST, PUT, PATCH, DELETE methods are allowed|||
-|operationId|operation ID used to identify an operation among other operations for responses and referencing results.|unique among other operations; values from 0-255|||
-|operations|list of operations to perform in a batch. order is not relevant.|maximum 256 operations are allowed|||
-|relativeUrl|relative URL for admin rest API, the part after "/admin/rest/". Can contain query string parameters like: "/v2/campaigns?limit=10&offset=10". can refer to URLs with contain IDs from previous batch actions, for instance: "/v1/offers/{operationIdResponse:0}". In case query parameters are sent they have to be URL encoded.|should start with / (be relative); only new valid JSON APIs are supported; in case of invalid relativeURL a 404 response for particular operation will be returned; in case referencing an operationIdResponse, the operationId response referred should be a valid ID and the method on that action should be POST|||
+|body|body for HTTP batch operation. will be ignored for all actions but POST and PUT. can refer to IDs from previous batch actions, for instance: "offerId": "{operationIdResponse:0}", "segmentId": "{operationIdResponse:1}"|should be a valid JSON; in case referencing an operationIdResponse, the operationId response referred should be a valid ID and the method on that action should be POST|empty object {}|
+|dependsOnOperationIds|list of constraint IDs that will assure that current operation will execute only if specified operations have completed successfully. Can be used to achieve chaining of operations.|maximum 255 operations are allowed; unique values are only allowed; should point to a valid operationId in the array; cyclical dependencies are not allowed||
+|headers|array of key-value headers to be sent with particular operation. In case authentication for batch API has been performed via Authorization header, it will be copied for individual operations as well.|max number of headers in array allowed is 50|Content-Type: application/json|
+|headers->name|header name|should be unique among other header names. headers are case insensitive by rfc, otherwise the values will override each other.||
+|headers->value|header value|N/A|empty string|
+|method|HTTP method to use. Available options: GET, POST, PUT, PATCH, DELETE|only GET, POST, PUT, PATCH, DELETE methods are allowed||
+|operationId|operation ID used to identify an operation among other operations for responses and referencing results.|unique among other operations; values from 0-255||
+|operations|list of operations to perform in a batch. order is not relevant.|maximum 256 operations are allowed||
+|relativeUrl|relative URL for admin rest API, the part after "/admin/rest/". Can contain query string parameters like: "/v2/campaigns?limit=10&offset=10". can refer to URLs with contain IDs from previous batch actions, for instance: "/v1/offers/{operationIdResponse:0}". In case query parameters are sent they have to be URL encoded.|should start with / (be relative); only new valid JSON APIs are supported; in case of invalid relativeURL a 404 response for particular operation will be returned; in case referencing an operationIdResponse, the operationId response referred should be a valid ID and the method on that action should be POST||
 
 #### Sample Request Object
 
@@ -142,13 +142,13 @@ Batch processing finishes when all operations have been completed, an operation 
 
 |Parameter|Description|
 | --- | --- |
-|operationId|operation ID used to identify an operation among other operations, same ID as it has been sent in POST request.||
-|skipped|boolen flag to mark if operation has been executed or skipped. Will be true in case that current operation depends on a operation which has failed (returned a statusCode value different than 2xx).||
-|statusCode|returned then all depending operations will be skipped (not executed).||
-|headers|array of key-value headers to be sent as a response for particular operation.||
-|headers->name|header name||
-|headers->value|header value||
-|body|body for HTTP batch response operation||
+|operationId|operation ID used to identify an operation among other operations, same ID as it has been sent in POST request.|
+|skipped|boolen flag to mark if operation has been executed or skipped. Will be true in case that current operation depends on a operation which has failed (returned a statusCode value different than 2xx).|
+|statusCode|returned then all depending operations will be skipped (not executed).|
+|headers|array of key-value headers to be sent as a response for particular operation.|
+|headers->name|header name|
+|headers->value|header value|
+|body|body for HTTP batch response operation|
 
 #### Sample Response Object
 

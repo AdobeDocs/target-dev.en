@@ -10,7 +10,7 @@ exl-id: 1efed365-8a74-4c85-bdb1-8daaaf53d642
 List of functions that can be used with the [!DNL Adobe Target] at.js JavaScript library. Click the links in the Function column for more information and examples.
 
 |Function|Details|
-| --- | --- | 
+| --- | --- |
 |[[!UICONTROL adobe.target.getOffer(options)]](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-getoffer.md)|This function fires a request to get a [!DNL Target] offer. Use with `adobe.target.applyOffer()` to process the response or use your own success handling.|
 |[[!UICONTROL adobe.target.getOffers(options)]](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2.md)<P>(at.js 2.x)|This function lets you retrieve multiple offers by passing in multiple mboxes. Additionally, multiple offers can be retrieved for all views in active activities.<P>**Note:** This function was introduced with at.js 2.x. This function is not available for at.js version 1.*x*.|
 |[[!UICONTROL adobe.target.applyOffer(options)]](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer.md)|This function is for applying the response content.|

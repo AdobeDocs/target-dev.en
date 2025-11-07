@@ -16,7 +16,7 @@ When the callback function is called, an event object is passed in. Each event h
 
 |Event Name (type)|Description|Additional Event Properties|
 | --- | --- | --- |
-|clientReady|Emitted when the artifact has downloaded and the SDK is ready for `getOffers` calls. Recommended when using on-device decisioning method.|
+|clientReady|Emitted when the artifact has downloaded and the SDK is ready for `getOffers` calls. Recommended when using on-device decisioning method.||
 |artifactDownloadSucceeded|Emitted each time a new artifact is downloaded.|artifactPayload, artifactLocation|
 |artifactDownloadFailed|Emitted each time an artifact fails to download.|artifactLocation, error|
 

@@ -41,7 +41,7 @@ TargetClientConfig.Builder TargetClientConfig.Builder()
 |Client|string|Yes|None|[!UICONTROL Target Client Id]|
 |OrganizationId|string|Yes|None|[!UICONTROL Experience Cloud Organization ID]|
 |Timeout|int|No|10000|Timeout for all requests in milliseconds|
-|Proxy||WebProxy|No|null|Proxy for all [!DNL Target] requests|
+|Proxy|WebProxy|No|null|Proxy for all [!DNL Target] requests|
 |RetryPolicy|Policy|No|null|Retry Policy for all [!DNL Target] requests|
 |AsyncRetryPolicy|AsyncPolicy|No|null|Async Retry Policy for all [!DNL Target] requests|
 |Logger|ILogger|No|null|Used for debug logging of [!DNL Target] requests and responses|

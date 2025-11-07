@@ -26,7 +26,7 @@ From this user-agent, the server receiving the request can discern the following
 |Information|Details|
 | --- | --- |
 |Software name|Chrome|
-|Software version|101| 
+|Software version|101|
 |Full software version|101.0.4951.41|
 |Layout engine name|AppleWebKit|
 |Layout engine version|537.36|
@@ -113,14 +113,14 @@ The high entropy values include several additional pieces of information that ar
 
 |HTTP header|JavaScript|User-agent|Client hint|High entropy client hint|
 | --- | --- | --- | --- | --- |
-|Sec-CH-UA|brands|Yes|Yes|No| 
+|Sec-CH-UA|brands|Yes|Yes|No|
 |Sec-CH-UA-Platform|platform|Yes|Yes|No|
-|Sec-CH-UA-Mobile|mobile|Yes|Yes|No| 
-|Sec-CH-UA-Platform-Version|platformVersion|Yes|No|Yes| 
-|Sec-CH-UA-Arch|architecture|Yes|No|Yes| 
-|Sec-CH-UA-Model|model|Yes|No|Yes| 
-|Sec-CH-UA-Bitness|Bitness|Yes|No|Yes| 
-|Sec-CH-UA-Full-Version-List|fullVersionList|Yes|No|Yes| 
+|Sec-CH-UA-Mobile|mobile|Yes|Yes|No|
+|Sec-CH-UA-Platform-Version|platformVersion|Yes|No|Yes|
+|Sec-CH-UA-Arch|architecture|Yes|No|Yes|
+|Sec-CH-UA-Model|model|Yes|No|Yes|
+|Sec-CH-UA-Bitness|Bitness|Yes|No|Yes|
+|Sec-CH-UA-Full-Version-List|fullVersionList|Yes|No|Yes|
 
 ## Migration to Client Hints 
 

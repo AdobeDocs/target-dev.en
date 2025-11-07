@@ -21,8 +21,8 @@ The [!DNL Adobe Experience Platform Web SDK] supports two types of [!DNL Analyti
 
 | Logging method | Description |
 | --- | --- |
-| Server-side [!DNL Analytics] logging | All [!DNL Analytics] hits sent through the Edge Network are augmented with [!DNL Target] details on the server side, without having to go through the hit stitching process.  | 
-| Client-side [!DNL Analytics] logging | [!DNL Target] data is returned on the client side, allowing you to manually augment and send data to [!DNL Analytics] using the [Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/c-data-insertion-api.html).| 
+| Server-side [!DNL Analytics] logging | All [!DNL Analytics] hits sent through the Edge Network are augmented with [!DNL Target] details on the server side, without having to go through the hit stitching process.  |
+| Client-side [!DNL Analytics] logging | [!DNL Target] data is returned on the client side, allowing you to manually augment and send data to [!DNL Analytics] using the [Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/c-data-insertion-api.html).|
 
 The logging method is determined by whether you have [!DNL Adobe Analytics] enabled on your configured [datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview):
 

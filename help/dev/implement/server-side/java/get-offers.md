@@ -37,7 +37,7 @@ The `[!UICONTROL TargetDeliveryRequestBuilder]` object has the following structu
 |Name|Type|Required|Description|
 | --- | --- | --- | --- |
 |context|Context|Yes|Specifies the context for the request|
-|sessionId||String|No|Used for linking multiple [!DNL Target] requests|
+|sessionId|String|No|Used for linking multiple [!DNL Target] requests|
 |thirdPartyId|String|No|Your company's identifier for the user that you can send with every call|
 |cookies|List|No|List of cookies returned in previous [!DNL Target] request of same user.|
 |customerIds|Map|No|Customer Ids in VisitorId-compatible format|

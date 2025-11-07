@@ -58,7 +58,7 @@ The syntax for the [Delivery API](/help/dev/implement/delivery-api/overview.md) 
 
 1. Note the client code is required. As a reminder, your client code may be found in Adobe Target by navigating to **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**. Note the **Client Code** value in the **Recommendation API Token** section.
    ![client-code.png](assets/client-code.png)
-1. Once you have your client code, construct your Delivery API call. The example below begins with the **[!UICONTROL Web Batched Mboxes Delivery API Call]** provided in the [Delivery API Postman collection](../../implement/delivery-api/overview.md/#section/Getting-Started/Postman-Collection), making relevant modifications. For example:
+1. Once you have your client code, construct your Delivery API call. The example below begins with the **[!UICONTROL Web Batched Mboxes Delivery API Call]** provided in the [Delivery API Postman collection](../../implement/delivery-api/overview.md#section/Getting-Started/Postman-Collection), making relevant modifications. For example:
    * the **browser** and **address** objects were removed from the **Body**, since they are not required for non-HTML use cases
    * *api_charter* is listed as the location name in this example
    * the entity.id is specified, since this recommendation is based on Content Similarity, which requires a current item key to be passed to Target.

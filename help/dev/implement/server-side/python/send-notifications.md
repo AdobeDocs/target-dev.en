@@ -54,7 +54,7 @@ target_client.send_notifications(options)
 |target_cookie|dict|[!DNL Target] cookie|
 |target_location_hint_cookie|dict|[!DNL Target] location hint cookie|
 |analytics_details|list[AnalyticsResponse]|[!DNL Analytics] payload, in case of client-side [!DNL Analytics] usage|
-|trace||list[dict]|Aggregated trace data for all request mboxes/views|
+|trace|list[dict]|Aggregated trace data for all request mboxes/views|
 |response_tokens|list[dict]|A list of [​Response Tokens](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html)|
 |meta|dict|Additional decisioning metadata for use with on-device-decisioning|
 

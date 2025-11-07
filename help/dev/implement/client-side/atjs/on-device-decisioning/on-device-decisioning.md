@@ -78,7 +78,7 @@ The following list corresponds to the numbers in the diagram:
 |10|The at.js library manipulates the DOM to render the experience from the [!DNL Target] Edge Network.|
 |11|The experience renders for the visitor.|
 |12|The entire web page loads.|
-|13|Analytics data is sent to Data Collection servers.| 
+|13|Analytics data is sent to Data Collection servers.|
 |14|Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
 ### On-device only
@@ -115,7 +115,7 @@ The following list corresponds to the numbers in the diagram:
 |8|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
 |9|The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.|
 |10|The experience renders for the visitor.|
-|11|The entire web page loads.| 
+|11|The entire web page loads.|
 |12|Analytics data is sent to Data Collection servers. Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
 
 The following diagram illustrates the interaction between your visitor, the browser, at.js 2.5.0+, and the cached JSON rule artifact for the visitor's subsequent page hit or returning visit. Because the JSON rules artifact is already cached and available on the browser, the decision is made immediately without a blocking network call. This flow diagram captures subsequent page navigation or returning visitors.
@@ -170,7 +170,7 @@ The following list corresponds to the numbers in the diagram:
 |1|The Experience Cloud Visitor ID is retrieved from the [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).|
 |2|The at.js library loads synchronously and hides the document body.<br />The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
 |3|The at.js library hides the body to prevent flickering.|
-|4|A page-load request is made to the [!DNL Adobe Target] Edge Network, including all configured parameters such as (ECID, Customer ID, Custom Parameters, User Profile, and so forth.)| 
+|4|A page-load request is made to the [!DNL Adobe Target] Edge Network, including all configured parameters such as (ECID, Customer ID, Custom Parameters, User Profile, and so forth.)|
 |5|In parallel, at.js makes a request to retrieve the JSON rule artifact from the nearest Akamai CDN to the visitor.|
 |6|([!DNL Adobe Target] Edge Network) Profile scripts execute and then feed into the Profile Store. The Profile Store requests qualified audiences from the Audience Library (for example, audiences shared from Adobe Analytics, Adobe Audience Manager, and so forth.).|
 |7|The Akamai CDN responds with the JSON rule artifact.|
@@ -201,10 +201,10 @@ The following list corresponds to the numbers in the diagram:
 |2|The at.js library loads synchronously and hides the document body.<br />The at.js library can also be loaded asynchronously with an optional pre-hiding snippet implemented on the page.|
 |3|The at.js library hides the body to prevent flickering.|
 |4|A request is made to retrieve an experience.|
-|5|The at.js library confirms that the JSON rule artifact has already been cached and executes the decision in memory to retrieve the experience.| 
+|5|The at.js library confirms that the JSON rule artifact has already been cached and executes the decision in memory to retrieve the experience.|
 |6|The tested elements are hidden.|
 |7|The at.js library displays the body so that the rest of the page can be loaded for your visitor to view.|
-|8|The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.| 
+|8|The at.js library manipulates the DOM to render the experience from the cached JSON rule artifact.|
 |9|The experience renders for the visitor.|
 |10|The entire web page loads.|
 |11|Analytics data is sent to Data Collection servers. Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage. Analytics data can then be viewed in both Analytics and [!DNL Target] via [!UICONTROL Analytics for Target] (A4T) reports.|
