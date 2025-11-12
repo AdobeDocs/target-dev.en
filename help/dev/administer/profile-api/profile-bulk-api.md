@@ -63,7 +63,6 @@ You reference this file in the POST call to [!DNL Target] servers to process the
 * The parameters must be in the format `paramName` only. Parameters are displayed in [!DNL Target] as `profile.paramName`.
 * If you are using [!UICONTROL Bulk Profile Update API] v2, you need not specify all parameter values for each `pcId`. Profiles are created for any `pcId` or `mbox3rdPartyId` that is not found in [!DNL Target]. If you are using v1, profiles are not created for missing pcIds or mbox3rdPartyIds. For more information, see [Handling empty values in the [!DNL Bulk Profile Update API]](#empty) below.
 * The size of the batch file must be less than 50 MB. In addition, the total number of rows should not exceed 500,000. This limit ensures that servers don't get flooded with too many requests.
-* You can send multiple files. However, the sum total of the rows of all the files that you send in a day should not exceed one million for each client.
 * There is no restriction on the number of attributes you can upload. However, the total size of the external profile data, which includes Customer Attributes, Profile API, In-Mbox profile parameters, and Profile Script output, must not exceed 64 KB.
 * Parameters and values are case-sensitive.
 
