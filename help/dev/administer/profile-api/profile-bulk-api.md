@@ -43,13 +43,13 @@ Using the [!UICONTROL Bulk Profile Update API], you can conveniently send detail
 
 To update profile data in bulk, create a batch file. The batch file is a text file with values separated by commas similar to the following sample file.
 
-``````
+```
 batch=pcId,param1,param2,param3,param4
 123,value1
 124,value1,,,value4
 125,,value2
 126,value1,value2,value3,value4
-``````
+```
 
 >[!NOTE]
 >
@@ -70,9 +70,9 @@ You reference this file in the POST call to [!DNL Target] servers to process the
 
 Make an HTTP POST request to [!DNL Target] edge servers to process the file. Here is a sample HTTP POST request for the file batch.txt using the curl command:
 
-``````
+```
 curl -X POST --data-binary @BATCH.TXT http://CLIENTCODE.tt.omtrdc.net/m2/CLIENTCODE/v2/profile/batchUpdate
-``````
+```
 
 Where:
 
