@@ -34,6 +34,8 @@ You send the order conversion attributes as mentioned in the *Prerequisites* sec
 
 You don't need to include the order conversion attributes in this call. These calls ideally record success metrics that can be thought of as mini-conversion events before the main conversion events. `CardIds` must be included in cart-based recommendations based on the `Add to Cart` event.
 
++++
+
 **Prerequisites**
 
 * Meet with your business team to identify all events that can be considered as conversion or success metrics. You must also identify the conversion event that generates revenue so that those details can be sent to [!DNL Target] along with the event data.
