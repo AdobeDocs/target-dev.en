@@ -4,6 +4,13 @@ description: Learn how to use Adobe Target Profile APIs to send visitor data to 
 contributors: https://github.com/icaraps
 feature: APIs/SDKs
 exl-id: 480cbbbe-4822-48c3-80d4-53628dee57b0
+TQID: https://experienceleague.adobe.com/zmA1vGqBRL8gD-cFjJC0idogx7UF1e22iLEfNT9OHZ4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # [!DNL Adobe Target Profiles API] overview
 

@@ -4,6 +4,19 @@ description: Learn how to use mbox3rdPartyId with the [!DNL Adobe Experience Pla
 keywords: personalization;target;adobe target;renderDecisions;sendEvent;mbox3rdPartyId;
 feature: AEP Web SDK
 exl-id: 1c5067ef-38b3-4bf1-bd39-ea0f2cbd1074
+TQID: https://experienceleague.adobe.com/Ej2sYVnBD9orRTlsMQG85JJV7dvn-9gnABDa0b8uBlM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Use mbox3rdPartyId
 

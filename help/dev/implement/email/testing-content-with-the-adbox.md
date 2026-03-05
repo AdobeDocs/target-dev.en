@@ -4,6 +4,22 @@ description: Use an AdBox to deliver images in an off-site implementation using 
 title: How Do I Create an Adbox for an Image?
 feature: Implement Email
 exl-id: ad1eb6c4-7a16-4054-ae76-57971261e931
+TQID: https://experienceleague.adobe.com/OPo9T2Eb7afF8Ir8PAlY62OX83zhxtruUMKWCfUthxY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: c94a34eb-b51c-4dd1-a6a4-46b0d84ccccd
+    internal-label: Implement email
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Create an Adbox for an image
 

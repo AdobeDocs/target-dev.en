@@ -4,6 +4,26 @@ description: Learn about the JSON rule artifact used by [!UICONTROL on-device de
 title: What is the JSON Rule Artifact Do in On-Device Decisioning?
 feature: at.js
 exl-id: 14413ccf-b55e-48a8-a474-4401eb1b50fc
+TQID: https://experienceleague.adobe.com/wMmu7XlRfsf69FmxgxlLuHhp-DVQ8qgN8hk99gfdm2s
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # [!UICONTROL On-device decisioning] rule artifact
 

@@ -3,6 +3,13 @@ title: Initialize the Python SDK using the create method
 description: Learn how to use the create method to initialize the Python SDK and instantiate the [!UICONTROL TargetClient] to make calls to [!DNL Adobe Target] for experiments and personalized experiences.
 feature: APIs/SDKs
 exl-id: 3e231e8e-696d-45c7-b733-79bf99da5bec
+TQID: https://experienceleague.adobe.com/la4hiAeSKSTgV7-WPLuW-MudsVJAm3qbq1vT7rnzymQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Initialize the Python SDK
 

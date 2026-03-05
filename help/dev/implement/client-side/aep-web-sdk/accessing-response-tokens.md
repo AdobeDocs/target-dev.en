@@ -4,6 +4,21 @@ description: Learn how to access response tokens with the [!DNL Adobe Experience
 keywords: personalization;target;adobe target;renderDecisions;sendEvent;decisionScopes;result.decisions,response tokens;
 feature: AEP Web SDK
 exl-id: b125017c-c257-4f2f-a479-dd0f20e76a9a
+TQID: https://experienceleague.adobe.com/kqa-HY5-dOvNq-yGqthunYDdyTKkiiFdsHquyN34ERg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Accessing response tokens
 

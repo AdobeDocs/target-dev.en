@@ -3,6 +3,19 @@ description: Learn how to use the [!DNL Adobe Mobile SDK] to show the optimal ex
 title: How Does [!DNL Target] Work in Mobile Apps?
 feature: Implement Mobile
 exl-id: 33001f01-fde6-48cb-ac02-d1a632b2150d
+TQID: https://experienceleague.adobe.com/R3B-i9BFKaoTkbfzVLOU-j8VV2K-MpNrf0WTCkMceT8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # How [!DNL Target] works in mobile apps
 

@@ -3,6 +3,13 @@ title: Get started with the [!DNL Adobe Target] Java SDK
 description: Learn how [!DNL Adobe Target] customers can install, initialize, and use the Java SDK.
 feature: APIs/SDKs
 exl-id: ccdd33f5-a9c7-4832-beba-b9692203d42c
+TQID: https://experienceleague.adobe.com/BtTvCc3i4bYN5rujWFkp-h6TNewSovwrxC8UKvEYZpI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Java SDK overview
 

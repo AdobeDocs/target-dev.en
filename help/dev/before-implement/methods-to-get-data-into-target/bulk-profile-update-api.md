@@ -4,6 +4,19 @@ description: Get data into [!DNL Target] using the [!UICONTROL Bulk Profile Upda
 title: How Do I Get Data into [!DNL Target] Using the [!UICONTROL Bulk Profile Update API]?
 feature: Implementation
 exl-id: 654b13b7-1683-4c44-80e6-7557b9d29f66
+TQID: https://experienceleague.adobe.com/vBcIsBR6wwYr7MbRh7UJvt71ULDEq6iXVZ5spZlif-0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Bulk Profile Update API
 

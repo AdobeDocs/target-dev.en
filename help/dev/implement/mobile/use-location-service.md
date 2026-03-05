@@ -4,6 +4,13 @@ description: Learn how to use the [!DNL Adobe Experience Platform Location Servi
 title: How do I Use the [!DNL Adobe Location Service]?
 feature: Implement Mobile
 exl-id: ff38c0bb-3451-420f-8538-10f1d0606232
+TQID: https://experienceleague.adobe.com/dr-6ZJdh-o9p75Cm1LsT7IrRglSiAMlkGKoEc4EZU6E
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Use [!UICONTROL Location Service]
 

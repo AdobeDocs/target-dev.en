@@ -4,6 +4,19 @@ description: Get data into [!DNL Target] using customer attributes.
 title: How Do I Get Data into [!DNL Target] Using Customer Attributes?
 feature: Implementation
 exl-id: d05cdd38-ba7c-4f29-a0ef-ae68619e7617
+TQID: https://experienceleague.adobe.com/bzK915y7fvjfZjTkSK2QWHDzmIN9SdAQiEguiUlc-r8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Customer attributes
 

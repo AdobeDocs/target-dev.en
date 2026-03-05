@@ -4,6 +4,13 @@ description: Adobe Target Delivery API and SDKs
 keywords: delivery api
 exl-id: fc3996e6-8945-437c-9574-cc3f1a406f54
 feature: APIs/SDKs
+TQID: https://experienceleague.adobe.com/ctDEksYd-dwv5oe9QC1NMGsGUVoTdsxXDtoxg-ah2ks
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # SDKs
 
