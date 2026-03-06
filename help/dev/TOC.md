@@ -168,7 +168,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
    + [Client-side logging for A4T data in Experience Platform Web SDK](/help/dev/implement/a4t/client-side-logging.md)
    + [Server-side logging for A4T data in Experience Platform Web SDK](/help/dev/implement/a4t/server-side-a4t.md)
 + [Recommendations implementation](implement/recommendations/recommendations.md)
-+ [Recommendations implementation beta](/help/dev/implement/recommendations/recommendations-beta.md)
++ {hide-from-toc} [Recommendations implementation beta](/help/dev/implement/recommendations/recommendations-beta.md)
 + Mobile app implementation {#mobile-apps}
     + [Target for mobile apps overview](implement/mobile/overview.md)
     + [Target mobile preview](implement/mobile/target-mobile-preview.md)
