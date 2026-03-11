@@ -63,7 +63,7 @@ The syntax for the [Delivery API](/help/dev/implement/delivery-api/overview.md) 
    * *api_charter* is listed as the location name in this example
    * the entity.id is specified, since this recommendation is based on Content Similarity, which requires a current item key to be passed to Target.
    ![server-side-Delivery-API-call.png](assets/server-side-delivery-api-call2.png)
-   Remember to configure your query parameters correctly. For example, be sure to specify `{{CLIENT_CODE}}` as necessary. <!--- Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. ---> <!--- Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." --->
+   Remember to configure your query parameters correctly. For example, be sure to specify `{{CLIENT_CODE}}` as necessary. <!-- Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
    ![client-code3](assets/client-code3.png)
 1. Send the request. This executes against the *api_charter* location, which has an active recommendation running on it, defined with your JSON design which will output a list of recommended entities.
 1. Receive a response based on the JSON design.
