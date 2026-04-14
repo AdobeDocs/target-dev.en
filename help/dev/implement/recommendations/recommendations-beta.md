@@ -3,7 +3,7 @@ keywords: Recommendations, settings, preferences, industry vertical, filter inco
 description: Learn how to implement [!UICONTROL Recommendations] activities in [!DNL Adobe Target].
 title: How Do I Implement [!UICONTROL Recommendations] Activities?
 feature: Recommendations
-hide: yes
+hide: true
 exl-id: 0a9c9649-195b-44e2-987e-d02eaf98cc54
 ---
 # Plan and implement [!UICONTROL Recommendations] 
