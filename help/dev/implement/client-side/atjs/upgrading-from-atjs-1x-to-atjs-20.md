@@ -768,3 +768,4 @@ at.js 2.*x* enhances Adobe [!DNL Target]'s support for SPAs and integrates with 
 >[!VIDEO](https://video.tv.adobe.com/v/26250/?quality=12)
 
 See [Understanding how at.js 2.*x* works](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/understanding-how-atjs-20-works.html) for more information.
+
