@@ -20,8 +20,8 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
      + [Google Chrome SameSite cookie policies](before-implement/privacy/google-chrome-samesite-cookie-policies.md)
      + [Apple Intelligent Tracking Prevention (ITP) 2.x](before-implement/privacy/apple-itp-2x.md)
      + [Content Security Policy (CSP) directives](before-implement/privacy/content-security-policy.md)
-     + [Allowlist Target edge nodes](before-implement/privacy/allowlist-edges.md)  + Methods to get data into Target {#methods}
-    + [Methods overview](before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+     + [Allowlist Target edge nodes](before-implement/privacy/allowlist-edges.md)
+  + Methods to get data into Target {#methods}
      + [Methods overview](before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target.md)
      + [Page parameters](before-implement/methods-to-get-data-into-target/page-parameters.md)
      + [In-page profile attributes](before-implement/methods-to-get-data-into-target/in-page-profile-attributes.md)
