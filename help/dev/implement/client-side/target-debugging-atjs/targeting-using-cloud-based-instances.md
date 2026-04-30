@@ -20,3 +20,4 @@ These domains, and many others, are part of the [Public Suffix List](https://pub
 The at.js JavaScript library uses cookies to track users to ensure that [!DNL [!DNL Target]] always presents a consistent experience. If the [!DNL Target] JavaScript library can't save cookies, Target requests are disabled.
 
 **Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the `cookieDomain` setting. For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
+
