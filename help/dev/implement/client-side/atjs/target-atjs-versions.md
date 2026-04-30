@@ -559,3 +559,4 @@ When implementing at.js, be aware of the following:
 * Asynchronous implementation means legacy integrations like the [!UICONTROL Test&Target to SiteCatalyst] plugin may not work. 
 * [!DNL Target] plugins that reference mbox.js objects and methods are not supported. 
 * All calls to [!DNL Target] are made via XMLHTTPRequest and content is returned via JSON.
+
