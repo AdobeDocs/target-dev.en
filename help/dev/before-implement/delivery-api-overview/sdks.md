@@ -43,4 +43,4 @@ The [Python SDK](https://github.com/adobe/target-python-sdk) is open sourced and
 
 Read the [Changelog](https://github.com/adobe/target-python-sdk/blob/master/CHANGELOG.md) for the Python SDK.
 
-<!--- Judy: remove or modify this page? adequately covered elsewhere? Or, add links to analogous info for the .NET and Python SDKs? --->
+<!-- Judy: remove or modify this page? adequately covered elsewhere? Or, add links to analogous info for the .NET and Python SDKs? -->
