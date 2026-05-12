@@ -3,6 +3,13 @@ title: Sample apps overview
 description: See [!DNL Adobe Target] sample apps for Node.js, Java, .NET, and Python.
 feature: APIs/SDKs
 exl-id: 69aad6e4-82d6-4e1a-87f3-a5a7cb45beb6
+TQID: https://experienceleague.adobe.com/Nq9SYQ-FTmKIpYhQKY7ASV9re6p9AfYz-exQMrOxsJI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Sample apps overview
 

@@ -3,6 +3,21 @@ title: Initialize the Node.js SDK using the create method
 description: Learn how to use the create method to initialize the Node.js SDK and instantiate the [!DNL Target] client to make calls to [!DNL Adobe Target] for experiments and personalized experiences.
 feature: APIs/SDKs
 exl-id: 71516e44-508a-4d8d-9f2b-7c54243e9c60
+TQID: https://experienceleague.adobe.com/uawle0-l5bcv-FuXMLkPc8kIf8DvbkRqAYelr-ehNLk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Initialize the Node.js SDK
 

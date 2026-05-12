@@ -3,6 +3,13 @@ title: Use [!UICONTROL getOffers()] in [!DNL Adobe Target] when using the Node.j
 description: Learn how to use [!UICONTROL getOffers()] to execute a decision and retrieve an experience from [!DNL Adobe Target].
 feature: APIs/SDKs
 exl-id: 3c4125ea-68d4-405e-9b9a-5fa832743153
+TQID: https://experienceleague.adobe.com/WRGy74F1kUobRl1Pakse0VnXt3cT3-ntCljm4bHtiZ4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # [!UICONTROL Get Offers] (Node.js)
 

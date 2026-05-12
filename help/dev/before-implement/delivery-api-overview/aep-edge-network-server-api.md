@@ -4,6 +4,25 @@ description: Learn how to use the Adobe Experience Platform Edge Network Server 
 keywords: Adobe Experience Platform Edge Network Server API
 exl-id: ccd43ece-ab97-4592-ab19-705feff29dff
 feature: APIs/SDKs, Recommendations, Administration & Configuration
+TQID: https://experienceleague.adobe.com/Ejcn21VsDvAo-JKc0kU4s5q-yVfDNs-1Xu-RN9VBDFc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL Adobe Experience Platform Edge Network Server API] overview
 

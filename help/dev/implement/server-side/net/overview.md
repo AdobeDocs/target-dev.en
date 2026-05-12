@@ -3,6 +3,13 @@ title: Get started with the [!DNL Adobe Target] .NET SDK
 description: Learn how [!DNL Adobe Target] customers can install, initialize, and use the .NET SDK.
 feature: APIs/SDKs
 exl-id: 618e9320-f001-4ab4-befc-c7b12bbe7b5f
+TQID: https://experienceleague.adobe.com/FWbHAWmYHTVTKdfk0mRek1U6ymrmZ7ioB7plWmnndSk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # .NET SDK overview
 

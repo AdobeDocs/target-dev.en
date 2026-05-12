@@ -3,6 +3,13 @@ title: Learn how to configure the Custom HTTP Client
 description: Learn how to configure TargetClient using ClientConfig.builder().httpClient().
 feature: APIs/SDKs
 exl-id: 7615029c-b62d-4ed1-aadb-32e364c4c654
+TQID: https://experienceleague.adobe.com/SwijRIrhqSG4Mlij4sBH9Kx8tRB-6Bo7eyMoUZREOW8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Custom HTTP Client Configuration (Java)
 

@@ -3,6 +3,13 @@ title: Get started with the [!DNL Adobe Target] Node.js SDK
 description: Learn how [!DNL Adobe Target] customers can install, initialize, and use the Node.js SDK.
 feature: APIs/SDKs
 exl-id: 74f31f6f-6ada-49c5-9b61-98a91288347f
+TQID: https://experienceleague.adobe.com/rRdr0BmXxOBYBqzO5s5ejxvTwlcohks7s8hsfd6hFv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Node.js SDK overview
 

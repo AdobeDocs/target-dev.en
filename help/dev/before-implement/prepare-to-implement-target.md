@@ -4,6 +4,25 @@ description: Know the considerations you should address before implementing Adob
 title: How Should I Prepare to Implement Target?
 feature: Implementation
 exl-id: cd2a1016-e085-4b61-8680-c0cc176c8277
+TQID: https://experienceleague.adobe.com/OQPsRkPPjMRMcbUwK11lRMmZyB7yLUgpH8qb1zrpmiE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Prepare to implement [!DNL Target]
 
