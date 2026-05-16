@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Target
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-    label: "Target"
+    internal-label: "Target"
 product: target
 type: Documentation
 feature-set: Target
