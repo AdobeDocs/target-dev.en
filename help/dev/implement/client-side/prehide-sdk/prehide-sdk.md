@@ -7,7 +7,7 @@ hide: true
 ---
 
 # Prehide SDK integration guide
-
+ 
 A tiny synchronous JavaScript library that prevents the visual flicker caused by [!DNL Adobe Target] personalization rewriting a page mid-render. Add one inline `<script>` tag at the top of `<head>` and the page is revealed only after personalized content is ready, or the safety timer fires.
 
 ## Integration steps {#integration-steps}
