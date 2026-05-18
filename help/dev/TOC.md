@@ -38,8 +38,8 @@ nudge: true
   + [CNAME and Adobe Target](before-implement/implement-cname-support-in-target.md)
 + Client-side implementation {#client-side} 
    + [Overview: implement Target for client-side web](implement/client-side/overview.md)
-   + Prehide SDK {#prehide-sdk}
-      + [Prehide SDK integration guide](implement/client-side/prehide-sdk/prehide-sdk.md)
+   <!--+ Prehide SDK {#prehide-sdk}-->
+   + {hide-from-toc}[Prehide SDK integration guide](implement/client-side/prehide-sdk/prehide-sdk.md)
    + Adobe Experience Platform Web SDK implementation {#aep}
       + [Adobe Experience Platform Web SDK implementation overview](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md)
       + [Use Adobe Target and Web SDK for personalization](/help/dev/implement/client-side/aep-web-sdk/target-overview.md)

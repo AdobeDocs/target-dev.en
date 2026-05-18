@@ -3,6 +3,7 @@ keywords: prehide SDK, flicker, anti-flicker, prehiding, pre-hiding, alloy, at.j
 description: Learn how to integrate the [!DNL Adobe Target] Prehide SDK to eliminate the flash of un-personalized content (flicker) during page load. The SDK works with both Adobe Alloy (Web SDK) and at.js.
 title: Prehide SDK Integration Guide
 feature: Implementation
+hide: true
 ---
 
 # Prehide SDK integration guide
