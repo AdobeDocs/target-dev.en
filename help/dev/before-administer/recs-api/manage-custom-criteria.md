@@ -120,4 +120,4 @@ Using the criteria ID noted earlier, delete your custom criteria, using the [Del
 
 Congratulations! You are now able to create, list, edit, delete, and get details on custom criteria, using the Recommendations API. In the next section, you will use the Target Delivery API to retrieve recommendations.
 
-<!--- [Next "Fetch Recommendations with the Server-side Delivery API" >](fetch-recs-server-side-delivery-api.md) --->
+<!-- [Next "Fetch Recommendations with the Server-side Delivery API" >](fetch-recs-server-side-delivery-api.md) -->
