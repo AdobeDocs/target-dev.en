@@ -37,7 +37,6 @@ A tiny synchronous JavaScript library that prevents the visual flicker caused by
    ```html
    <script>
      window.PrehideConfig = {
-       org: "your-client-code",
        sdk: "alloy"            // or "atjs" (defaults to "alloy")
      };
    </script>
@@ -105,26 +104,13 @@ There are two ways to include `prehide.min.js`:
 
 The SDK accepts configuration from two sources, in priority order. It reads whichever is available first.
 
-### A: Download-time placeholders (no runtime config)
-
-When you download `prehide.min.js` from the Flicker Manager UI, the server substitutes three placeholders inside the bundle:
-
-| Placeholder | Replaced with | Fallback if unreplaced |
-| --- | --- | --- |
-| `__FM_CLIENT_CODE__` | Your client code (for example, `"acmecorp"`) | Reads `window.PrehideConfig.org` |
-| `__FM_TIMEOUT__` | Guard timer duration in ms (for example, `"3000"`) | `5000` ms |
-| `__FM_VERSION__` | SDK version (for example, `"1.0.0"`) | `"0.0.0-dev"` |
-
-If you use the UI-downloaded bundle, no `PrehideConfig` block is needed. Just inline the script.
-
-### B: Runtime `window.PrehideConfig` (manual integration)
+### Runtime `window.PrehideConfig` (manual integration)
 
 For self-hosted or unmodified bundles, declare a config object before the prehide script runs:
 
 ```html
 <script>
   window.PrehideConfig = {
-    org: "acmecorp",        // required (or rely on baked-in __FM_CLIENT_CODE__)
     sdk: "alloy"             // optional: "alloy" (default) or "atjs"
   };
 </script>
@@ -132,7 +118,6 @@ For self-hosted or unmodified bundles, declare a config object before the prehid
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
-| `org` | string | Yes (unless baked in) | Your customer client code. Used as the org segment of the CDN URL from which prehide rules are fetched. |
 | `sdk` | `"alloy"` \| `"atjs"` | No | The Adobe SDK loaded on the page. See [SDK selection](#sdk-selection). |
 
 ## SDK selection {#sdk-selection}
@@ -144,12 +129,16 @@ For self-hosted or unmodified bundles, declare a config object before the prehid
 | `"alloy"` *(default)* | `<style id="alloy-prehiding">` | Alloy SDK on personalize-complete | You're loading Alloy / Adobe Web SDK on this page. |
 | `"atjs"` | `<style id="at-body-style">` | at.js on personalize-complete | You're loading the classic at.js library on this page. |
 
+>[!NOTE]
+>
+>For at.js SDK, only version 2.x and above are supported.
+
 ### How to set it
 
 ```html
 <!-- For at.js -->
 <script>
-  window.PrehideConfig = { org: "acmecorp", sdk: "atjs" };
+  window.PrehideConfig = { sdk: "atjs" };
 </script>
 <script> /* prehide.min.js inline */ </script>
 <script src="https://cdn.adobe.com/.../at.js"></script>
