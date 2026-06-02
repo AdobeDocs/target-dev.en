@@ -55,7 +55,7 @@ Data gets sent to [!DNL Target] in real time, and can be used on the same server
 
   In addition to those characters mentioned on the IETF site, [!DNL Target] allows the following characters in query strings:
 
-  ```< > # % " { } | \ ^ [ ] ` ``` {line-numbers="true"}
+  `< > # % " { } | \ ^ [ ] `
   
   Everything else must be url-encoded. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
