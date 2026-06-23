@@ -300,3 +300,4 @@ The Order Confirmation mbox uses the following parameters:
 |orderId|Unique value to identify an order for conversion counting.<p>The `orderId` must be unique. Duplicate orders are ignored in reports.|
 |orderTotal|Monetary value of the purchase.<p>Do not pass the currency symbol. Use a decimal point (not a comma) to indicate decimal values.|
 |productPurchasedId  (Optional)|Comma-separated list of product IDs purchased in the order.<p>These product IDs display in the audit report to support additional reporting analysis.|
+

@@ -52,3 +52,4 @@ You can deploy at.js using the following methods:
   Be sure to check the documentation for your third-party tag manager for more information.
 
 To implement [!DNL Target] when using Single Page Apps (SPAs), see [Single Page Application implementation](/help/dev/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application.md).
+

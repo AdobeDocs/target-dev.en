@@ -52,3 +52,4 @@ The following advantages apply only if you use tags in [!DNL Adobe Experience Pl
   >Use the Send Beacon action in the [!DNL Adobe Analytics] extension so that the [!DNL Analytics] call waits for the [!DNL Target] call. If you directly call `s.t()` or `s.tl()` using custom code, [!DNL Analytics] calls do not wait until [!DNL Target] calls are complete.
 
 * **Prevents incorrect redirect offer handling:** If you have [!DNL Target] and [!DNL Analytics] on the page, and there is a redirect offer executed by Target, you can experience a situation in which the [!DNL Analytics] tracker fires a request when it shouldn't (because the user is being redirected to a different URL). If you implement [!DNL Target] and [!DNL Analytics] via tags in [!DNL Adobe Experience Platform], you'll not experience this issue. Using tags in [!DNL Adobe Experience Platform], [!DNL Target] instructs [!DNL Analytics] to abort the [!DNL Analytics] beacon request.
+

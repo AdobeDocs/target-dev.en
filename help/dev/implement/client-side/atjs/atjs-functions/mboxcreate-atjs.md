@@ -56,3 +56,4 @@ This function is built into at.js mostly to ease the transition from mbox.js (no
 * Empty, top-of-page `[!UICONTROL mboxCreate()]` functions are not recommended as a global mbox.
 
   The auto-created global mbox in at.js is a better option because it fires from the `<head>` and can return content earlier.
+

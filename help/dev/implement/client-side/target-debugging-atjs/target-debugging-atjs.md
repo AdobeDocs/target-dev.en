@@ -44,3 +44,4 @@ The following videos step you through the debugging process:
 ### Mbox Trace ![Overview badge](../../assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+

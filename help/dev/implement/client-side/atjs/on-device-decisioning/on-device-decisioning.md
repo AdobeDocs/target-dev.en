@@ -365,3 +365,4 @@ You can filter for all activities that are [!UICONTROL on-device decisioning] el
 1. Create and activate an [activity type that is supported by [!UICONTROL on-device decisioning]](/help/dev/implement/client-side/atjs/on-device-decisioning/supported-features.md), and verify that it is [!UICONTROL on-device decisioning] eligible. 
 1. Set the **[!UICONTROL Decisioning Method]** to either **[!UICONTROL "Hybrid"]** or **[!UICONTROL "On-device only"]** through the at.js settings UI. 
 1. Download and deploy At.js 2.5.0+ to your pages.
+
