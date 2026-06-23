@@ -63,3 +63,4 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 Watch the following video to learn how to use Response Tokens and at.js Custom Events to share profile information from [!DNL Target] to third-party systems.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
+

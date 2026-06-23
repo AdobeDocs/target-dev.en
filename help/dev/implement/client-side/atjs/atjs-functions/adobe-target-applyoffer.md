@@ -59,3 +59,4 @@ adobe.target.getOffer({
  "timeout": 5000 
 }); 
 ```
+

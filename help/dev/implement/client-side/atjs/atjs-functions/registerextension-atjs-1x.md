@@ -60,3 +60,4 @@ For more information and examples of how to use `[!UICONTROL registerExtension]`
 |--- |--- |--- |
 |log|Function|Logs the variable list of arguments to the browser console, if it exists. It is activated only when `mboxDebug=true` is passed to the URL.|
 |error|Function|Logs the variable list of arguments to the browser console. It is activated only when there are serious errors, such as network timeout, HTML node not found, etc.|
+
