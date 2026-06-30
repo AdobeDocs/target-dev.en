@@ -38,3 +38,4 @@ The at.js JavaScript library uses cookies to track users to ensure that [!DNL [!
 **Solution:** As best practice, if you intend to use cloud-based instances with domains included on the Public Suffix List, make sure that you customize the `cookieDomain` setting. For more information, see [targetGlobalSettings()](/help/dev/implement/client-side/atjs/atjs-functions/targetglobalsettings.md).
 
 
+

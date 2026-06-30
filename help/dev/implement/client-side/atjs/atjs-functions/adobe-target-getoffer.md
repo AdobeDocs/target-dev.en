@@ -143,3 +143,4 @@ The "status" and "error" parameters passed to the error callback will have the f
 |status|String|Represents the error status. This parameter can have the following values:<ul><li>timeout: Indicates that the request timed out.</li><li>parseerror: Indicates that the response could not be parsed, for example if we receive HTML or plain text instead of JSON.</li><li>error: Indicates a general error like we received HTTP status different from 200 OK</li></ul>|
 |error|String|Contains additional data like exception message or anything else that might be useful for troubleshooting.|
 
+

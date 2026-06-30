@@ -118,3 +118,4 @@ The following table indicates which allocation methods are supported or not supp
 |[Auto-allocate to best experience](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html)|No|
 |[Auto-target for personalized experiences](https://experienceleague.adobe.com/docs/target/using/activities/auto-target/auto-target-to-optimize.html)|No|
 
+

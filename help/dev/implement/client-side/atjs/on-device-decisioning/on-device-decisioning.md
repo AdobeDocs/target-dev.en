@@ -366,3 +366,4 @@ You can filter for all activities that are [!UICONTROL on-device decisioning] el
 1. Set the **[!UICONTROL Decisioning Method]** to either **[!UICONTROL "Hybrid"]** or **[!UICONTROL "On-device only"]** through the at.js settings UI. 
 1. Download and deploy At.js 2.5.0+ to your pages.
 
+
