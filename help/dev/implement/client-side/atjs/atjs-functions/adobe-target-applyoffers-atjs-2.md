@@ -146,3 +146,4 @@ then(response => adobe.target.applyOffers({ response: response }))
 .catch(error => console.log("Error", error));
 ```
 
+
