@@ -103,7 +103,7 @@ The [!UICONTROL Adobe Experience Platform Web SDK] and other supported SDK integ
 For non-SDK Interact API calls, observe the following requirements:
 
 * Include a valid, browser-like `User-Agent` in the HTTP request headers. A visitor or user-agent value in the JSON request body alone does not meet bot-detection requirements for this integration pattern.
-* Do not use placeholder or non-browser values, for example, `PHX/1.0`, such values can result in bot classification.
+* Do not use placeholder or non-browser values, for example, `MyApp/1.0`, such values can result in bot classification.
 * An SDK name or SDK version is not required for public Edge API calls. For this scenario, a valid `User-Agent` HTTP header is the required element.
 
 When [!DNL Target] classifies a request as bot traffic, personalization can fail or look intermittent because profile lookup, segment evaluation, and personalized content for activities such as [!UICONTROL Recommendations] and [!UICONTROL Auto-Target] are suppressed, as described below. 
