@@ -302,3 +302,4 @@ The Order Confirmation mbox uses the following parameters:
 |productPurchasedId  (Optional)|Comma-separated list of product IDs purchased in the order.<p>These product IDs display in the audit report to support additional reporting analysis.|
 
 
+
