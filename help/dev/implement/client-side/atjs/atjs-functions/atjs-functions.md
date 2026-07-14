@@ -45,3 +45,4 @@ List of functions that can be used with the [!DNL Adobe Target] at.js JavaScript
 |[[!UICONTROL adobe.target.sendNotifications(options)]](/help/dev/implement/client-side/atjs/atjs-functions/adobe-target-sendnotifications-atjs-21.md)<P>(at.js 2.1.0)|This function sends a notification to [!DNL Target] edge when an experience is rendered without using `[!UICONTROL adobe.target.applyOffer()]` or `[!UICONTROL adobe.target.applyOffers()]`.<P>**Note**: This function has been introduced in at.js 2.1.0 and will be available for any versions above 2.1.0.|
 
 
+

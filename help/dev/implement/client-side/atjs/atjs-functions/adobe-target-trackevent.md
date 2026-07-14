@@ -72,3 +72,4 @@ adobe.target.trackEvent({
 >If the mandatory fields are not set, no request is executed, and an error is thrown.
 
 
+
