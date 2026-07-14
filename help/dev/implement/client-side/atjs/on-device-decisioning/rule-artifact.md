@@ -33,3 +33,4 @@ The rule artifact is a JSON representation of your [!DNL Adobe Target] [!UICONTR
 * Click [here](../../../../implement/server-side/sdk-guides/on-device-decisioning/rule-artifact-example.md) to view an example of a JSON rule artifact.
 
 
+

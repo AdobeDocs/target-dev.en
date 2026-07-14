@@ -119,3 +119,4 @@ The following table indicates which allocation methods are supported or not supp
 |[Auto-target for personalized experiences](https://experienceleague.adobe.com/docs/target/using/activities/auto-target/auto-target-to-optimize.html)|No|
 
 
+
