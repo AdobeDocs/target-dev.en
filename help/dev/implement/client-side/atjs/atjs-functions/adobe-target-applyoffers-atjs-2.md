@@ -147,3 +147,4 @@ then(response => adobe.target.applyOffers({ response: response }))
 ```
 
 
+

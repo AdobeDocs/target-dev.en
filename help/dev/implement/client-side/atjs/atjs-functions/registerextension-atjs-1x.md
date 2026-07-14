@@ -62,3 +62,4 @@ For more information and examples of how to use `[!UICONTROL registerExtension]`
 |error|Function|Logs the variable list of arguments to the browser console. It is activated only when there are serious errors, such as network timeout, HTML node not found, etc.|
 
 
+
