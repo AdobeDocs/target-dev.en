@@ -16,6 +16,10 @@ role_v2:
 
 The [!DNL Adobe Target Delivery API] is based on REST. This documentation describes the resources that make up the [!DNL Adobe Target] [!DNL Delivery API]. HTTP methods are utilized to execute operations on those resources.
 
+>[!IMPORTANT]
+>
+>The [!DNL Delivery API] documented here is intended for [!DNL at.js] and direct server-side implementations. If you are implementing [!DNL Target] using the [!DNL Adobe Experience Platform Web SDK], use the Interact API, accessed through the `sendEvent` command over the [!UICONTROL Experience Platform Edge Network],  instead of calling the [!DNL Delivery API] directly. See [Adobe Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md) and [Compare the at.js library to the Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/web-sdk-atjs-comparison.md) for more information.
+
 Using [!UICONTROL Adobe Target's Delivery API], you can:
 
 * Deliver experiences across web, including SPAs, and mobile channels as well as non-browser based IoT devices such as a connected TV, kiosk, or in-store digital screen.
