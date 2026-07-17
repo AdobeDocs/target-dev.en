@@ -95,3 +95,26 @@ Check out our [Sample Apps](sdk-guides/sample-apps/sample-apps.md) to have fun a
 Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations) and [Adobe Recommendations API Overview](../../before-administer/recs-api/overview.md).
 
 The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
+
+## [!DNL Platform Edge Network] API calls without an SDK {#platform-edge-api-user-agent}
+
+The [!UICONTROL Adobe Experience Platform Web SDK] and other supported SDK integrations include a browser-like `User-Agent` value in the HTTP request headers when calling the [!DNL Experience Platform Edge Network]. Server-side integrations that use the public [Interact API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/server-api/interact){target=_blank} without an SDK must supply this header explicitly.
+
+For non-SDK Interact API calls, observe the following requirements:
+
+* Include a valid, browser-like `User-Agent` in the HTTP request headers. A visitor or user-agent value in the JSON request body alone does not meet bot-detection requirements for this integration pattern.
+* Do not use placeholder or non-browser values, for example, `MyApp/1.0`, such values can result in bot classification.
+* An SDK name or SDK version is not required for public Edge API calls. For this scenario, a valid `User-Agent` HTTP header is the required element.
+
+When [!DNL Target] classifies a request as bot traffic, personalization can fail or look intermittent because profile lookup, segment evaluation, and personalized content for activities such as [!UICONTROL Recommendations] and [!UICONTROL Auto-Target] are suppressed, as described below. 
+
+Learn more about implementing with the SDK in the [[!DNL Adobe Experience Platform Web SDK] overview](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
+
+**Example of Interact API request (headers must include `User-Agent`):**
+
+```http
+POST https://edge.adobedc.net/ee/v2/interact?dataStreamId=YOUR_DATASTREAM_ID&requestId=YOUR_REQUEST_ID
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15
+Accept: */*
+Content-Type: text/plain; charset=UTF-8
+```
