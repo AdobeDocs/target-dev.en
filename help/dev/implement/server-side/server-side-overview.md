@@ -98,19 +98,19 @@ The Recommendations APIs let you programmatically interact with [!DNL Target] re
 
 ## [!DNL Platform Edge Network] API calls without an SDK {#platform-edge-api-user-agent}
 
-The [!UICONTROL Adobe Experience Platform Web SDK] and other supported SDK integrations include a browser-like `User-Agent` value in the HTTP request headers when calling the [!DNL Experience Platform Edge Network]. Server-side integrations that use the public [Interact API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/server-api/interact){target=_blank} without an SDK must supply this header explicitly.
+The [!UICONTROL Adobe Experience Platform Web SDK] and other supported SDK integrations include a browser-like `User-Agent` value in the HTTP request headers when calling the [!DNL Experience Platform Edge Network]. Server-side integrations that use the public [Edge API](https://developer.adobe.com/data-collection-apis/docs/getting-started/personalization){target=_blank} without an SDK must supply this header explicitly.
 
-For non-SDK Interact API calls, observe the following requirements:
+For non-SDK Edge API calls, observe the following requirements:
 
 * Include a valid, browser-like `User-Agent` in the HTTP request headers. A visitor or user-agent value in the JSON request body alone does not meet bot-detection requirements for this integration pattern.
 * Do not use placeholder or non-browser values, for example, `MyApp/1.0`, such values can result in bot classification.
 * An SDK name or SDK version is not required for public Edge API calls. For this scenario, a valid `User-Agent` HTTP header is the required element.
 
-When [!DNL Target] classifies a request as bot traffic, personalization can fail or look intermittent because profile lookup, segment evaluation, and personalized content for activities such as [!UICONTROL Recommendations] and [!UICONTROL Auto-Target] are suppressed, as described below. 
+When [!DNL Target] classifies a request as bot traffic, personalization can fail or look intermittent because profile lookup, segment evaluation, and personalized content for activities such as [!UICONTROL Recommendations] and [!UICONTROL Auto-Target] are suppressed. 
 
 Learn more about implementing with the SDK in the [[!DNL Adobe Experience Platform Web SDK] overview](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
-**Example of Interact API request (headers must include `User-Agent`):**
+**Example of Edge API request (headers must include `User-Agent`):**
 
 ```http
 POST https://edge.adobedc.net/ee/v2/interact?dataStreamId=YOUR_DATASTREAM_ID&requestId=YOUR_REQUEST_ID
