@@ -90,6 +90,8 @@ You reference this file in the POST call to [!DNL Target] servers to process the
 >[!IMPORTANT]
 >
 >All parameter names and values must be URL-encoded (UTF-8) before you submit the batch, sent with `Content-Type: application/x-www-form-urlencoded`, with the body starting with `batch=`. Un-encoded reserved characters are read as request syntax instead of data, which can get the batch rejected, truncated, or corrupted.
+>
+>If you receive an "Unexpected error" response with no `batchId` issued, see [Bulk Profile Update API returns "Unexpected error"](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24281) for troubleshooting steps.
 
 The following characters are commonly present in profile values but have special meaning in `application/x-www-form-urlencoded` data. If you send them un-encoded, the request fails or the data is corrupted without an obvious error:
 
