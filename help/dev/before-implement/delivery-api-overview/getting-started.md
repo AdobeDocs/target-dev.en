@@ -22,6 +22,10 @@ topic_v2:
 ---
 # Getting Started with the [!UICONTROL Adobe Target Delivery API]
 
+>[!IMPORTANT]
+>
+>This guide applies to [!DNL at.js] and direct server-side implementations that call the [!UICONTROL Target Delivery API] directly. If you are implementing [!DNL Target] using the [!UICONTROL Adobe Experience Platform Web SDK], use the Interact API (`sendEvent` command over the [!UICONTROL Experience Platform Edge Network]) instead. See [Adobe Experience Platform Web SDK](/help/dev/implement/client-side/aep-web-sdk/aep-web-sdk-overview.md) for more information.
+
 A [!UICONTROL Target Delivery API] call looks like this:
 
 ```

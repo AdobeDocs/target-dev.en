@@ -39,6 +39,10 @@ topic_v2:
 
 This article provides an overview of the differences between the `at.js` library and the Experience Platform Web SDK.
 
+>[!NOTE]
+>
+>`at.js` implementations call the [!DNL Target] [Delivery API](/help/dev/implement/delivery-api/overview.md) directly, for example, `POST https://<clientCode>.tt.omtrdc.net/rest/v1/delivery`. [!DNL Platform Web SDK] implementations instead call the Interact API through the `sendEvent` command over the [!UICONTROL Experience Platform Edge Network] (for example, `POST https://edge.adobedc.net/ee/v2/interact`). These are two distinct APIs and are not interchangeable.
+
 ## Installing the libraries
 
 ### Installing at.js

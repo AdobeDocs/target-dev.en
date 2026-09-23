@@ -85,6 +85,27 @@ You reference this file in the POST call to [!DNL Target] servers to process the
 * There is no restriction on the number of attributes you can upload. However, the total size of the external profile data, which includes Customer Attributes, Profile API, In-Mbox profile parameters, and Profile Script output, must not exceed 64 KB.
 * Parameters and values are case-sensitive.
 
+### URL-encoding requirements {#url-encoding}
+
+>[!IMPORTANT]
+>
+>All parameter names and values must be URL-encoded (UTF-8) before you submit the batch, sent with `Content-Type: application/x-www-form-urlencoded`, with the body starting with `batch=`. Un-encoded reserved characters are read as request syntax instead of data, which can get the batch rejected, truncated, or corrupted.
+>
+>If you receive an "Unexpected error" response with no `batchId` issued, see [Bulk Profile Update API returns "Unexpected error"](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24281) for troubleshooting steps.
+
+The following characters are commonly present in profile values but have special meaning in `application/x-www-form-urlencoded` data. If you send them un-encoded, the request fails or the data is corrupted without an obvious error:
+
+|Character|Encode as|If sent un-encoded|
+|---|---|---|
+|`%`|`%25`|The entire batch is rejected. The response returns HTTP 200 with `success=false` and the message "Unexpected error," and no `batchId` is issued.|
+|`&`|`%26`|The batch is silently truncated at the first `&`. The remaining rows are dropped, which can result in a partial update or a "Batch is empty" response.|
+|`+`|`%2B`|The character is silently converted to a space, which corrupts the stored value.|
+|`=`|`%3D`|The character may be misinterpreted as a field boundary.|
+
+_For example, the value `50% off & more` must be sent as `50%25 off %26 more`._
+
+Note that letters, digits, UTF-8 accented characters, and the characters `- . ! ~ _ * ( )` do not require encoding. However, [!DNL Adobe] recommends encoding all values to avoid ambiguity.
+
 ## HTTP POST request
 
 Make an HTTP POST request to [!DNL Target] edge servers to process the file. Here is a sample HTTP POST request for the file batch.txt using the curl command:

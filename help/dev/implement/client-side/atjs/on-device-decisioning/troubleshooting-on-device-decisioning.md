@@ -78,3 +78,6 @@ document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(
   console.log("Artifact failed to download", e.detail);
 }, false);
 ```
+
+
+
