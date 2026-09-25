@@ -57,6 +57,10 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 
 Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch.md) are the preferred method to upgrade at.js. Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Adobe Experience Platform catalog as upgrades. For more information, see [Extension upgrades](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in the *Tags overview* guide.
 
+## at.js version version 2.11.9 (February, 2026)
+
+* Resolved an issue in which the At.js applyOffers function did not correctly detect and modify Lightning Web Components (LWC). The At.js library has been updated to detect LWC components and apply modifications as applicable. (TGT-54478)
+
 ## at.js version version 2.11.8 (March 31, 2025)
 
 * Resolved CodeQL-identified vulnerability in string suffix validation to prevent edge cases during resize and move operations. (TNT-51516)
