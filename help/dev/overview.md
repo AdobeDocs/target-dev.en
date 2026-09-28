@@ -5,7 +5,7 @@ description: How do I implement and administer [!DNL Adobe Target] and work with
 contributors: https://github.com/icaraps
 feature: APIs/SDKs
 exl-id: 655cff9b-fc04-45cf-9068-5c6c32b70d79
-TQID: https://experienceleague.adobe.com/lTn4veG9PKL-ZXohH3qv1UH7lpyLfn80nwuxgehXSy0
+TQID: 'https://experienceleague.adobe.com/lTn4veG9PKL-ZXohH3qv1UH7lpyLfn80nwuxgehXSy0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
     internal-label: Administration and configuration
+  - id: a19e8738-9679-599a-b83b-5f2f15f8e4d6
+    internal-label: APIs/SDKs
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
     internal-label: Hybrid implementation

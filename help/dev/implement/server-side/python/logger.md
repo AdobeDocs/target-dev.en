@@ -3,13 +3,15 @@ title: Initialize the [!DNL Adobe Target] Python SDK to log requests
 description: Learn how to log requests in the [!DNL Adobe Target] Python SDK.
 feature: APIs/SDKs
 exl-id: 0b3792a5-a9a7-4768-a429-598b49f1fd93
-TQID: https://experienceleague.adobe.com/9LSln8V3QIG9GTok2yTTnKvhlpQhaed3a-qJyA4jErg
+TQID: 'https://experienceleague.adobe.com/9LSln8V3QIG9GTok2yTTnKvhlpQhaed3a-qJyA4jErg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
     internal-label: Implementation
+  - id: a19e8738-9679-599a-b83b-5f2f15f8e4d6
+    internal-label: APIs/SDKs
 subfeature_v2:
   - id: a94ced60-8199-4549-b453-ede2acb4101e
     internal-label: Hybrid implementation

@@ -4,6 +4,18 @@ description: Learn how to add the Adobe Mobile Services SDK to your mobile app.
 title: How Do I Enable [!DNL Target] in the [!DNL Adobe Mobile SDK]?
 feature: Implement Mobile
 exl-id: 4263b96a-23c8-4513-8302-00080122181d
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Enable [!DNL Target] in the SDK
 
