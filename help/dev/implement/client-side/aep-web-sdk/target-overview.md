@@ -3,6 +3,18 @@ title: Use [!DNL Adobe Target] with [!DNL Web SDK] for personalization.
 description: Learn how to render personalized content with the [!DNL Experience Platform Web SDK] using [!DNL Adobe Target].
 feature: AEP Web SDK
 exl-id: 31c00779-20a8-4d18-9ee4-0430e5e9a84c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b050e0cd-2ddd-42cd-a71b-5d9e1fdf75e0
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: a1f3c920-a3a8-4506-8067-53189547b5e6
+    internal-label: AEP Web SDK
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Use [!DNL Adobe Target] and [!DNL Web SDK] for personalization
 

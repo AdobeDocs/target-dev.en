@@ -3,10 +3,13 @@ title: Core principles overview
 description: Adobe Target operates according to several core principles, which are important to understand in order to run effective experimentation or personalization activities.
 exl-id: e65b8fc6-61a8-40e2-891b-368ac688966f
 feature: Implement Server-side
-TQID: https://experienceleague.adobe.com/n2J8T064kxJt5SuJMlGIt5zTp88wPLHAryc-NeHfCww
+TQID: 'https://experienceleague.adobe.com/n2J8T064kxJt5SuJMlGIt5zTp88wPLHAryc-NeHfCww'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: a8a69496-b9ae-554a-b68e-e92a87809fc5
+    internal-label: Implement Server-side
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -4,10 +4,16 @@ description: Learn how to use [!DNL Adobe Target] to dynamically test images in 
 title: How Do I Test an Email Image Adbox?
 feature: Implement Email
 exl-id: 4512741a-567f-41bb-9721-3e1c4f5302e1
-TQID: https://experienceleague.adobe.com/gmeO3ZSLpU6t5daKMoBXlaxyPd-Xu-fNABQU-Y5k4d0
+TQID: 'https://experienceleague.adobe.com/gmeO3ZSLpU6t5daKMoBXlaxyPd-Xu-fNABQU-Y5k4d0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: c94a34eb-b51c-4dd1-a6a4-46b0d84ccccd
+    internal-label: Implement email
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
