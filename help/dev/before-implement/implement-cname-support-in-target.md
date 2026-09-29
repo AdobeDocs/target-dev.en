@@ -336,9 +336,9 @@ To check DNS propagation around the world, see whatsmydns.net:
     🔎  DNS CNAME record:  https://whatsmydns.net/#CNAME/target.example.com 
 ```
 
-   >[!NOTE]
-   >
-   >If this validation command fails on DNS validation but you've already made the necessary DNS changes, you might need to wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records. As a result, you might need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs. To check DNS propagation around the world, see [whatsmydns.net](https://whatsmydns.net/#CNAME).
+>[!NOTE]
+>
+>If this validation command fails on DNS validation but you've already made the necessary DNS changes, you might need to wait for your DNS updates to fully propagate. DNS records have an associated [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) that dictates cache expiration time for DNS replies of those records. As a result, you might need to wait at least as long as your TTLs. You can use the `dig target.example.com` command or [the G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) to look up your specific TTLs. To check DNS propagation around the world, see [whatsmydns.net](https://whatsmydns.net/#CNAME).
 
 ### How do I use an opt-out link with CNAME
 
