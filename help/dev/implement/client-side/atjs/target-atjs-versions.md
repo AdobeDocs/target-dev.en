@@ -59,7 +59,7 @@ Tags in [Adobe Experience Platform](/help/dev/implement/client-side/atjs/how-to-
 
 ## at.js version version 2.11.9 (February, 2026)
 
-* Resolved an issue in which the At.js applyOffers function did not correctly detect and modify Lightning Web Components (LWC). The At.js library has been updated to detect LWC components and apply modifications as applicable. (TGT-54478)
+* Resolved an issue in which the At.js applyOffers function did not correctly detect and modify Lightning Web Components (LWC). The At.js library has been updated to detect LWC components and apply modifications as applicable. (TGT-54478) 
 
 ## at.js version version 2.11.8 (March 31, 2025)
 
