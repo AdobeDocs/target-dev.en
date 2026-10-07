@@ -62,6 +62,14 @@ From this user-agent, the server receiving the request can discern the following
 
 Over the years, the amount of browser and device information included in the user-agent string has grown. 
 
+## Custom scripts that overwrite the user agent {#custom-scripts-overwrite-user-agent}
+
+Since mobile device targeting relies on the User-Agent string, any custom script on your page that modifies `navigator.userAgent` before [!DNL Target] reads it can cause device targeting to fail.
+
+If your website has a custom script that listens for all events instead of the specific event it needs, it could unintentionally intercept a [!DNL Web SDK] event and overwrite `navigator.userAgent`. As a result, [!DNL Target] receives incorrect device information instead of the visitor's actual device, and the expected experience is not delivered.
+
+If mobile device targeting is not behaving as expected, check whether any custom scripts or event listeners on the page modify `navigator.userAgent`, and scope those listeners as narrowly as possible so they do not unintentionally intercept [!DNL Target] or Web SDK events.s
+
 ## User-agent use cases
 
 User-agents have long been used to provide marketing and developer teams with important insights into how browsers, operating systems, and devices display site content, as well as how users interact with websites. User-agents are also used to block spam and filter bots that crawl sites for a variety of additional purposes. 
