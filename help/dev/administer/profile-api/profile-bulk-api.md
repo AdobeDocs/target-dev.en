@@ -152,9 +152,9 @@ Expected values for the status fields are:
 
 |Status|Details|
 | --- | --- |
-|[!UICONTROL complete]|The profile batch update request was completed successfully.|
-|[!UICONTROL incomplete]|The profile batch update request is still being processed and not completed.|
-|[!UICONTROL stuck]|The profile batch update request is stuck and was not able to complete.|
+|[!UICONTROL complete]|The profile batch update request was completed successfully. No action needed.|
+|[!UICONTROL incomplete]|The profile batch update request is still being processed and not completed. No action needed.|
+|[!UICONTROL stuck]|The profile batch update request is stuck and was not able to complete. If a batch remains stuck even after 24 hours from its upload, you must upload it again.|
 
 ### Detailed batch status URL response
 
